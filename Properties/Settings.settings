@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AutoClicker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="clickamountsave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="clickintervalsave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="clicktypesave" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="curfixedsave" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="pointsave" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="clicktimessave" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="startkey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">112</Value>
+    </Setting>
+    <Setting Name="stopkey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">113</Value>
+    </Setting>
+    <Setting Name="selectkey" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">114</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
