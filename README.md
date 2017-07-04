@@ -20,6 +20,6 @@ Features:
 * All the settings are saved automatically between application run-times.
 * Elegant and intuitively-understood graphical user interface.
 * Free and open source without Ads and Viruses forever.
-* SHA256(Setup_AutoClickerProfessional_1_1_1_1.exe)= 46fcb4bbf2d17b9e06645627f3d9c040900cdd8cb09baabf2b9675bb1733d18c.
+* SHA256(Setup_AutoClickerProfessional_1_1_1_1.exe)= d016433cf9e0917a61816c61076a25358aea92677f05b82a493da457a7c77196.
 
 This is a mirror site for [AutoClicker Professional for Windows PC Desktop](https://sourceforge.net/projects/autoclicker-professional/).
