@@ -6,8 +6,8 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoClicker Professional for Windows 7 to 10 PC Desktop")]
-[assembly: AssemblyDescription("AutoClicker Professional for Windows 7 to 10 PC Desktop")]
+[assembly: AssemblyTitle("AutoClicker Professional")]
+[assembly: AssemblyDescription("AutoClicker Professional")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Open Source Developer Federica Domani")]
 [assembly: AssemblyProduct("AutoClicker Professional")]
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.1.1.1")]
-[assembly: AssemblyFileVersion("1.1.1.1")]
+[assembly: AssemblyVersion("3.1.2.1")]
+[assembly: AssemblyFileVersion("3.1.2.1")]
 [assembly: NeutralResourcesLanguageAttribute("en")]

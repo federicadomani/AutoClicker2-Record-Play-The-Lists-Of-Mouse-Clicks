@@ -103,7 +103,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                MessageBox.Show("Autoclicker already running", "Already running");
+                MessageBox.Show("AutoClicker Professional is already clicking!", "Already clicking");
             }
             else
             {
@@ -184,7 +184,7 @@ namespace AutoClicker
             }
             else
             {
-                MessageBox.Show("AutoClicker is not running", "Not running");
+                MessageBox.Show("AutoClicker Professional is not clicking!", "Not clicking");
             }
         }
 
@@ -388,7 +388,7 @@ namespace AutoClicker
 
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/autoclicker-professional/tickets/");
+            System.Diagnostics.Process.Start("https://sourceforge.net/p/autoclicker-professional/tickets/");
         }
 
         private void hotkeysToolStripMenuItem_Click(object sender, EventArgs e)

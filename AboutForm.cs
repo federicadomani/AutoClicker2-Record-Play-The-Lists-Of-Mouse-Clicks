@@ -23,7 +23,7 @@ namespace AutoClicker
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             linkLabel1.LinkVisited = true;
-            System.Diagnostics.Process.Start("mailto:orphamiel@yahoo.com");
+            System.Diagnostics.Process.Start("mailto:federicadomani@mailfence.com");
         }
     }
 }
