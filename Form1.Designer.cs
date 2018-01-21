@@ -36,11 +36,15 @@
             this.clickintervaltext = new System.Windows.Forms.TextBox();
             this.statuslabel = new System.Windows.Forms.Label();
             this.coordlabel = new System.Windows.Forms.Label();
+            this.coordlabelList = new System.Collections.Generic.List<string>();
+            this.coordlabelListIndex = 0;
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.amounttext = new System.Windows.Forms.TextBox();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hotkeysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -109,11 +113,13 @@
             // coordlabel
             // 
             this.coordlabel.AutoSize = true;
-            this.coordlabel.Location = new System.Drawing.Point(191, 235);
+            this.coordlabel.Location = new System.Drawing.Point(186, 235);
             this.coordlabel.Name = "coordlabel";
             this.coordlabel.Size = new System.Drawing.Size(48, 13);
             this.coordlabel.TabIndex = 4;
-            this.coordlabel.Text = "X=0,Y=0";
+            this.coordlabel.Text = "X=0,Y=0(0)";
+            this.coordlabelList = new System.Collections.Generic.List<string>();
+            this.coordlabelListIndex = 0;
             // 
             // label3
             // 
@@ -160,10 +166,26 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
+            this.loadToolStripMenuItem
+            , this.saveToolStripMenuItem
+            , this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // loadToolStripMenuItem
+            // 
+            this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.loadToolStripMenuItem.Text = "Load";
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -225,18 +247,18 @@
             this.fixedrbut.Name = "fixedrbut";
             this.fixedrbut.Size = new System.Drawing.Size(94, 17);
             this.fixedrbut.TabIndex = 6;
-            this.fixedrbut.Text = "Fixed Location";
+            this.fixedrbut.Text = "Fixed Pos.";
             this.fixedrbut.UseVisualStyleBackColor = true;
             this.fixedrbut.CheckedChanged += new System.EventHandler(this.fixedrbut_CheckedChanged);
             // 
             // cursorrbut
             // 
             this.cursorrbut.AutoSize = true;
-            this.cursorrbut.Location = new System.Drawing.Point(67, 205);
+            this.cursorrbut.Location = new System.Drawing.Point(62, 205);
             this.cursorrbut.Name = "cursorrbut";
             this.cursorrbut.Size = new System.Drawing.Size(55, 17);
             this.cursorrbut.TabIndex = 5;
-            this.cursorrbut.Text = "Cursor";
+            this.cursorrbut.Text = "Mouse Cur.";
             this.cursorrbut.UseVisualStyleBackColor = true;
             this.cursorrbut.CheckedChanged += new System.EventHandler(this.cursorrbut_CheckedChanged);
             // 
@@ -252,11 +274,11 @@
             // fixedlabel
             // 
             this.fixedlabel.AutoSize = true;
-            this.fixedlabel.Location = new System.Drawing.Point(26, 235);
+            this.fixedlabel.Location = new System.Drawing.Point(10, 235);
             this.fixedlabel.Name = "fixedlabel";
             this.fixedlabel.Size = new System.Drawing.Size(157, 13);
             this.fixedlabel.TabIndex = 13;
-            this.fixedlabel.Text = "Fixed Location (Press ? to Set):";
+            this.fixedlabel.Text = "Fixed Pos. (?/Del to Add/Clear):";
             // 
             // statusheaderlabel
             // 
@@ -358,6 +380,8 @@
         private System.Windows.Forms.TextBox clickintervaltext;
         private System.Windows.Forms.Label statuslabel;
         private System.Windows.Forms.Label coordlabel;
+        private System.Collections.Generic.List<string> coordlabelList;
+        private int coordlabelListIndex;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox amounttext;
@@ -369,6 +393,8 @@
         private System.Windows.Forms.Label clickatlabel;
         private System.Windows.Forms.Label fixedlabel;
         private System.Windows.Forms.Label statusheaderlabel;
+        private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label buttonlabel;
         private System.Windows.Forms.ComboBox clicktcombo;

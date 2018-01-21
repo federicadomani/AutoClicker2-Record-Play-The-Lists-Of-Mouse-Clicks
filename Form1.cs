@@ -27,6 +27,7 @@ namespace AutoClicker
         public const int START_HOTKEY = 1;
         public const int STOP_HOTKEY = 2;
         public const int SELECT_HOTKEY = 3;
+        public const int CLEAR_HOTKEY = 4;
 
         public Form1()
         {
@@ -60,20 +61,39 @@ namespace AutoClicker
             clickLocation = Properties.Settings.Default.pointsave;
             string locationstring = clickLocation.ToString();
             coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+
+            coordlabelList.Clear();
+            coordlabelListIndex = 0;
+
+            Point zeroPoint = new Point(0, 0);
+
+            if (clickLocation != zeroPoint)
+            {
+                coordlabelList.Add(coordlabel.Text);
+                saveToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                saveToolStripMenuItem.Enabled = false;
+            }
+
+            coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
+
             RegisterHotKey(this.Handle, START_HOTKEY, 0, Properties.Settings.Default.startkey);
             RegisterHotKey(this.Handle, STOP_HOTKEY, 0, Properties.Settings.Default.stopkey);
             RegisterHotKey(this.Handle, SELECT_HOTKEY, 0, Properties.Settings.Default.selectkey);
+            RegisterHotKey(this.Handle, CLEAR_HOTKEY, 0, 46); // DELETE key (we doesn't need to change it)
             //change hotkey apperance on buttons
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Location (Press " + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + " to Set):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/Del to Add/Clear):";
         }
 
         public void updateapperance()
         {
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Location (Press " + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + " to Set):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/Del to Add/Clear):";
         }
 
         protected override void WndProc(ref Message m)
@@ -88,13 +108,28 @@ namespace AutoClicker
             {
                 stop();
             }
-            else if (m.Msg == 0x0312 && m.WParam.ToInt32() == SELECT_HOTKEY)
+            else if (m.Msg == 0x0312 && m.WParam.ToInt32() == SELECT_HOTKEY && fixedrbut.Checked)
             {
                 clickLocation = Cursor.Position;
                 Properties.Settings.Default.pointsave = clickLocation;
                 Properties.Settings.Default.Save();
                 string locationstring = clickLocation.ToString();
                 coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+                coordlabelList.Add(coordlabel.Text);
+                coordlabel.Text += ("("+coordlabelList.Count.ToString()+")");
+
+                saveToolStripMenuItem.Enabled = true;
+            }
+            else if (m.Msg == 0x0312 && m.WParam.ToInt32() == CLEAR_HOTKEY && fixedrbut.Checked)
+            {
+                clickLocation = new Point(0, 0);
+                Properties.Settings.Default.pointsave = clickLocation;
+                Properties.Settings.Default.Save();
+                coordlabel.Text = "X=0,Y=0(0)";
+                coordlabelList.Clear();
+                coordlabelListIndex = 0;
+
+                saveToolStripMenuItem.Enabled = false;
             }
             base.WndProc(ref m);
         }
@@ -151,6 +186,7 @@ namespace AutoClicker
                         statusheaderlabel.ForeColor = Color.LimeGreen;
                         statuslabel.ForeColor = Color.LimeGreen;
                         clicktimer.Interval = timerinterv;
+                        //coordlabelListIndex = 0;
                         clicktimer.Start();
                     }
                     else
@@ -281,8 +317,17 @@ namespace AutoClicker
                 }
                 else
                 {
-                    Cursor.Position = clickLocation;
-                    clickatcur();
+                    if (coordlabelList.Count > 0)
+                    {
+                        string strPoint = coordlabelList[coordlabelListIndex % coordlabelList.Count];
+                        string[] arrPoint = strPoint.Split(',');
+                        string strX = arrPoint[0].Substring(2);
+                        string strY = arrPoint[1].Substring(2);
+                        clickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+                        ++coordlabelListIndex;
+                        Cursor.Position = clickLocation; // TODO: load from the list
+                        clickatcur();
+                    }
                 }
             }
             else
@@ -293,8 +338,17 @@ namespace AutoClicker
                 }
                 else
                 {
-                    Cursor.Position = clickLocation;
-                    clickatcur();
+                    if (coordlabelList.Count > 0)
+                    {
+                        string strPoint = coordlabelList[coordlabelListIndex % coordlabelList.Count];
+                        string[] arrPoint = strPoint.Split(',');
+                        string strX = arrPoint[0].Substring(2);
+                        string strY = arrPoint[1].Substring(2);
+                        clickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+                        ++coordlabelListIndex;
+                        Cursor.Position = clickLocation; // TODO: load from the list
+                        clickatcur();
+                    }
                 }
                 currentclick++;
                 if (currentclick == clickamount)
@@ -319,6 +373,130 @@ namespace AutoClicker
             using (AboutForm frm = new AboutForm())
             {
                 frm.ShowDialog();
+            }
+        }
+
+        private void loadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the open file dialog box.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            openFileDialog1.Filter = "Text Files (.txt)|*.txt|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.CheckFileExists = true;
+            openFileDialog1.CheckPathExists = true;
+            openFileDialog1.Multiselect = false;
+
+            // Call the ShowDialog method to show the dialog box.
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (result == DialogResult.OK)
+            {
+                // Open the selected file to read.
+                string userFileName = openFileDialog1.FileName;
+                string userFileBody = System.IO.File.ReadAllText(userFileName);
+                string[] userFileBodyLines = userFileBody.Split(new string[] { "\r\n", "\n\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+                if (userFileBodyLines.Length > 0)
+                {
+                    int nValidLength = 0;
+
+                    for (int i = 0; i < userFileBodyLines.Length; ++i)
+                    {
+                        try
+                        {
+                            string strPoint = userFileBodyLines[i];
+                            string[] arrPoint = strPoint.Split(',');
+                            if (arrPoint.Length == 2)
+                            {
+                                string strX = arrPoint[0].Substring(2);
+                                string strY = arrPoint[1].Substring(2);
+                                Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+                                string locationstring = testClickLocation.ToString();
+                                string locationstring2 = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+
+                                if (locationstring2 == strPoint)
+                                    ++nValidLength;
+                            }
+                        }
+                        catch
+                        {
+                            // no ++nValidLength
+                        }
+                    }
+
+                    if (nValidLength == userFileBodyLines.Length)
+                    {
+                        clickLocation = new Point(0, 0);
+                        Properties.Settings.Default.pointsave = clickLocation;
+                        Properties.Settings.Default.Save();
+                        coordlabel.Text = "X=0,Y=0(0)";
+                        coordlabelList.Clear();
+                        coordlabelListIndex = 0;
+
+                        loadToolStripMenuItem.Enabled = false;
+
+                        for (int i = 0; i < userFileBodyLines.Length; ++i)
+                        {
+                            string strPoint = userFileBodyLines[i];
+                            string[] arrPoint = strPoint.Split(',');
+                            string strX = arrPoint[0].Substring(2);
+                            string strY = arrPoint[1].Substring(2);
+                            Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+
+                            clickLocation = testClickLocation;
+                            Properties.Settings.Default.pointsave = clickLocation;
+                            Properties.Settings.Default.Save();
+                            string locationstring = clickLocation.ToString();
+                            coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+                            coordlabelList.Add(coordlabel.Text);
+                            coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
+                        }
+
+                        loadToolStripMenuItem.Enabled = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error in text file with mouse cursor position!", userFileName);
+                    }
+                }
+            }
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (coordlabelList.Count == 0)
+                return;
+
+            // Create an instance of the open file dialog box.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            openFileDialog1.Filter = "Text Files (.txt)|*.txt|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.CheckFileExists = false;
+            openFileDialog1.CheckPathExists = true;
+            openFileDialog1.Multiselect = false;
+
+            // Call the ShowDialog method to show the dialog box.
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (result == DialogResult.OK)
+            {
+                // Open the selected file to read.
+                string userFileName = openFileDialog1.FileName;
+                string userFileBody = "";
+
+                for (var i = 0; i < coordlabelList.Count; ++i)
+                {
+                    userFileBody += coordlabelList[i];
+                    userFileBody += "\r\n";
+                }
+
+                System.IO.File.WriteAllText(userFileName, userFileBody);
             }
         }
 
