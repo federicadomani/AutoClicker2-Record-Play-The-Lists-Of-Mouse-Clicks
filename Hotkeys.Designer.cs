@@ -33,9 +33,11 @@
             this.startlabel = new System.Windows.Forms.Label();
             this.stophotkey = new System.Windows.Forms.TextBox();
             this.selectbox = new System.Windows.Forms.TextBox();
+            this.clearbox = new System.Windows.Forms.TextBox();
             this.stoplabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.selectlabel = new System.Windows.Forms.Label();
+            this.clearlabel = new System.Windows.Forms.Label();
             this.focusbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -81,6 +83,17 @@
             this.selectbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.selectbox_KeyDown);
             this.selectbox.Leave += new System.EventHandler(this.selectbox_Leave);
             // 
+            // clearbox
+            // 
+            this.clearbox.Location = new System.Drawing.Point(82, 66 + (66 - 39));
+            this.clearbox.Name = "clearbox";
+            this.clearbox.ReadOnly = true;
+            this.clearbox.Size = new System.Drawing.Size(118, 20);
+            this.clearbox.TabIndex = 4;
+            this.clearbox.Enter += new System.EventHandler(this.clearbox_Enter);
+            this.clearbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.clearbox_KeyDown);
+            this.clearbox.Leave += new System.EventHandler(this.clearbox_Leave);
+            // 
             // stoplabel
             // 
             this.stoplabel.AutoSize = true;
@@ -94,7 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Magenta;
-            this.label3.Location = new System.Drawing.Point(21, 99);
+            this.label3.Location = new System.Drawing.Point(21, 99+(66-49));
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 13);
             this.label3.TabIndex = 5;
@@ -109,6 +122,15 @@
             this.selectlabel.TabIndex = 6;
             this.selectlabel.Text = "Select Key :";
             // 
+            // clearlabel
+            // 
+            this.clearlabel.AutoSize = true;
+            this.clearlabel.Location = new System.Drawing.Point(12, 69+(69-42));
+            this.clearlabel.Name = "clearlabel";
+            this.clearlabel.Size = new System.Drawing.Size(64, 13);
+            this.clearlabel.TabIndex = 7;
+            this.clearlabel.Text = "Clear Key :";
+            // 
             // focusbox
             // 
             this.focusbox.Location = new System.Drawing.Point(2, 99);
@@ -120,12 +142,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(212, 121);
+            this.ClientSize = new System.Drawing.Size(212, 121+(66-49));
             this.Controls.Add(this.focusbox);
             this.Controls.Add(this.selectlabel);
+            this.Controls.Add(this.clearlabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.stoplabel);
             this.Controls.Add(this.selectbox);
+            this.Controls.Add(this.clearbox);
             this.Controls.Add(this.stophotkey);
             this.Controls.Add(this.startlabel);
             this.Controls.Add(this.starthotkey);
@@ -148,9 +172,11 @@
         private System.Windows.Forms.Label startlabel;
         private System.Windows.Forms.TextBox stophotkey;
         private System.Windows.Forms.TextBox selectbox;
+        private System.Windows.Forms.TextBox clearbox;
         private System.Windows.Forms.Label stoplabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label selectlabel;
+        private System.Windows.Forms.Label clearlabel;
         private System.Windows.Forms.TextBox focusbox;
 
     }

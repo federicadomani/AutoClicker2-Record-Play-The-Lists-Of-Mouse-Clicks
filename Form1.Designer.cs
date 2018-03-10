@@ -278,7 +278,7 @@
             this.fixedlabel.Name = "fixedlabel";
             this.fixedlabel.Size = new System.Drawing.Size(157, 13);
             this.fixedlabel.TabIndex = 13;
-            this.fixedlabel.Text = "Fixed Pos. (?/Del to Add/Clear):";
+            this.fixedlabel.Text = "Fixed Pos. (?/Delete to Add/Clear):";
             // 
             // statusheaderlabel
             // 
@@ -327,9 +327,9 @@
             this.typecombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.typecombo.FormattingEnabled = true;
             this.typecombo.Items.AddRange(new object[] {
-            "Single Click",
-            "Double Click",
-            "Triple Click"});
+            "Just Press (not Release)",
+            "Single Click (Press, then Release)",
+            "Double Click (2*(Press, then Release))"});
             this.typecombo.Location = new System.Drawing.Point(79, 158);
             this.typecombo.Name = "typecombo";
             this.typecombo.Size = new System.Drawing.Size(193, 21);

@@ -24,6 +24,7 @@ namespace AutoClicker
             starthotkey.Text = ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString();
             stophotkey.Text = ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString();
             selectbox.Text = ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString();
+            clearbox.Text = ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString();
         }
 
         private void starthotkey_KeyDown(object sender, KeyEventArgs e)
@@ -86,12 +87,33 @@ namespace AutoClicker
             currentform.updateapperance();
         }
 
+        private void clearbox_KeyDown(object sender, KeyEventArgs e)
+        {
+            Properties.Settings.Default.clearkey = e.KeyValue;
+            Properties.Settings.Default.Save();
+            focusbox.Focus();
+        }
+
+        private void clearbox_Enter(object sender, EventArgs e)
+        {
+            Form1.UnregisterHotKey(form1handle, Form1.CLEAR_HOTKEY);
+            clearbox.Text = "Press a key...";
+        }
+
+        private void clearbox_Leave(object sender, EventArgs e)
+        {
+            Form1.RegisterHotKey(form1handle, Form1.CLEAR_HOTKEY, 0, Properties.Settings.Default.clearkey);
+            clearbox.Text = ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString();
+            currentform.updateapperance();
+        }
+
         private void Hotkeys_FormClosing(object sender, FormClosingEventArgs e)
         {
             //in case the user closes the form while one of the boxes are focused
             Form1.RegisterHotKey(form1handle, Form1.START_HOTKEY, 0, Properties.Settings.Default.startkey);
             Form1.RegisterHotKey(form1handle, Form1.STOP_HOTKEY, 0, Properties.Settings.Default.stopkey);
             Form1.RegisterHotKey(form1handle, Form1.SELECT_HOTKEY, 0, Properties.Settings.Default.selectkey);
+            Form1.RegisterHotKey(form1handle, Form1.CLEAR_HOTKEY, 0, Properties.Settings.Default.clearkey);
         }
 
     }

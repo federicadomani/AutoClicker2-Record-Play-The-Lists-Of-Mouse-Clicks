@@ -82,18 +82,18 @@ namespace AutoClicker
             RegisterHotKey(this.Handle, START_HOTKEY, 0, Properties.Settings.Default.startkey);
             RegisterHotKey(this.Handle, STOP_HOTKEY, 0, Properties.Settings.Default.stopkey);
             RegisterHotKey(this.Handle, SELECT_HOTKEY, 0, Properties.Settings.Default.selectkey);
-            RegisterHotKey(this.Handle, CLEAR_HOTKEY, 0, 46); // DELETE key (we doesn't need to change it)
+            RegisterHotKey(this.Handle, CLEAR_HOTKEY, 0, Properties.Settings.Default.clearkey);
             //change hotkey apperance on buttons
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/Del to Add/Clear):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear):";
         }
 
         public void updateapperance()
         {
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/Del to Add/Clear):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear):";
         }
 
         protected override void WndProc(ref Message m)
@@ -256,8 +256,41 @@ namespace AutoClicker
         public void clickatcur()
         {
             int clickbutton = clicktcombo.SelectedIndex;
-            int clicktimes = typecombo.SelectedIndex + 1;
-            while (clicktimes > 0)
+            int clicktimes = typecombo.SelectedIndex;
+
+            if (clicktimes == 0) // Just press a mouse, not release
+            {
+                //set up the INPUT struct and fill it for the mouse down
+                INPUT i = new INPUT();
+                i.type = INPUT_MOUSE;
+                i.mi.dx = 0;
+                i.mi.dy = 0;
+                if (clickbutton == 0)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
+                }
+                else if (clickbutton == 1)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_MIDDLEDOWN;
+                }
+                else if (clickbutton == 2)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_RIGHTDOWN;
+                }
+                else
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
+                }
+                i.mi.dwExtraInfo = IntPtr.Zero;
+                i.mi.mouseData = 0;
+                i.mi.time = 0;
+                //send the input 
+                SendInput(1, ref i, Marshal.SizeOf(i));
+
+                return;
+            }
+
+            for (; clicktimes > 0; --clicktimes)
             {
                 //set up the INPUT struct and fill it for the mouse down
                 INPUT i = new INPUT();
@@ -303,7 +336,6 @@ namespace AutoClicker
                     i.mi.dwFlags = MOUSEEVENTF_LEFTUP;
                 }
                 SendInput(1, ref i, Marshal.SizeOf(i));
-                clicktimes--;
             }
         }
 
