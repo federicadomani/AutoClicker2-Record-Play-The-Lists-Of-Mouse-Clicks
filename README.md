@@ -20,6 +20,8 @@ Features:
 * All the settings are saved automatically between application run-times.
 * Elegant and intuitively-understood graphical user interface.
 * Free and open source without Ads and Viruses forever.
-* SHA256(Setup_AutoClickerProfessional_3_3_0_1.exe)= 688a8ccaa0a3a46f037b373e0020999aeb94cb8527762dde246915622570a608.
+* NEW. Press-only mode for mouse clicks (without release the mouse button). It is a feature so it holds the click button instead of clicking multiple times.
+* NEW. Trigger key defaults to DELETE that clears the clicking sequence is now changeable as other trigger keys. You may select another key if DELETE trigger affects other applications.
+* SHA256(Setup_AutoClickerProfessional_3_3_5_3.exe)= 4a000d1f0e55be9b0dc6f1f0a687a59c0e81247420e1417ec1316a12e4f09568.
 
 This is a mirror site for [AutoClicker Professional for Windows PC Desktop](https://sourceforge.net/projects/autoclicker-professional/).
