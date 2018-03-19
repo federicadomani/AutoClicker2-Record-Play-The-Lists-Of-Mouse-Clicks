@@ -48,7 +48,7 @@ namespace AutoClicker
             }
             catch
             {
-                typecombo.SelectedIndex = 0;
+                typecombo.SelectedIndex = 1;
             }
             if (Properties.Settings.Default.curfixedsave == false)
             {
