@@ -304,9 +304,9 @@
             this.clicktcombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.clicktcombo.FormattingEnabled = true;
             this.clicktcombo.Items.AddRange(new object[] {
-            "Left Click",
-            "Middle Click",
-            "Right Click"});
+            "Left",
+            "Middle",
+            "Right"});
             this.clicktcombo.Location = new System.Drawing.Point(97, 126);
             this.clicktcombo.Name = "clicktcombo";
             this.clicktcombo.Size = new System.Drawing.Size(175, 21);
@@ -320,16 +320,16 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Click type:";
+            this.label1.Text = "Click Type:";
             // 
             // typecombo
             // 
             this.typecombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.typecombo.FormattingEnabled = true;
             this.typecombo.Items.AddRange(new object[] {
-            "Just Press (not Release)",
-            "Single Click (Press, then Release)",
-            "Double Click (2*(Press, then Release))"});
+            "Press Only (Hold the Button)",
+            "Single Click (Press & Release)",
+            "Double Click (2*(Press & Release))"});
             this.typecombo.Location = new System.Drawing.Point(79, 158);
             this.typecombo.Name = "typecombo";
             this.typecombo.Size = new System.Drawing.Size(193, 21);
