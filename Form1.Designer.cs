@@ -137,7 +137,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(139, 13);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Times to Click (0 for infinite):";
+            this.label5.Text = "Times to Click (0 = Infinite):";
             // 
             // amounttext
             // 
@@ -329,7 +329,7 @@
             this.typecombo.Items.AddRange(new object[] {
             "Press Only (Hold the Button)",
             "Single Click (Press & Release)",
-            "Double Click (2*(Press & Release))"});
+            "Double Click (Press & Release twice)"});
             this.typecombo.Location = new System.Drawing.Point(79, 158);
             this.typecombo.Name = "typecombo";
             this.typecombo.Size = new System.Drawing.Size(193, 21);
