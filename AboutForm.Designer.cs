@@ -103,11 +103,11 @@
             // headlabel
             // 
             this.headlabel.AutoSize = true;
-            this.headlabel.Location = new System.Drawing.Point(99, 23);
+            this.headlabel.Location = new System.Drawing.Point(50, 23);
             this.headlabel.Name = "headlabel";
             this.headlabel.Size = new System.Drawing.Size(61, 13);
             this.headlabel.TabIndex = 2;
-            this.headlabel.Text = "AutoClicker Professional";
+            this.headlabel.Text = "AutoClicker Record-Play Script Of Clicks";
             // 
             // versionlabel
             // 

@@ -138,7 +138,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                MessageBox.Show("AutoClicker Professional is already clicking!", "Already clicking");
+                MessageBox.Show("AutoClicker Record-Play Script Of Clicks is already clicking!", "Already clicking");
             }
             else
             {
@@ -220,7 +220,7 @@ namespace AutoClicker
             }
             else
             {
-                MessageBox.Show("AutoClicker Professional is not clicking!", "Not clicking");
+                MessageBox.Show("AutoClicker Record-Play Script Of Clicks is not clicking!", "Not clicking");
             }
         }
 

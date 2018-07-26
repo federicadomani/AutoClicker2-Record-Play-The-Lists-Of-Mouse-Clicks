@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoClicker Professional")]
-[assembly: AssemblyDescription("AutoClicker Professional")]
+[assembly: AssemblyTitle("AutoClicker Record-Play Script Of Clicks")]
+[assembly: AssemblyDescription("AutoClicker Record-Play Script Of Clicks")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Open Source Developer Federica Domani")]
-[assembly: AssemblyProduct("AutoClicker Professional")]
+[assembly: AssemblyProduct("AutoClicker Record-Play Script Of Clicks")]
 [assembly: AssemblyCopyright("2017-2018 Open Source Developer Federica Domani")]
 [assembly: AssemblyTrademark("Federica Domani (federicadomani.wordpress.com)")]
 [assembly: AssemblyCulture("")]
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("3.3.8.0")]
-[assembly: AssemblyFileVersion("3.3.8.0")]
+[assembly: AssemblyVersion("3.4.1.0")]
+[assembly: AssemblyFileVersion("3.4.1.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
