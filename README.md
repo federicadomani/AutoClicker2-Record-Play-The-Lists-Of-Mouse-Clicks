@@ -23,4 +23,4 @@ Features:
 * NEW. Press-only mode for mouse clicks (without release the mouse button). It is a feature so it holds the click button instead of clicking multiple times.
 * NEW. Trigger key defaults to DELETE that clears the clicking sequence is now changeable as other trigger keys. You may select another key if DELETE trigger affects other applications.
 
-This is a mirror site for [AutoClicker Record/Play Script Of Clicks](https://sourceforge.net/projects/autoclicker-professional/).
+This is a mirror site for [AutoClicker Record/Play Script Of Clicks](https://sourceforge.net/projects/autoclicker-professional/). Binary executable installers for Windows can be downloaded there for your convenience.
