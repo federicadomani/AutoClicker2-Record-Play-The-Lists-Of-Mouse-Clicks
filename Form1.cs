@@ -433,66 +433,162 @@ namespace AutoClicker
 
                 if (userFileBodyLines.Length > 0)
                 {
-                    int nValidLength = 0;
-
-                    for (int i = 0; i < userFileBodyLines.Length; ++i)
+                    if ((userFileBodyLines.Length >= 3) && (userFileBodyLines[0] == "random_square_clicking"))
                     {
-                        try
+                        int nValidLength = 1;
+
+                        for (int i = 1; i < userFileBodyLines.Length; ++i)
                         {
-                            string strPoint = userFileBodyLines[i];
-                            string[] arrPoint = strPoint.Split(',');
-                            if (arrPoint.Length == 2)
+                            try
                             {
+                                string strPoint = userFileBodyLines[i];
+                                string[] arrPoint = strPoint.Split(',');
+                                if (arrPoint.Length == 2)
+                                {
+                                    string strX = arrPoint[0].Substring(2);
+                                    string strY = arrPoint[1].Substring(2);
+                                    Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+                                    string locationstring = testClickLocation.ToString();
+                                    string locationstring2 = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+
+                                    if (locationstring2 == strPoint)
+                                        ++nValidLength;
+                                }
+                            }
+                            catch
+                            {
+                                // no ++nValidLength
+                            }
+                        }
+
+                        if (nValidLength == userFileBodyLines.Length)
+                        {
+                            clickLocation = new Point(0, 0);
+                            Properties.Settings.Default.pointsave = clickLocation;
+                            Properties.Settings.Default.Save();
+                            coordlabel.Text = "X=0,Y=0(0)";
+                            coordlabelList.Clear();
+                            coordlabelListIndex = 0;
+
+                            loadToolStripMenuItem.Enabled = false;
+
+                            Point testClickLocationMin = new Point(1000000, 1000000);
+                            Point testClickLocationMax = new Point(-1, -1);
+
+                            for (int i = 1; i < userFileBodyLines.Length; ++i)
+                            {
+                                string strPoint = userFileBodyLines[i];
+                                string[] arrPoint = strPoint.Split(',');
                                 string strX = arrPoint[0].Substring(2);
                                 string strY = arrPoint[1].Substring(2);
                                 Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
-                                string locationstring = testClickLocation.ToString();
-                                string locationstring2 = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
 
-                                if (locationstring2 == strPoint)
-                                    ++nValidLength;
+                                if (testClickLocation.X < testClickLocationMin.X)
+                                    testClickLocationMin.X = testClickLocation.X;
+
+                                if (testClickLocation.X > testClickLocationMax.X)
+                                    testClickLocationMax.X = testClickLocation.X;
+
+                                if (testClickLocation.Y < testClickLocationMin.Y)
+                                    testClickLocationMin.Y = testClickLocation.Y;
+
+                                if (testClickLocation.Y > testClickLocationMax.Y)
+                                    testClickLocationMax.Y = testClickLocation.Y;
+
                             }
+
+                            Random rndX = new Random();
+                            Random rndY = new Random();
+
+                            for (int i = 0; i < 1000; ++i)
+                            {
+                                Point testClickLocation = new Point(rndX.Next(testClickLocationMin.X, testClickLocationMax.X + 1), rndY.Next(testClickLocationMin.Y, testClickLocationMax.Y + 1));
+
+                                clickLocation = testClickLocation;
+                                if (i == (1000 - 1))
+                                    Properties.Settings.Default.pointsave = clickLocation;
+                                if (i == (1000 - 1))
+                                    Properties.Settings.Default.Save();
+                                string locationstring = clickLocation.ToString();
+                                coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+                                coordlabelList.Add(coordlabel.Text);
+                                if (i == (1000 - 1))
+                                    coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
+                            }
+
+                            loadToolStripMenuItem.Enabled = true;
+                            saveToolStripMenuItem.Enabled = true;
                         }
-                        catch
+                        else
                         {
-                            // no ++nValidLength
+                            MessageBox.Show("Error in text file with mouse cursor position!", userFileName);
                         }
-                    }
-
-                    if (nValidLength == userFileBodyLines.Length)
-                    {
-                        clickLocation = new Point(0, 0);
-                        Properties.Settings.Default.pointsave = clickLocation;
-                        Properties.Settings.Default.Save();
-                        coordlabel.Text = "X=0,Y=0(0)";
-                        coordlabelList.Clear();
-                        coordlabelListIndex = 0;
-
-                        loadToolStripMenuItem.Enabled = false;
-
-                        for (int i = 0; i < userFileBodyLines.Length; ++i)
-                        {
-                            string strPoint = userFileBodyLines[i];
-                            string[] arrPoint = strPoint.Split(',');
-                            string strX = arrPoint[0].Substring(2);
-                            string strY = arrPoint[1].Substring(2);
-                            Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
-
-                            clickLocation = testClickLocation;
-                            Properties.Settings.Default.pointsave = clickLocation;
-                            Properties.Settings.Default.Save();
-                            string locationstring = clickLocation.ToString();
-                            coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
-                            coordlabelList.Add(coordlabel.Text);
-                            coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
-                        }
-
-                        loadToolStripMenuItem.Enabled = true;
                     }
                     else
                     {
-                        MessageBox.Show("Error in text file with mouse cursor position!", userFileName);
+                        int nValidLength = 0;
+
+                        for (int i = 0; i < userFileBodyLines.Length; ++i)
+                        {
+                            try
+                            {
+                                string strPoint = userFileBodyLines[i];
+                                string[] arrPoint = strPoint.Split(',');
+                                if (arrPoint.Length == 2)
+                                {
+                                    string strX = arrPoint[0].Substring(2);
+                                    string strY = arrPoint[1].Substring(2);
+                                    Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+                                    string locationstring = testClickLocation.ToString();
+                                    string locationstring2 = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+
+                                    if (locationstring2 == strPoint)
+                                        ++nValidLength;
+                                }
+                            }
+                            catch
+                            {
+                                // no ++nValidLength
+                            }
+                        }
+
+                        if (nValidLength == userFileBodyLines.Length)
+                        {
+                            clickLocation = new Point(0, 0);
+                            Properties.Settings.Default.pointsave = clickLocation;
+                            Properties.Settings.Default.Save();
+                            coordlabel.Text = "X=0,Y=0(0)";
+                            coordlabelList.Clear();
+                            coordlabelListIndex = 0;
+
+                            loadToolStripMenuItem.Enabled = false;
+
+                            for (int i = 0; i < userFileBodyLines.Length; ++i)
+                            {
+                                string strPoint = userFileBodyLines[i];
+                                string[] arrPoint = strPoint.Split(',');
+                                string strX = arrPoint[0].Substring(2);
+                                string strY = arrPoint[1].Substring(2);
+                                Point testClickLocation = new Point(Convert.ToInt32(strX), Convert.ToInt32(strY));
+
+                                clickLocation = testClickLocation;
+                                Properties.Settings.Default.pointsave = clickLocation;
+                                Properties.Settings.Default.Save();
+                                string locationstring = clickLocation.ToString();
+                                coordlabel.Text = (locationstring.Remove(locationstring.Length - 1)).Remove(0, 1);
+                                coordlabelList.Add(coordlabel.Text);
+                                coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
+                            }
+
+                            loadToolStripMenuItem.Enabled = true;
+                            saveToolStripMenuItem.Enabled = true;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error in text file with mouse cursor position!", userFileName);
+                        } 
                     }
+                    Application.DoEvents();
                 }
             }
         }
