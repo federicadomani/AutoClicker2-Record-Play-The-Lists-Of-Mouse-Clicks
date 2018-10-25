@@ -29,6 +29,20 @@ namespace AutoClicker
         public const int SELECT_HOTKEY = 3;
         public const int CLEAR_HOTKEY = 4;
 
+        public static bool ListContainsBoundingRectangle(List<string> lst)
+        {
+            if (lst.Count < 2)
+                return false;
+
+            for (int i = 0; i < lst.Count - 1 ; ++i)
+            {
+                if (lst[i] != lst[i+1])
+                    return true;
+            }
+
+            return false;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -71,10 +85,16 @@ namespace AutoClicker
             {
                 coordlabelList.Add(coordlabel.Text);
                 saveToolStripMenuItem.Enabled = true;
+
+                if (ListContainsBoundingRectangle(coordlabelList))
+                    saveToolrndStripMenuItem.Enabled = true;
+                else
+                    saveToolrndStripMenuItem.Enabled = false;
             }
             else
             {
                 saveToolStripMenuItem.Enabled = false;
+                saveToolrndStripMenuItem.Enabled = false;
             }
 
             coordlabel.Text += ("(" + coordlabelList.Count.ToString() + ")");
@@ -119,6 +139,11 @@ namespace AutoClicker
                 coordlabel.Text += ("("+coordlabelList.Count.ToString()+")");
 
                 saveToolStripMenuItem.Enabled = true;
+
+                if (ListContainsBoundingRectangle(coordlabelList))
+                    saveToolrndStripMenuItem.Enabled = true;
+                else
+                    saveToolrndStripMenuItem.Enabled = false;
             }
             else if (m.Msg == 0x0312 && m.WParam.ToInt32() == CLEAR_HOTKEY && fixedrbut.Checked)
             {
@@ -130,6 +155,7 @@ namespace AutoClicker
                 coordlabelListIndex = 0;
 
                 saveToolStripMenuItem.Enabled = false;
+                saveToolrndStripMenuItem.Enabled = false;
             }
             base.WndProc(ref m);
         }
@@ -138,7 +164,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                MessageBox.Show("AutoClicker Record-Play Script Of Clicks is already clicking!", "Already clicking");
+                MessageBox.Show("AutoClicker Record-Play-Random Clicks is already clicking!", "Already clicking");
             }
             else
             {
@@ -220,7 +246,7 @@ namespace AutoClicker
             }
             else
             {
-                MessageBox.Show("AutoClicker Record-Play Script Of Clicks is not clicking!", "Not clicking");
+                MessageBox.Show("AutoClicker Record-Play-Random Clicks is not clicking!", "Not clicking");
             }
         }
 
@@ -518,6 +544,7 @@ namespace AutoClicker
 
                             loadToolStripMenuItem.Enabled = true;
                             saveToolStripMenuItem.Enabled = true;
+                            saveToolrndStripMenuItem.Enabled = true;
                         }
                         else
                         {
@@ -582,6 +609,7 @@ namespace AutoClicker
 
                             loadToolStripMenuItem.Enabled = true;
                             saveToolStripMenuItem.Enabled = true;
+                            saveToolrndStripMenuItem.Enabled = true;
                         }
                         else
                         {
@@ -617,6 +645,46 @@ namespace AutoClicker
                 // Open the selected file to read.
                 string userFileName = openFileDialog1.FileName;
                 string userFileBody = "";
+
+                for (var i = 0; i < coordlabelList.Count; ++i)
+                {
+                    userFileBody += coordlabelList[i];
+                    userFileBody += "\r\n";
+                }
+
+                System.IO.File.WriteAllText(userFileName, userFileBody);
+            }
+        }
+
+        private void saveToolrndStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (coordlabelList.Count == 0)
+                return;
+
+            if (!ListContainsBoundingRectangle(coordlabelList))
+                return;
+
+            // Create an instance of the open file dialog box.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            openFileDialog1.Filter = "Text Files (.txt)|*.txt|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.CheckFileExists = false;
+            openFileDialog1.CheckPathExists = true;
+            openFileDialog1.Multiselect = false;
+
+            // Call the ShowDialog method to show the dialog box.
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (result == DialogResult.OK)
+            {
+                // Open the selected file to read.
+                string userFileName = openFileDialog1.FileName;
+                string userFileBody = "";
+
+                userFileBody+= ("random_square_clicking" + "\r\n");
 
                 for (var i = 0; i < coordlabelList.Count; ++i)
                 {

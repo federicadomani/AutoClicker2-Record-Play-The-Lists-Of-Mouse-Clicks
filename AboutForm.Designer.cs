@@ -107,7 +107,7 @@
             this.headlabel.Name = "headlabel";
             this.headlabel.Size = new System.Drawing.Size(61, 13);
             this.headlabel.TabIndex = 2;
-            this.headlabel.Text = "AutoClicker Record-Play Script Of Clicks";
+            this.headlabel.Text = "AutoClicker Record-Play-Random Clicks";
             // 
             // versionlabel
             // 

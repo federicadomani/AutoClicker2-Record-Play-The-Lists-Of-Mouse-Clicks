@@ -45,6 +45,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolrndStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hotkeysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -168,6 +169,7 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadToolStripMenuItem
             , this.saveToolStripMenuItem
+            , this.saveToolrndStripMenuItem
             , this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -186,6 +188,13 @@
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // saveToolrndStripMenuItem
+            // 
+            this.saveToolrndStripMenuItem.Name = "saveToolrndStripMenuItem";
+            this.saveToolrndStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.saveToolrndStripMenuItem.Text = "Save for random clicking";
+            this.saveToolrndStripMenuItem.Click += new System.EventHandler(this.saveToolrndStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -364,7 +373,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AutoClicker Record-Play Script Of Clicks";
+            this.Text = "AutoClicker Record-Play-Random Clicks";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
@@ -395,6 +404,7 @@
         private System.Windows.Forms.Label statusheaderlabel;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolrndStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label buttonlabel;
         private System.Windows.Forms.ComboBox clicktcombo;
