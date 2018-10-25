@@ -1,6 +1,6 @@
 # AutoClicker Record-Play-Random Clicks
 
-## AutoClicker Record-Play-Random Clicks for Windows PC Desktop (formerly AutoClicker Professional)
+## AutoClicker Record-Play-Random Clicks for Windows PC Desktop (formerly AutoClicker Record-Play Script Of Clicks)
 
 This is professional and open source fork of AutoClicker - the most popular mouse auto clicker application for Windows PC Desktop. It has already fixed many bugs of the predecessor and will add many intriguing features in the future, keeping clean and accurate test-driven developing process to be always free of bugs (as you might remember, AutoClicker itself was quite full of bugs).
 
