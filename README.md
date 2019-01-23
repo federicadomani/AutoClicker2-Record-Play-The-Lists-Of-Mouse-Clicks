@@ -22,7 +22,7 @@ Features:
 * NEW. Menu item "Save for random clicking" has been added for your convenience. Just record arbitrary amount of points to form a bounding rectangle by pressing "F3" in "Fixed Pos." mode than do "File"->"Save for random clicking", select desired file name, remember it and load the file back via "File"->"Load"
 * BRAND NEW. RPG Auto Clicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 
-This is a source-only mirror for [RPG Auto Clicker](https://sourceforge.net/projects/autoclicker-professional/). Binary executable installers for Windows made by open source tool Inno Setup and can be downloaded there.
+This is a source-only mirror for [RPG Auto Clicker Professional Suite for Windows](https://sourceforge.net/projects/autoclicker-professional/). Binary executable installers for Windows made by open source tool Inno Setup and can be downloaded there.
 
 Also, for your convenience, the Windows installer for the latest version 5.7.0.0 can be downloaded here: [Setup_RPGAutoClickerProSuite_5_7_0_0.exe](https://www.dropbox.com/s/ikze8ijncee430o/Setup_RPGAutoClickerProSuite_5_7_0_0.exe?raw=1).
 
