@@ -130,10 +130,9 @@ namespace AutoClicker.Properties {
                 this["selectkey"] = value;
             }
         }
-
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("46")] // DELETE key
+        [global::System.Configuration.DefaultSettingValueAttribute("46")]
         public int clearkey
         {
             get

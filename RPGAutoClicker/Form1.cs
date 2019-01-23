@@ -757,12 +757,12 @@ namespace AutoClicker
 
         private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/rpg-auto-clicker/");
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/autoclicker-professional/");
         }
 
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://sourceforge.net/p/rpg-auto-clicker/tickets/");
+            System.Diagnostics.Process.Start("https://sourceforge.net/projects/autoclicker-professional/");
         }
 
         private void hotkeysToolStripMenuItem_Click(object sender, EventArgs e)

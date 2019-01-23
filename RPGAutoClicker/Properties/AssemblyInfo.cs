@@ -9,10 +9,10 @@ using System.Resources;
 [assembly: AssemblyTitle("RPG Auto Clicker")]
 [assembly: AssemblyDescription("RPG Auto Clicker")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Open Source Developer federicadomani@mailfence.com")]
+[assembly: AssemblyCompany("Open Source Developer Federica Domani")]
 [assembly: AssemblyProduct("RPG Auto Clicker")]
-[assembly: AssemblyCopyright("2018-2019 Open Source Developer federicadomani@mailfence.com")]
-[assembly: AssemblyTrademark("federicadomani.wordpress.com")]
+[assembly: AssemblyCopyright("2018-2019 Open Source Developer Federica Domani")]
+[assembly: AssemblyTrademark("RPG Auto Clicker Professional Suite")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.0.1.0")]
-[assembly: AssemblyFileVersion("5.0.1.0")]
+[assembly: AssemblyVersion("5.7.0.0")]
+[assembly: AssemblyFileVersion("5.7.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
