@@ -1,2 +1,3 @@
-Project includes Inno Setup *.iss file.
-id5mzDq7HZekSfkNR2ZkfjWJgeWEjemSqxxkbbTmf5jynWC83MwAiXgR2UrBJPmtP1i9stVmstRxW3w
+Project includes Inno Setup 5.x *.iss file.
+Download: http://www.jrsoftware.org/isdlold.php#5
+id5mzbtJSDPfosdTsAgcPrrzu2oEhvVgdFSCCgjJmyN7Qy8ujCyCPyZTgxaP6
