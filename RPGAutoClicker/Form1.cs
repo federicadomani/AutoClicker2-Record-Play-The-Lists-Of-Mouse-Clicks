@@ -164,7 +164,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                MessageBox.Show("RPG Auto Clicker is already clicking!", "Already clicking");
+                MessageBox.Show("RPG AutoClicker is already clicking!", "Already clicking");
             }
             else
             {
@@ -246,7 +246,7 @@ namespace AutoClicker
             }
             else
             {
-                MessageBox.Show("RPG Auto Clicker is not clicking!", "Not clicking");
+                MessageBox.Show("RPG AutoClicker is not clicking!", "Not clicking");
             }
         }
 

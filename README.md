@@ -23,3 +23,7 @@ Features:
 * BRAND NEW. RPG AutoClicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 
 This is a source-only mirror. You can download binaries from the [full mirror 1](https://sourceforge.net/projects/autoclicker-professional/) or [full mirror 2](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows).
+
+Also, for your convenience, the Windows installer for the latest version 5.7.0.3 can be downloaded here: [Setup_RPGAutoClickerProSuite_5_7_0_3.exe](https://www.dropbox.com/s/z12g16x9sd84af8/Setup_RPGAutoClickerProSuite_5_7_0_3.exe?raw=1).
+
+SHA256(Setup_RPGAutoClickerProSuite_5_7_0_3.exe)= 867cb456b129bdeaee61f81a9c3e3f4ea2c593daaf0ab23011d1fc608d7e9833.

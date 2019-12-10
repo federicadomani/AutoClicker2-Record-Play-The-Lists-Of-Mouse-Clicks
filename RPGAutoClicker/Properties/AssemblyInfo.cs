@@ -6,13 +6,13 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RPG Auto Clicker")]
-[assembly: AssemblyDescription("RPG Auto Clicker")]
+[assembly: AssemblyTitle("RPG AutoClicker")]
+[assembly: AssemblyDescription("RPG AutoClicker")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Open Source Developer Federica Domani")]
-[assembly: AssemblyProduct("RPG Auto Clicker")]
+[assembly: AssemblyProduct("RPG AutoClicker")]
 [assembly: AssemblyCopyright("2018-2019 Open Source Developer Federica Domani")]
-[assembly: AssemblyTrademark("RPG Auto Clicker Professional Suite")]
+[assembly: AssemblyTrademark("RPG AutoClicker Professional Suite")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.7.0.0")]
-[assembly: AssemblyFileVersion("5.7.0.0")]
+[assembly: AssemblyVersion("5.7.0.3")]
+[assembly: AssemblyFileVersion("5.7.0.3")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
