@@ -37,6 +37,7 @@
             this.SleepTimeLabel = new System.Windows.Forms.Label();
             this.AddPositionButtonLeft = new System.Windows.Forms.Button();
             this.AddPositionButtonRight = new System.Windows.Forms.Button();
+            this.AddPositionButtonMiddle = new System.Windows.Forms.Button();
             this.QueuedXPositionLabel = new System.Windows.Forms.Label();
             this.QueuedYPositionLabel = new System.Windows.Forms.Label();
             this.QueuedXPositionTextBox = new System.Windows.Forms.TextBox();
@@ -76,6 +77,7 @@
             this.PositionsGroupBox.Controls.Add(this.SleepTimeLabel);
             this.PositionsGroupBox.Controls.Add(this.AddPositionButtonLeft);
             this.PositionsGroupBox.Controls.Add(this.AddPositionButtonRight);
+            this.PositionsGroupBox.Controls.Add(this.AddPositionButtonMiddle);
             this.PositionsGroupBox.Controls.Add(this.QueuedXPositionLabel);
             this.PositionsGroupBox.Controls.Add(this.QueuedYPositionLabel);
             this.PositionsGroupBox.Controls.Add(this.QueuedXPositionTextBox);
@@ -83,7 +85,7 @@
             this.PositionsGroupBox.Controls.Add(this.QueuedPositionsLabel);
             this.PositionsGroupBox.Location = new System.Drawing.Point(285, 3);
             this.PositionsGroupBox.Name = "PositionsGroupBox";
-            this.PositionsGroupBox.Size = new System.Drawing.Size(350, 279);
+            this.PositionsGroupBox.Size = new System.Drawing.Size(350, 309);
             this.PositionsGroupBox.TabIndex = 0;
             this.PositionsGroupBox.TabStop = false;
             this.PositionsGroupBox.Text = "Sequence of Mouse Clicks";
@@ -144,6 +146,16 @@
             this.AddPositionButtonRight.UseVisualStyleBackColor = true;
             this.AddPositionButtonRight.Click += new System.EventHandler(this.AddPositionButtonRight_Click);
             // 
+            // AddPositionButtonMiddle
+            // 
+            this.AddPositionButtonMiddle.Location = new System.Drawing.Point(6, 280);
+            this.AddPositionButtonMiddle.Name = "AddPositionButtonMiddle";
+            this.AddPositionButtonMiddle.Size = new System.Drawing.Size(121, 23);
+            this.AddPositionButtonMiddle.TabIndex = 6;
+            this.AddPositionButtonMiddle.Text = "Add Middle Click (F6)";
+            this.AddPositionButtonMiddle.UseVisualStyleBackColor = true;
+            this.AddPositionButtonMiddle.Click += new System.EventHandler(this.AddPositionButtonMiddle_Click);
+            // 
             // QueuedXPositionLabel
             // 
             this.QueuedXPositionLabel.AutoSize = true;
@@ -198,7 +210,7 @@
             // 
             // LRHeader
             // 
-            this.LRHeader.Text = "L/R";
+            this.LRHeader.Text = "L/M/R";
             this.LRHeader.Width = 76;
             // 
             // SleepTimeHeader
@@ -235,7 +247,7 @@
             this.QueuedPositionsLabel.Name = "QueuedPositionsLabel";
             this.QueuedPositionsLabel.Size = new System.Drawing.Size(123, 13);
             this.QueuedPositionsLabel.TabIndex = 0;
-            this.QueuedPositionsLabel.Text = "Cursor Position (X, Y), Button to Click (L/R), Time to Sleep (ms)";
+            this.QueuedPositionsLabel.Text = "Cursor Position (X, Y), Button to Click (L/M/R), Time to Sleep (ms)";
             // 
             // CurrentPosGroupBox
             // 
@@ -351,7 +363,7 @@
             // AboutLabel
             // 
             this.AboutLabel.AutoSize = true;
-            this.AboutLabel.Location = new System.Drawing.Point(12, 285);
+            this.AboutLabel.Location = new System.Drawing.Point(12, 315);
             this.AboutLabel.Name = "AboutLabel";
             this.AboutLabel.Size = new System.Drawing.Size(186, 13);
             this.AboutLabel.TabIndex = 3;
@@ -361,7 +373,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 307);
+            this.ClientSize = new System.Drawing.Size(643, 337); // Main Window Size
             this.Controls.Add(this.AboutLabel);
             this.Controls.Add(this.StartingOptionsGroupBox);
             this.Controls.Add(this.CurrentPosGroupBox);
@@ -371,7 +383,7 @@
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "RPG AutoClicker Extended v.5.7.0.3";
+            this.Text = "RPG AutoClicker Extended v5.8.0.3";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
@@ -395,6 +407,7 @@
         private System.Windows.Forms.Label SleepTimeLabel;
         private System.Windows.Forms.Button AddPositionButtonLeft;
         private System.Windows.Forms.Button AddPositionButtonRight;
+        private System.Windows.Forms.Button AddPositionButtonMiddle;
         private System.Windows.Forms.Label QueuedXPositionLabel;
         private System.Windows.Forms.Label QueuedYPositionLabel;
         private System.Windows.Forms.TextBox QueuedXPositionTextBox;

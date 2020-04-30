@@ -250,12 +250,16 @@ namespace AutoClicker
             }
         }
 
-        const int MOUSEEVENTF_LEFTDOWN = 2;
-        const int MOUSEEVENTF_LEFTUP = 4;
-        const int MOUSEEVENTF_RIGHTDOWN = 8;
-        const int MOUSEEVENTF_RIGHTUP = 16;
-        const int MOUSEEVENTF_MIDDLEUP = 32;
-        const int MOUSEEVENTF_MIDDLEDOWN = 64;
+        const int MOUSEEVENTF_LEFTDOWN=    0x0002; /* left button down */
+        const int MOUSEEVENTF_LEFTUP=      0x0004; /* left button up */
+        const int MOUSEEVENTF_RIGHTDOWN=   0x0008; /* right button down */
+        const int MOUSEEVENTF_RIGHTUP=     0x0010; /* right button up */
+        const int MOUSEEVENTF_MIDDLEDOWN=  0x0020; /* middle button down */
+        const int MOUSEEVENTF_MIDDLEUP=    0x0040; /* middle button up */
+        const int MOUSEEVENTF_XDOWN=       0x0080; /* x button down */
+        const int MOUSEEVENTF_XUP=         0x0100; /* x button up */
+        const int XBUTTON1 = 0x0001;
+        const int XBUTTON2 = 0x0002;
         //input type constant
         const int INPUT_MOUSE = 0;
 
@@ -303,6 +307,16 @@ namespace AutoClicker
                 {
                     i.mi.dwFlags = MOUSEEVENTF_RIGHTDOWN;
                 }
+                else if (clickbutton == 3)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XDOWN;
+                    i.mi.mouseData = XBUTTON1;
+                }
+                else if (clickbutton == 4)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XDOWN;
+                    i.mi.mouseData = XBUTTON2;
+                }
                 else
                 {
                     i.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
@@ -335,6 +349,16 @@ namespace AutoClicker
                 {
                     i.mi.dwFlags = MOUSEEVENTF_RIGHTDOWN;
                 }
+                else if (clickbutton == 3)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XDOWN;
+                    i.mi.mouseData = XBUTTON1;
+                }
+                else if (clickbutton == 4)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XDOWN;
+                    i.mi.mouseData = XBUTTON2;
+                }
                 else
                 {
                     i.mi.dwFlags = MOUSEEVENTF_LEFTDOWN;
@@ -356,6 +380,16 @@ namespace AutoClicker
                 else if (clickbutton == 2)
                 {
                     i.mi.dwFlags = MOUSEEVENTF_RIGHTUP;
+                }
+                else if (clickbutton == 3)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XUP;
+                    i.mi.mouseData = XBUTTON1;
+                }
+                else if (clickbutton == 4)
+                {
+                    i.mi.dwFlags = MOUSEEVENTF_XUP;
+                    i.mi.mouseData = XBUTTON2;
                 }
                 else
                 {

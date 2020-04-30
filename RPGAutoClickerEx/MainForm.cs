@@ -30,6 +30,7 @@ namespace Auto_Clicker
         public const int COPY_HOTKEY = 3;
         public const int ADDLEFT_HOTKEY = 4;
         public const int ADDRIGHT_HOTKEY = 5;
+        public const int ADDMIDDLE_HOTKEY = 6;
 
         //#region Constructor
 
@@ -45,6 +46,7 @@ namespace Auto_Clicker
             RegisterHotKey(this.Handle, COPY_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F3)));
             RegisterHotKey(this.Handle, ADDLEFT_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F4)));
             RegisterHotKey(this.Handle, ADDRIGHT_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F5)));
+            RegisterHotKey(this.Handle, ADDMIDDLE_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F6)));
         }
 
         //#endregion
@@ -70,6 +72,10 @@ namespace Auto_Clicker
             else if (m.Msg == 0x0312 && m.WParam.ToInt32() == ADDRIGHT_HOTKEY)
             {
                 AddPositionButtonRight_Click(null, null);
+            }
+            else if (m.Msg == 0x0312 && m.WParam.ToInt32() == ADDMIDDLE_HOTKEY)
+            {
+                AddPositionButtonMiddle_Click(null, null);
             }
 
             base.WndProc(ref m);
@@ -173,6 +179,34 @@ namespace Auto_Clicker
                     ListViewItem item = new ListViewItem(QueuedXPositionTextBox.Text);
                     item.SubItems.Add(QueuedYPositionTextBox.Text);
                     string clickType = "R";
+
+                    int sleepTime = Convert.ToInt32(SleepTimeTextBox.Text);
+                    item.SubItems.Add(clickType);
+                    item.SubItems.Add(sleepTime.ToString());
+                    PositionsListView.Items.Add(item);
+                }
+                else
+                {
+                    MessageBox.Show("Sleep time is not a valid positive integer", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Current Coordinates are not valid", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void AddPositionButtonMiddle_Click(object sender, EventArgs e)
+        {
+            if (CurrentPositionIsValid(QueuedXPositionTextBox.Text, QueuedYPositionTextBox.Text))
+            {
+                if (IsValidNumericalInput(SleepTimeTextBox.Text))
+                {
+                    //Add item holding coordinates, right/left click and sleep time to list view
+                    //holding all queued clicks
+                    ListViewItem item = new ListViewItem(QueuedXPositionTextBox.Text);
+                    item.SubItems.Add(QueuedYPositionTextBox.Text);
+                    string clickType = "M";
 
                     int sleepTime = Convert.ToInt32(SleepTimeTextBox.Text);
                     item.SubItems.Add(clickType);

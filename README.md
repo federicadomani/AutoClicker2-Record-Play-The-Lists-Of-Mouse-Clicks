@@ -1,4 +1,6 @@
-# RPG AutoClicker Professional Suite for Windows
+# RPG AutoClicker Professional Suite for Windows version 5.8.0.3
+
+* BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
 ## Record-Play Groups of Mouse Actions and Randomize Them for Windows
 
@@ -20,10 +22,12 @@ Features:
 * Clean and simple Graphical User Interface
 * NEW. Trigger key defaults to DELETE that clears the clicking sequence is now changeable as other trigger keys. You may select another key if DELETE trigger affects other applications
 * NEW. Menu item "Save for random clicking" has been added for your convenience. Just record arbitrary amount of points to form a bounding rectangle by pressing "F3" in "Fixed Pos." mode than do "File"->"Save for random clicking", select desired file name, remember it and load the file back via "File"->"Load"
-* BRAND NEW. RPG AutoClicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
+* NEW. RPG AutoClicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
+* BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
 This is a source-only mirror. You can download binaries from the [full mirror 1](https://sourceforge.net/projects/autoclicker-professional/) or [full mirror 2](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows).
 
-Also, for your convenience, the Windows installer for the latest version 5.7.0.3 can be downloaded here: [Setup_RPGAutoClickerProSuite_5_7_0_3.exe](https://www.dropbox.com/s/z12g16x9sd84af8/Setup_RPGAutoClickerProSuite_5_7_0_3.exe?raw=1).
+Also, for your convenience, the Windows installer for the latest version 5.8.0.3 can be downloaded here: [Setup-RPG-AutoClicker-Professional-5_8_0_3.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-5_8_0_3.exe?inline=false).
 
-SHA256(Setup_RPGAutoClickerProSuite_5_7_0_3.exe)= 867cb456b129bdeaee61f81a9c3e3f4ea2c593daaf0ab23011d1fc608d7e9833.
+SHA256(Setup-RPG-AutoClicker-Professional-5_8_0_3.exe)= e960f0e424b02011a14f57ab8fa4d933cdfaf9a13287aceec6d7ded9819f8c8c
+.

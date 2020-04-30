@@ -315,7 +315,9 @@
             this.clicktcombo.Items.AddRange(new object[] {
             "Left",
             "Middle",
-            "Right"});
+            "Right",
+            "XBUTTON1",
+            "XBUTTON2"});
             this.clicktcombo.Location = new System.Drawing.Point(97, 126);
             this.clicktcombo.Name = "clicktcombo";
             this.clicktcombo.Size = new System.Drawing.Size(175, 21);
@@ -373,7 +375,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "RPG AutoClicker";
+            this.Text = "RPG AutoClicker v5.8.0.3";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
