@@ -164,7 +164,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                MessageBox.Show("RPG AutoClicker is already clicking!", "Already clicking");
+                //MessageBox.Show("RPG AutoClicker is already clicking!", "Already clicking");
             }
             else
             {
@@ -246,7 +246,7 @@ namespace AutoClicker
             }
             else
             {
-                MessageBox.Show("RPG AutoClicker is not clicking!", "Not clicking");
+                //MessageBox.Show("RPG AutoClicker is not clicking!", "Not clicking");
             }
         }
 
@@ -285,6 +285,11 @@ namespace AutoClicker
 
         public void clickatcur()
         {
+            if (clicktimer.Enabled == false)
+            {
+                return;
+            }
+
             int clickbutton = clicktcombo.SelectedIndex;
             int clicktimes = typecombo.SelectedIndex;
 

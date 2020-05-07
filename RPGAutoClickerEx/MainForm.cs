@@ -11,6 +11,8 @@ namespace Auto_Clicker
 {
     public partial class MainForm : Form
     {
+        static bool m_clicking = false;
+
         #region Global Variables and Properties
 
         private Thread ClickThread; //Thread to take care of clicking the mouse
@@ -229,6 +231,8 @@ namespace Auto_Clicker
         /// </summary>
         private void StartClickingButton_Click(object sender, EventArgs e)
         {
+            m_clicking = true;
+
             if (IsValidNumericalInput(NumRepeatsTextBox.Text))
             {
                 int iterations = Convert.ToInt32(NumRepeatsTextBox.Text);
@@ -271,6 +275,8 @@ namespace Auto_Clicker
         /// </summary>
         private void StopClickingButton_Click(object sender, EventArgs e)
         {
+            m_clicking = false;
+
             try
             {
                 if (ClickThread.IsAlive)
@@ -450,6 +456,9 @@ namespace Auto_Clicker
             /// </summary>
             public void ClickLeftMouseButtonSendInput()
             {
+                if (m_clicking == false)
+                    return;
+
                 //Initialise INPUT object with corresponding values for a left click
                 INPUT input = new INPUT();
                 input.type = INPUT_MOUSE;
@@ -475,6 +484,9 @@ namespace Auto_Clicker
             /// </summary>
             public void ClickRightMouseButtonSendInput()
             {
+                if (m_clicking == false)
+                    return;
+
                 //Initialise INPUT object with corresponding values for a right click
                 INPUT input = new INPUT();
                 input.type = INPUT_MOUSE;
@@ -490,6 +502,29 @@ namespace Auto_Clicker
                 SendInput(1, ref input, Marshal.SizeOf(input));
                 Thread.Sleep(10); // Need for Windows to recognize a click
                 input.mi.dwFlags = MOUSEEVENTF_RIGHTUP;
+                SendInput(1, ref input, Marshal.SizeOf(input));
+            }
+
+            public void ClickMiddleMouseButtonSendInput()
+            {
+                if (m_clicking == false)
+                    return;
+
+                //Initialise INPUT object with corresponding values for a right click
+                INPUT input = new INPUT();
+                input.type = INPUT_MOUSE;
+                input.mi.dx = 0;
+                input.mi.dy = 0;
+                input.mi.dwFlags = MOUSEEVENTF_MIDDLEDOWN;
+                input.mi.dwExtraInfo = IntPtr.Zero;
+                input.mi.mouseData = 0;
+                input.mi.time = 0;
+
+                //Send a right click down followed by a right click up to simulate a 
+                //full right click
+                SendInput(1, ref input, Marshal.SizeOf(input));
+                Thread.Sleep(10); // Need for Windows to recognize a click
+                input.mi.dwFlags = MOUSEEVENTF_MIDDLEUP;
                 SendInput(1, ref input, Marshal.SizeOf(input));
             }
 
@@ -519,6 +554,11 @@ namespace Auto_Clicker
                             if (ClickType[j].Equals("R"))
                             {
                                 ClickRightMouseButtonSendInput();
+                            }
+                            else
+                            if (ClickType[j].Equals("M"))
+                            {
+                                ClickMiddleMouseButtonSendInput();
                             }
                             else
                             {

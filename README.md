@@ -1,4 +1,4 @@
-# RPG AutoClicker Professional Suite for Windows version 5.8.0.3
+# RPG AutoClicker Professional Suite for Windows version 5.8.1.0
 
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
@@ -27,7 +27,9 @@ Features:
 
 This is a source-only mirror. You can download binaries from the [full mirror 1](https://sourceforge.net/projects/autoclicker-professional/) or [full mirror 2](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows).
 
-Also, for your convenience, the Windows installer for the latest version 5.8.0.3 can be downloaded here: [Setup-RPG-AutoClicker-Professional-5_8_0_3.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-5_8_0_3.exe?inline=false).
+## Version 5.8.1.0: fixed continuous clicking after Stop pressed
 
-SHA256(Setup-RPG-AutoClicker-Professional-5_8_0_3.exe)= e960f0e424b02011a14f57ab8fa4d933cdfaf9a13287aceec6d7ded9819f8c8c
+Also, for your convenience, the Windows installer for the latest version 5.8.1.0 can be downloaded here: [Setup-RPG-AutoClicker-Professional-v5.8.1.0.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-v5.8.1.0.exe?inline=false).
+
+SHA256(Setup-RPG-AutoClicker-Professional-v5.8.1.0.exe)= 316096e3d83128d350bcbba62baca645e4cd0eedd0a3e593a4dcf0bff69d0d5e
 .
