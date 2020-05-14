@@ -383,7 +383,7 @@
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "RPG AutoClicker Extended v5.8.1.0";
+            this.Text = "RPG AutoClicker Extended v5.8.1.1";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);

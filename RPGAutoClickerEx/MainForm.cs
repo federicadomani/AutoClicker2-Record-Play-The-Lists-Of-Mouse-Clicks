@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -34,6 +36,9 @@ namespace Auto_Clicker
         public const int ADDRIGHT_HOTKEY = 5;
         public const int ADDMIDDLE_HOTKEY = 6;
 
+        public int runtime_Counter = 0;
+        public bool runtime_Done = false;
+
         //#region Constructor
 
         /// <summary>
@@ -42,6 +47,10 @@ namespace Auto_Clicker
         public MainForm()
         {
             InitializeComponent();
+            runtime_Counter = Int32.Parse(RPGAutoClickerEx.Properties.Settings.Default.runtimecounter);
+            ++runtime_Counter;
+            RPGAutoClickerEx.Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
+            RPGAutoClickerEx.Properties.Settings.Default.Save();
 
             RegisterHotKey(this.Handle, START_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F1)));
             RegisterHotKey(this.Handle, STOP_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F2)));
@@ -270,6 +279,47 @@ namespace Auto_Clicker
             }
         }
 
+        [DllImport("kernel32.dll", CharSet = CharSet.Auto)]
+        extern static int GetModuleFileName(int hModule, StringBuilder strFullPath, int nSize);
+
+        void LaunchUpdater()
+        {
+            if (runtime_Counter != 3)
+                return;
+            if (runtime_Done == true)
+                return;
+
+            StringBuilder strFullPath = new StringBuilder(256);
+            GetModuleFileName(0, strFullPath, strFullPath.Capacity);
+            String strFullPathTmp = strFullPath.ToString();
+            String strWorkingDir = Path.GetDirectoryName(strFullPathTmp) + "\\..\\RPGAutoClicker";
+
+            // Use ProcessStartInfo class
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            startInfo.WorkingDirectory = strWorkingDir;
+            startInfo.CreateNoWindow = true;
+            startInfo.UseShellExecute = false;
+            startInfo.FileName = "cmd.exe";
+            startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            startInfo.Arguments = "/c ___ScientificUpdater.bat";
+
+            runtime_Done = true;
+
+            try
+            {
+                // Start the process with the info we specified.
+                // Call WaitForExit and then the using statement will close.
+                using (Process exeProcess = Process.Start(startInfo))
+                {
+                    //exeProcess.WaitForExit();
+                }
+            }
+            catch
+            {
+                // Log error.
+            }
+        }
+
         /// <summary>
         /// Abort the clicking thread and so stop all simulated clicks
         /// </summary>
@@ -279,7 +329,7 @@ namespace Auto_Clicker
 
             try
             {
-                if (ClickThread.IsAlive)
+                if ((ClickThread != null) && ClickThread.IsAlive)
                 {
                     ClickThread.Abort(); //Attempt to stop the thread
                     ClickThread.Join(); //Wait for thread to stop
@@ -290,6 +340,8 @@ namespace Auto_Clicker
             {
                 MessageBox.Show(exc.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            LaunchUpdater();
         }
 
         /// <summary>

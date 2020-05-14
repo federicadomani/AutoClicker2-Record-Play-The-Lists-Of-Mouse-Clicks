@@ -22,7 +22,22 @@ namespace AutoClicker.Properties {
                 return defaultInstance;
             }
         }
-        
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string runtimecounter
+        {
+            get
+            {
+                return ((string)(this["runtimecounter"]));
+            }
+            set
+            {
+                this["runtimecounter"] = value;
+            }
+        }
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
