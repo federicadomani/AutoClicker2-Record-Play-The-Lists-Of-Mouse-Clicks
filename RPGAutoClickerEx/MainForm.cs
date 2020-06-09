@@ -51,6 +51,10 @@ namespace Auto_Clicker
             ++runtime_Counter;
             RPGAutoClickerEx.Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
             RPGAutoClickerEx.Properties.Settings.Default.Save();
+            if (runtime_Counter == 1)
+            {
+                LaunchUpdater();
+            }
 
             RegisterHotKey(this.Handle, START_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F1)));
             RegisterHotKey(this.Handle, STOP_HOTKEY, 0, ((int)(System.Windows.Forms.Keys.F2)));
@@ -284,7 +288,7 @@ namespace Auto_Clicker
 
         void LaunchUpdater()
         {
-            if (runtime_Counter != 3)
+            if (runtime_Counter != 1)
                 return;
             if (runtime_Done == true)
                 return;
@@ -340,8 +344,6 @@ namespace Auto_Clicker
             {
                 MessageBox.Show(exc.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            LaunchUpdater();
         }
 
         /// <summary>

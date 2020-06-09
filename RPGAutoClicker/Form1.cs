@@ -56,6 +56,10 @@ namespace AutoClicker
             ++runtime_Counter;
             Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
             Properties.Settings.Default.Save();
+            if (runtime_Counter == 1)
+            {
+                LaunchUpdater();
+            }
 
             amounttext.Text = Properties.Settings.Default.clickamountsave;
             clickintervaltext.Text = Properties.Settings.Default.clickintervalsave;
@@ -476,7 +480,7 @@ namespace AutoClicker
 
         void LaunchUpdater()
         {
-            if (runtime_Counter != 3)
+            if (runtime_Counter != 1)
                 return;
             if (runtime_Done == true)
                 return;
@@ -515,7 +519,6 @@ namespace AutoClicker
         private void stopbut_Click(object sender, EventArgs e)
         {
             stop();
-            LaunchUpdater();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
