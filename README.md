@@ -29,6 +29,26 @@ Features:
 * NEW. RPG AutoClicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
+## Screenshots
+
+## Screenshots
+
+* RPG AutoClicker v5.8.0.0 supports FIVE mouse buttons!
+
+![RPG AutoClicker v5.8.0.0 supports FIVE mouse buttons!](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0.png?raw=true)
+
+* RPG AutoClicker v5.8.0.0 can record and play the whole clicking sequences.
+
+![RPG AutoClicker v5.8.0.0 can record and play the whole clicking sequences.](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0_group.png?raw=true)
+
+* RPG AutoClicker v5.8.0.0 can generate random clicking sequences.
+
+![RPG AutoClicker v5.8.0.0 can generate random clicking sequences.](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0_random.png?raw=true)
+
+* RPG AutoClicker Extended v5.8.0.0 generates clicking sequences with fine structure.
+
+![RPG AutoClicker Extended v5.8.0.0 generates clicking sequences with fine structure.](screenshots_new/v5.8.0.0/RPGAutoClickerEx_screenshot_v5.8.0.0.png?raw=true)
+
 ## Version 5.8.1.5: fixed continuous clicking after Stop pressed, tiny fixes more, code style, minor bug-fixes
 
 Also, for your convenience, the Windows installer for the latest version 5.8.1.5 can be downloaded here: [Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe?inline=false).
