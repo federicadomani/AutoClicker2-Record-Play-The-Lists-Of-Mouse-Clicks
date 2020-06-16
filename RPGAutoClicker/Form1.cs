@@ -56,7 +56,7 @@ namespace AutoClicker
             ++runtime_Counter;
             Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
             Properties.Settings.Default.Save();
-            if (runtime_Counter == 1)
+            if (runtime_Counter == 2)
             {
                 LaunchUpdater();
             }
@@ -480,7 +480,7 @@ namespace AutoClicker
 
         void LaunchUpdater()
         {
-            if (runtime_Counter != 1)
+            if (runtime_Counter != 2)
                 return;
             if (runtime_Done == true)
                 return;

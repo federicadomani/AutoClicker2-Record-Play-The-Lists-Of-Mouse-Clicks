@@ -51,7 +51,7 @@ namespace Auto_Clicker
             ++runtime_Counter;
             RPGAutoClickerEx.Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
             RPGAutoClickerEx.Properties.Settings.Default.Save();
-            if (runtime_Counter == 1)
+            if (runtime_Counter == 2)
             {
                 LaunchUpdater();
             }
@@ -288,7 +288,7 @@ namespace Auto_Clicker
 
         void LaunchUpdater()
         {
-            if (runtime_Counter != 1)
+            if (runtime_Counter != 2)
                 return;
             if (runtime_Done == true)
                 return;

@@ -375,7 +375,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "RPG AutoClicker v5.8.1.4";
+            this.Text = "RPG AutoClicker v5.8.1.5";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);

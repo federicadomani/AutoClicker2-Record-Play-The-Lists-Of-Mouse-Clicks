@@ -1,7 +1,10 @@
-# RPG AutoClicker Professional Suite for Windows version 5.8.1.4
+# RPG AutoClicker Professional Suite for Windows version 5.8.1.5
+
+Note, old site https://sourceforge.net/projects/autoclicker-professional/ is obsolete.
+New official site is HERE.
 
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
-* Tiny fixes, code style.
+* Tiny fixes more, code style.
 
 ## Record-Play Groups of Mouse Actions and Randomize Them for Windows
 
@@ -26,11 +29,9 @@ Features:
 * NEW. RPG AutoClicker Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
-This is a source-only mirror. You can download binaries from the [full mirror 1](https://sourceforge.net/projects/autoclicker-professional/) or [full mirror 2](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows).
+## Version 5.8.1.5: fixed continuous clicking after Stop pressed, tiny fixes more, code style, minor bug-fixes
 
-## Version 5.8.1.4: fixed continuous clicking after Stop pressed, tiny fixes, code style, minor bug-fixes
+Also, for your convenience, the Windows installer for the latest version 5.8.1.5 can be downloaded here: [Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe?inline=false).
 
-Also, for your convenience, the Windows installer for the latest version 5.8.1.4 can be downloaded here: [Setup-RPG-AutoClicker-Professional-v5.8.1.4.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-v5.8.1.4.exe?inline=false).
-
-SHA256(Setup-RPG-AutoClicker-Professional-v5.8.1.4.exe)= 38b0d0129feeba4b6b8d17eca4562091ea5dc3925d83bd1e1b9cfcad23d12216
+SHA256(Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe)= b6e761541551708cb83cfe85e63e8a73e9fbb5b05460115751ece457385fa2af
 .

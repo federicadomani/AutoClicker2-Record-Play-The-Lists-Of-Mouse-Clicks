@@ -4,8 +4,8 @@
 
 [Setup]
 AppName=RPG AutoClicker Professional Suite for Windows
-AppVersion=5.8.1.4
-VersionInfoVersion=5.8.1.4
+AppVersion=5.8.1.5
+VersionInfoVersion=5.8.1.5
 AppPublisher=Open Source Developer Federica Domani
 AppPublisherURL=https://federicadomani.wordpress.com
 AppUpdatesURL=https://sourceforge.net/projects/autoclicker-professional/
@@ -24,15 +24,15 @@ AlwaysShowGroupOnReadyPage=yes
 WizardImageFile=_wizardimage.bmp
 WizardSmallImageFile=_wizardimagesmall.bmp
 #ifnexist "_DEBUG"
-OutputBaseFilename=Setup-RPG-AutoClicker-Professional-v5.8.1.4
+OutputBaseFilename=Setup-RPG-AutoClicker-Professional-v5.8.1.5
 #else
-OutputBaseFilename=Setup-RPG-AutoClicker-Professional-v5.8.1.4d
+OutputBaseFilename=Setup-RPG-AutoClicker-Professional-v5.8.1.5d
 #endif
 CloseApplications=force
 SetupMutex=Setup_RPGAutoClickerProSuite
 DirExistsWarning=no
 ;Encryption=yes
-;Password=5.8.1.4
+;Password=5.8.1.5
 
 [Dirs]
 ; Note it only removes dir if it is empty after automatic file uninstalling done
@@ -368,8 +368,8 @@ begin
   if CurPageID = wpPassword then
   begin
     WizardForm.PasswordLabel.Caption := 'Just click the Next button.'
-    WizardForm.PasswordEditLabel.Caption := 'Password 5.8.1.4 is already entered.'
-    WizardForm.PasswordEdit.Text := '5.8.1.4'
+    WizardForm.PasswordEditLabel.Caption := 'Password 5.8.1.5 is already entered.'
+    WizardForm.PasswordEdit.Text := '5.8.1.5'
   end;
 end;
 
@@ -403,5 +403,5 @@ Type: filesandordirs; Name: "{app}\RPGAutoClickerEx"
 Type: filesandordirs; Name: "{userappdata}\svcfdomd"
 
 [CustomMessages]
-AppName=RPG AutoClicker Professional Suite for Windows version 5.8.1.4
+AppName=RPG AutoClicker Professional Suite for Windows version 5.8.1.5
 LaunchProgram=Start application after finishing installation
