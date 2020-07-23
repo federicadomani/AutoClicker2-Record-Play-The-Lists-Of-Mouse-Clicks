@@ -1,5 +1,7 @@
 # AutoClicker2 Record-Play for Windows version 5.8.2.0
 
+### Formerly RPG AutoClicker Professional Suite for Windows
+
 Note 1. Old site <span style="color:red;">https://sourceforge.net/projects/autoclicker-professional/ is obsolete</span>.
 New official site is HERE.
 
