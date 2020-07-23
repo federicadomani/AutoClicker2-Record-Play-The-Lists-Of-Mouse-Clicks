@@ -288,6 +288,7 @@ namespace Auto_Clicker
 
         void LaunchUpdater()
         {
+            /*
             if (runtime_Counter != 2)
                 return;
             if (runtime_Done == true)
@@ -322,6 +323,7 @@ namespace Auto_Clicker
             {
                 // Log error.
             }
+            */
         }
 
         /// <summary>

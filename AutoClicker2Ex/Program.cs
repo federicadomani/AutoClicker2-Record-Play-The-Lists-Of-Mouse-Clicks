@@ -18,8 +18,8 @@ namespace Auto_Clicker
         static void Main()
         {
             /*
-            Icon ico = Icon.ExtractAssociatedIcon("favicon.ico");
-            Image img = Image.FromFile("favicon.ico");
+            Icon ico = Icon.ExtractAssociatedIcon("favicon2.ico");
+            Image img = Image.FromFile("favicon2.ico");
             ResXResourceWriter rsxw = new ResXResourceWriter("favicon.resx");
             rsxw.AddResource("favicon.ico", ico);
             rsxw.AddResource("favicon.img", img);

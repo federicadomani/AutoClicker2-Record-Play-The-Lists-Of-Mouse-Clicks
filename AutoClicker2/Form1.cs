@@ -179,7 +179,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                //MessageBox.Show("RPG AutoClicker is already clicking!", "Already clicking");
+                //MessageBox.Show("AutoClicker2 Record-Play is already clicking!", "Already clicking");
             }
             else
             {
@@ -261,7 +261,7 @@ namespace AutoClicker
             }
             else
             {
-                //MessageBox.Show("RPG AutoClicker is not clicking!", "Not clicking");
+                //MessageBox.Show("AutoClicker2 Record-Play is not clicking!", "Not clicking");
             }
         }
 
@@ -480,6 +480,7 @@ namespace AutoClicker
 
         void LaunchUpdater()
         {
+            /*
             if (runtime_Counter != 2)
                 return;
             if (runtime_Done == true)
@@ -514,6 +515,7 @@ namespace AutoClicker
             {
                 // Log error.
             }
+            */
         }
 
         private void stopbut_Click(object sender, EventArgs e)
@@ -852,12 +854,12 @@ namespace AutoClicker
 
         private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/autoclicker-professional/");
+            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-for-Windows");
         }
 
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://sourceforge.net/projects/autoclicker-professional/");
+            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-for-Windows");
         }
 
         private void hotkeysToolStripMenuItem_Click(object sender, EventArgs e)

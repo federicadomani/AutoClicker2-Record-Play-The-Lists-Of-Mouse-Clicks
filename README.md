@@ -1,4 +1,4 @@
-# AutoClicker2 Record-Play for Windows version 5.8.1.5
+# AutoClicker2 Record-Play for Windows version 5.8.2.0
 
 Note 1. Old site <span style="color:red;">https://sourceforge.net/projects/autoclicker-professional/ is obsolete</span>.
 New official site is HERE.
@@ -33,8 +33,6 @@ Features:
 
 ## Screenshots
 
-## Screenshots
-
 * AutoClicker2 Record-Play for Windows supports FIVE mouse buttons!
 
 ![AutoClicker2 Record-Play for Windows supports FIVE mouse buttons!](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0.png?raw=true)
@@ -51,9 +49,9 @@ Features:
 
 ![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.0.0/RPGAutoClickerEx_screenshot_v5.8.0.0.png?raw=true)
 
-## Version 5.8.1.5: fixed continuous clicking after Stop pressed, tiny fixes more, code style, minor bug-fixes
+## Version 5.8.2.0: fixed continuous clicking after Stop pressed, tiny fixes more, code style, minor bug-fixes
 
-Also, for your convenience, the Windows installer for the latest version 5.8.1.5 can be downloaded here: [Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe](https://gitlab.com/federicadomani/rpg-autoclicker-professional-suite-for-windows/-/raw/master/Installer/Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe?inline=false).
+Also, for your convenience, the Windows installer for the latest version 5.8.2.0 can be downloaded here: [Setup-AutoClicker2-Record-Play-v5.8.2.0.exe](https://gitlab.com/federicadomani/AutoClicker2-Record-Play-for-Windows/-/raw/master/Installer/Setup-AutoClicker2-Record-Play-v5.8.2.0.exe?inline=false).
 
-SHA256(Setup-RPG-AutoClicker-Professional-v5.8.1.5.exe)= b6e761541551708cb83cfe85e63e8a73e9fbb5b05460115751ece457385fa2af
+SHA256(Setup-AutoClicker2-Record-Play-v5.8.2.0.exe)= 91b4037775aa8df431f601492d468dfae7082f64c7b1ac50d8e3a9823e8f2542
 .
