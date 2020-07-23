@@ -49,7 +49,7 @@ Features:
 
 ![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.0.0/RPGAutoClickerEx_screenshot_v5.8.0.0.png?raw=true)
 
-## Version 5.8.2.0: fixed continuous clicking after Stop pressed, tiny fixes more, code style, minor bug-fixes
+## Version 5.8.2.0: re-branding to AutoClicker2 Record-Play for Windows
 
 Also, for your convenience, the Windows installer for the latest version 5.8.2.0 can be downloaded here: [Setup-AutoClicker2-Record-Play-v5.8.2.0.exe](https://gitlab.com/federicadomani/AutoClicker2-Record-Play-for-Windows/-/raw/master/Installer/Setup-AutoClicker2-Record-Play-v5.8.2.0.exe?inline=false).
 
