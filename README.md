@@ -1,4 +1,4 @@
-# AutoClicker2 Record-Play for Windows version 5.8.2.0
+# AutoClicker2 Record-Play for Windows version 5.8.3.1
 
 ### Formerly RPG AutoClicker Professional Suite for Windows
 
