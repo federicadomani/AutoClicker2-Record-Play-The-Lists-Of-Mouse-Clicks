@@ -383,7 +383,7 @@
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record-Play Extended v5.8.2.0";
+            this.Text = "AutoClicker2 Record-Play Extended v5.8.3.1";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);

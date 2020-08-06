@@ -9,6 +9,7 @@ Note 2. The project is undergoing re-branding from <span style="color:orange;">R
 
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 * Tiny fixes more, code style.
+* Long-awaiting fixes in Windows installer.
 
 ## Record-Play Groups of Mouse Actions and Randomize Them for Windows
 
@@ -51,9 +52,9 @@ Features:
 
 ![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.0.0/RPGAutoClickerEx_screenshot_v5.8.0.0.png?raw=true)
 
-## Version 5.8.2.0: re-branding to AutoClicker2 Record-Play for Windows
+## Version 5.8.3.1: re-branding to AutoClicker2 Record-Play for Windows
 
-Also, for your convenience, the Windows installer for the latest version 5.8.2.0 can be downloaded here: [Setup-AutoClicker2-Record-Play-v5.8.2.0.exe](https://gitlab.com/federicadomani/AutoClicker2-Record-Play-for-Windows/-/raw/master/Installer/Setup-AutoClicker2-Record-Play-v5.8.2.0.exe?inline=false).
+Also, for your convenience, the Windows installer for the latest version 5.8.3.1 can be downloaded here: [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe](https://gitlab.com/federicadomani/AutoClicker2-Record-Play-for-Windows/-/raw/master/Installer/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe?inline=false).
 
-SHA256(Setup-AutoClicker2-Record-Play-v5.8.2.0.exe)= 91b4037775aa8df431f601492d468dfae7082f64c7b1ac50d8e3a9823e8f2542
+SHA256(Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)= 4b7bf8fb8007ed950c740da2ada051f96f2230abfcea8bbb9922d8790ad4bffb
 .
