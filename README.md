@@ -3,7 +3,7 @@
 ### Formerly RPG AutoClicker Professional Suite for Windows
 
 Note 1. Old site <span style="color:red;">https://sourceforge.net/projects/autoclicker-professional/ is obsolete</span>.
-New official site is HERE.
+**New official site is HERE**.
 
 Note 2. The project is undergoing re-branding from <span style="color:orange;">RPG AutoClicker Professional Suite for Windows</span> to <span style="color:green;">AutoClicker2 Record-Play for Windows</span>.
 
@@ -38,19 +38,19 @@ Features:
 
 * AutoClicker2 Record-Play for Windows supports FIVE mouse buttons!
 
-![AutoClicker2 Record-Play for Windows supports FIVE mouse buttons!](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0.png?raw=true)
+![AutoClicker2 Record-Play for Windows supports FIVE mouse buttons!](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1.jpg?raw=true)
 
 * AutoClicker2 Record-Play for Windows can record and play the whole clicking sequences.
 
-![AutoClicker2 Record-Play for Windows can record and play the whole clicking sequences.](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0_group.png?raw=true)
+![AutoClicker2 Record-Play for Windows can record and play the whole clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_group.jpg?raw=true)
 
 * AutoClicker2 Record-Play for Windows can generate random clicking sequences.
 
-![AutoClicker2 Record-Play for Windows can generate random clicking sequences.](screenshots_new/v5.8.0.0/RPGAutoClicker_screenshot_v5.8.0.0_random.png?raw=true)
+![AutoClicker2 Record-Play for Windows can generate random clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_random.jpg?raw=true)
 
 * AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.
 
-![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.0.0/RPGAutoClickerEx_screenshot_v5.8.0.0.png?raw=true)
+![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.3.1/RPGAutoClickerEx_screenshot_v5.8.3.1.jpg?raw=true)
 
 ## Version 5.8.3.1: re-branding to AutoClicker2 Record-Play for Windows
 
