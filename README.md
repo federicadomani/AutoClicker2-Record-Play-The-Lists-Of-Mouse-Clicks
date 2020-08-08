@@ -6,7 +6,8 @@ Note 1. Old sites:
 * https://sourceforge.net/projects/autoclicker-professional/
 * https://sourceforge.net/projects/orphamielautoclicker/
 * https://www.opautoclicker.com
-are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
+
+— are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
 
 **New official site is HERE. AutoClicker2 Record-Play for Windows is actively developed fork of orphamielautoclicker and opautoclicker**.
 
