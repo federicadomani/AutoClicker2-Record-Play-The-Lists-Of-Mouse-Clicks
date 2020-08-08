@@ -2,10 +2,15 @@
 
 ### Formerly RPG AutoClicker Professional Suite for Windows
 
-Note 1. Old site <span style="color:red;">https://sourceforge.net/projects/autoclicker-professional/ is obsolete</span>.
-**New official site is HERE**.
+Note 1. Old sites:
+* https://sourceforge.net/projects/autoclicker-professional/
+* https://sourceforge.net/projects/orphamielautoclicker/
+* https://www.opautoclicker.com
+are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
 
-Note 2. The project is undergoing re-branding from <span style="color:orange;">RPG AutoClicker Professional Suite for Windows</span> to <span style="color:green;">AutoClicker2 Record-Play for Windows</span>.
+**New official site is HERE. AutoClicker2 Record-Play for Windows is actively developed fork of orphamielautoclicker and opautoclicker**.
+
+Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" to "AutoClicker2 Record-Play for Windows".
 
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 * Tiny fixes more, code style.
