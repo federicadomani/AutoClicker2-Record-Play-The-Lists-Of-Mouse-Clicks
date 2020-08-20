@@ -17,7 +17,16 @@ Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional
 * Tiny fixes more, code style.
 * Long-awaiting fixes in Windows installer.
 
-## Record-Play Groups of Mouse Actions and Randomize Them for Windows
+## Quick Start: Download The Latest Version 5.8.3.1
+
+* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 1](https://ipfs.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
+* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
+* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 3](https://ipfs.infura.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
+
+SHA256(Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)= 4b7bf8fb8007ed950c740da2ada051f96f2230abfcea8bbb9922d8790ad4bffb
+.
+
+## Detailed Description
 
 AutoClicker2 Record-Play for Windows is a mature mouse clicker framework for Windows that can record, save, play and randomize the whole groups/sequences/lists of mouse clicks/actions/events as well as operate with fine structures of clicking sequences to vary mouse button, time interval between clicks and much more.
 
@@ -57,15 +66,3 @@ Features:
 * AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.
 
 ![AutoClicker2 Record-Play for Windows Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.3.1/RPGAutoClickerEx_screenshot_v5.8.3.1.jpg?raw=true)
-
-## Version 5.8.3.1: re-branding to AutoClicker2 Record-Play for Windows
-
-Also, for your convenience, the Windows installer for the latest version 5.8.3.1 can be downloaded here:
-
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 1](https://ipfs.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 3](https://ipfs.infura.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
-
-
-SHA256(Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)= 4b7bf8fb8007ed950c740da2ada051f96f2230abfcea8bbb9922d8790ad4bffb
-.
