@@ -1,6 +1,8 @@
-# AutoClicker2 Record-Play for Windows version 5.8.3.1
+# AutoClicker2 OrphamielAutoClicker OpAutoClicker for Windows version 5.8.3.1
 
-### Formerly RPG AutoClicker Professional Suite for Windows
+## AutoClicker2 merged two abandoned frozen projects - orphamielautoclicker (https://sourceforge.net/projects/orphamielautoclicker/) and opautoclicker (https://www.opautoclicker.com) and brings second life to them by adding strong record/play capabilities to emulate sequences of mouse clicks
+
+**Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows"**
 
 Note 1. Old sites:
 * https://sourceforge.net/projects/autoclicker-professional/
@@ -9,10 +11,13 @@ Note 1. Old sites:
 
 — are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
 
-**New official site is HERE. AutoClicker2 Record-Play for Windows is actively developed fork of orphamielautoclicker and opautoclicker**.
+**New official site is HERE. AutoClicker2 OrphamielAutoClicker OpAutoClicker for Windows is actively developed fork of orphamielautoclicker and opautoclicker**.
 
-Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" to "AutoClicker2 Record-Play for Windows".
+Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" and "AutoClicker2 Record-Play for Windows" to "AutoClicker2 OrphamielAutoClicker OpAutoClicker for Windows". Some text labels in the application and the site may be inconsistent.
 
+## New Features In Version 5.8.3.1
+
+* Fine tuning for sequences of mouse clicks
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 * Tiny fixes more, code style.
 * Long-awaiting fixes in Windows installer.
