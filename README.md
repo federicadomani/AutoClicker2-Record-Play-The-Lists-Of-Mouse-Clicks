@@ -1,6 +1,6 @@
 # AutoClicker2 OrphamielAutoClicker OpAutoClicker for Windows version 5.8.3.1
 
-## AutoClicker2 merged two abandoned frozen projects - orphamielautoclicker (https://sourceforge.net/projects/orphamielautoclicker/) and opautoclicker (https://www.opautoclicker.com) and brings second life to them by adding strong record/play capabilities to emulate sequences of mouse clicks
+## AutoClicker2 merged two abandoned frozen projects - orphamielautoclicker (https://sourceforge.net/projects/orphamielautoclicker/) and opautoclicker (https://www.opautoclicker.com). AutoClicker2 brings second life to them by adding strong record/play capabilities to emulate sequences of mouse clicks and fixing HUGE amount of long awaiting bugs
 
 **Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows"**
 
