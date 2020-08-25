@@ -1,6 +1,6 @@
-# AutoClicker2 Record Play List Of Mouse Clicks version 5.8.3.1
+# AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.8.3.1
 
-## AutoClicker2 Record Play List Of Mouse Clicks merged two abandoned frozen projects - https://sourceforge.net/projects/orphamielautoclicker/ and https://www.opautoclicker.com. AutoClicker2 brings second life to them by adding strong record/play capabilities to emulate the whole sequences of mouse clicks and fixing huge amount of long awaiting bugs
+## AutoClicker2 Record Play The Lists Of Mouse Clicks merged two abandoned frozen projects - https://sourceforge.net/projects/orphamielautoclicker/ and https://www.opautoclicker.com. AutoClicker2 brings second life to them by adding strong record/play capabilities to emulate the whole sequences of mouse clicks and fixing huge amount of long awaiting bugs
 
 **Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows"**
 
@@ -11,9 +11,9 @@ Note 1. Old sites:
 
 — are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
 
-**New official site is HERE. AutoClicker2 Record Play List Of Mouse Clicks is the only actively developed fork of orphamielautoclicker and opautoclicker and the only application ever that supports record and playback the whole sequences of mouse clicks with five mouse buttons**.
+**New official site is HERE. AutoClicker2 Record Play The Lists Of Mouse Clicks is the only actively developed fork of orphamielautoclicker and opautoclicker and the only application ever that supports record and playback the whole sequences of mouse clicks with five mouse buttons**.
 
-Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" and "AutoClicker2 Record-Play for Windows" to "AutoClicker2 Record Play List Of Mouse Clicks". Some text labels in the application and the site may be inconsistent.
+Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" and "AutoClicker2 Record-Play for Windows" to "AutoClicker2 Record Play The Lists Of Mouse Clicks". Some text labels in the application and the site may be inconsistent.
 
 ## New Features In Version 5.8.3.1
 
@@ -33,11 +33,11 @@ SHA256(Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)= 4b7bf8fb8007ed950c740da2ada
 
 ## Detailed Description
 
-AutoClicker2 Record Play List Of Mouse Clicks is a mature mouse clicker framework for Windows that can record, save, play and randomize the whole groups/sequences/lists of mouse clicks/actions/events as well as operate with fine structures of clicking sequences to vary mouse button, time interval between clicks and much more.
+AutoClicker2 Record Play The Lists Of Mouse Clicks is a mature mouse clicker framework for Windows that can record, save, play and randomize the whole groups/sequences/lists of mouse clicks/actions/events as well as operate with fine structures of clicking sequences to vary mouse button, time interval between clicks and much more.
 
-AutoClicker2 Record Play List Of Mouse Clicks can click: 1) at current mouse position on your PC desktop 2) via a sequence of user-defined mouse coordinates that can be recorded and stored into a text file 3) at random points in a bounding rectangle determined automatically on arbitrary clicking sequence recorded previously and saved to a file.
+AutoClicker2 Record Play The Lists Of Mouse Clicks can click: 1) at current mouse position on your PC desktop 2) via a sequence of user-defined mouse coordinates that can be recorded and stored into a text file 3) at random points in a bounding rectangle determined automatically on arbitrary clicking sequence recorded previously and saved to a file.
 
-AutoClicker2 Record Play List Of Mouse Clicks Extended can operate with fine structures of clicking groups/sequences/lists. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
+AutoClicker2 Record Play The Lists Of Mouse Clicks Extended can operate with fine structures of clicking groups/sequences/lists. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 
 Features:
 * Choose whether to follow your mouse cursor or click at a fixed spot or even record and replay a whole sequence of mouse clicks
@@ -51,23 +51,23 @@ Features:
 * Clean and simple Graphical User Interface
 * NEW. Trigger key defaults to DELETE that clears the clicking sequence is now changeable as other trigger keys. You may select another key if DELETE trigger affects other applications
 * NEW. Menu item "Save for random clicking" has been added for your convenience. Just record arbitrary amount of points to form a bounding rectangle by pressing "F3" in "Fixed Pos." mode than do "File"->"Save for random clicking", select desired file name, remember it and load the file back via "File"->"Load"
-* NEW. AutoClicker2 Record Play List Of Mouse Clicks Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
+* NEW. AutoClicker2 Record Play The Lists Of Mouse Clicks Extended adds Fine Structure Of Clicking Sequences. It allows to record the mouse actions with different clicking buttons, time intervals, etc.
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
 ## Screenshots
 
-* AutoClicker2 Record Play List Of Mouse Clicks supports FIVE mouse buttons!
+* AutoClicker2 Record Play The Lists Of Mouse Clicks supports FIVE mouse buttons!
 
-![AutoClicker2 Record Play List Of Mouse Clicks supports FIVE mouse buttons!](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks supports FIVE mouse buttons!](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1.jpg?raw=true)
 
-* AutoClicker2 Record Play List Of Mouse Clicks can record and play the whole clicking sequences.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks can record and play the whole clicking sequences.
 
-![AutoClicker2 Record Play List Of Mouse Clicks can record and play the whole clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_group.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks can record and play the whole clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_group.jpg?raw=true)
 
-* AutoClicker2 Record Play List Of Mouse Clicks can generate random clicking sequences.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks can generate random clicking sequences.
 
-![AutoClicker2 Record Play List Of Mouse Clicks can generate random clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_random.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks can generate random clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_random.jpg?raw=true)
 
-* AutoClicker2 Record Play List Of Mouse Clicks Extended generates clicking sequences with fine structure.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks Extended generates clicking sequences with fine structure.
 
-![AutoClicker2 Record Play List Of Mouse Clicks Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.3.1/RPGAutoClickerEx_screenshot_v5.8.3.1.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.3.1/RPGAutoClickerEx_screenshot_v5.8.3.1.jpg?raw=true)
