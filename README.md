@@ -56,18 +56,10 @@ Features:
 
 ## Screenshots
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks supports FIVE mouse buttons!
+* AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks supports FIVE mouse buttons!](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.0.0/AutoClicker2_v5.9.0.0.jpg?raw=true)
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks can record and play the whole clicking sequences.
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks can record and play the whole clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_group.jpg?raw=true)
-
-* AutoClicker2 Record Play The Lists Of Mouse Clicks can generate random clicking sequences.
-
-![AutoClicker2 Record Play The Lists Of Mouse Clicks can generate random clicking sequences.](screenshots_new/v5.8.3.1/RPGAutoClicker_screenshot_v5.8.3.1_random.jpg?raw=true)
-
-* AutoClicker2 Record Play The Lists Of Mouse Clicks Extended generates clicking sequences with fine structure.
-
-![AutoClicker2 Record Play The Lists Of Mouse Clicks Extended generates clicking sequences with fine structure.](screenshots_new/v5.8.3.1/RPGAutoClickerEx_screenshot_v5.8.3.1.jpg?raw=true)
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.0.0/AutoClicker2Ex_v5.9.0.0.jpg?raw=true.jpg?raw=true)
