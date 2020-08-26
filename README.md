@@ -22,7 +22,7 @@ Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional
 * Long-awaiting fixes in Windows installer.
 * Status Clicking/Not Clicking is shown uniformly in both apps (single and group).
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
-* BRAND NEW. All the clicking parameters in the list of recordled clicks are editable.
+* BRAND NEW. All the clicking parameters in the list of recorded clicks are editable.
 
 ## Quick Start: Download The Latest Version 5.9.0.0
 
