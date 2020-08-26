@@ -1,4 +1,4 @@
-# AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.8.3.1
+# AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.0.0
 
 ## AutoClicker2 Record Play The Lists Of Mouse Clicks merged two abandoned frozen projects - https://sourceforge.net/projects/orphamielautoclicker/ and https://www.opautoclicker.com. AutoClicker2 brings second life to them by adding strong record/play capabilities to emulate the whole sequences of mouse clicks and fixing huge amount of long awaiting bugs
 
@@ -9,26 +9,28 @@ Note 1. Old sites:
 * https://sourceforge.net/projects/orphamielautoclicker/
 * https://www.opautoclicker.com
 
-— are obsolete and abandoned. The source code of the application and its Windows binaries have not been updated for many years at that sites.
+— are obsolete and abandoned since 2014 (latest commit on sourceforge.net 2014-06-21). The source code of the application and its Windows binaries have not been updated for many years at that sites.
 
 **New official site is HERE. AutoClicker2 Record Play The Lists Of Mouse Clicks is the only actively developed fork of orphamielautoclicker and opautoclicker and the only application ever that supports record and playback the whole sequences of mouse clicks with five mouse buttons**.
 
 Note 2. The project is undergoing re-branding from "RPG AutoClicker Professional Suite for Windows" and "AutoClicker2 Record-Play for Windows" to "AutoClicker2 Record Play The Lists Of Mouse Clicks". Some text labels in the application and the site may be inconsistent.
 
-## New Features In Version 5.8.3.1
+## New Features In Version 5.9.0.0
 
 * Fine tuning for sequences of mouse clicks
-* BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 * Tiny fixes more, code style.
 * Long-awaiting fixes in Windows installer.
+* Status Clicking/Not Clicking is shown uniformly in both apps (single and group).
+* BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
+* BRAND NEW. All the clicking parameters in the list of recordled clicks are editable.
 
-## Quick Start: Download The Latest Version 5.8.3.1
+## Quick Start: Download The Latest Version 5.9.0.0
 
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 1](https://ipfs.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
-* [Setup-AutoClicker2-Record-Play-v5.8.3.1.exe, mirror 3](https://ipfs.infura.io/ipfs/QmcGCKDZP5YoMNhSxtHJ42Lr4rDtJ5pBdDixCBfzqHzCxx/Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 1](https://ipfs.io/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 3](https://ipfs.infura.io/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-v5.8.3.1.exe)= 4b7bf8fb8007ed950c740da2ada051f96f2230abfcea8bbb9922d8790ad4bffb
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)= 7f79c31a2323d85e79fe598a794e95ef821372309fae546c63726c11266a8e4b
 .
 
 ## Detailed Description
