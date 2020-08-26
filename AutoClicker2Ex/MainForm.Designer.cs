@@ -1,4 +1,36 @@
-﻿namespace Auto_Clicker
+﻿using System;
+using System.IO;
+using System.Diagnostics;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Threading;
+using System.Runtime.InteropServices;
+
+public class TestListView : System.Windows.Forms.ListView
+{
+    private const int WM_HSCROLL = 0x114;
+    private const int WM_VSCROLL = 0x115;
+    public event EventHandler Scroll;
+
+    protected void OnScroll()
+    {
+
+        if (this.Scroll != null)
+            this.Scroll(this, EventArgs.Empty);
+
+    }
+
+    protected override void WndProc(ref System.Windows.Forms.Message m)
+    {
+        base.WndProc(ref m);
+        if (m.Msg == 0x000c2c9)
+            this.OnScroll();
+    }
+}
+
+namespace Auto_Clicker
 {
     partial class MainForm
     {
@@ -41,7 +73,8 @@
             this.QueuedXPositionLabel = new System.Windows.Forms.Label();
             this.QueuedYPositionLabel = new System.Windows.Forms.Label();
             this.QueuedXPositionTextBox = new System.Windows.Forms.TextBox();
-            this.PositionsListView = new System.Windows.Forms.ListView();
+            this.PositionsListView = new TestListView();
+            this.TxtEdit = new System.Windows.Forms.TextBox();
             this.XCoordHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.YCoordHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.LRHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -59,6 +92,7 @@
             this.StartingOptionsGroupBox = new System.Windows.Forms.GroupBox();
             this.StopClickingButton = new System.Windows.Forms.Button();
             this.StartClickingButton = new System.Windows.Forms.Button();
+            this.CurClickingStatus = new System.Windows.Forms.Label();
             this.NumRepeatsTextBox = new System.Windows.Forms.TextBox();
             this.NumRepeatsLabel = new System.Windows.Forms.Label();
             this.CurrentPositionTimer = new System.Windows.Forms.Timer(this.components);
@@ -82,6 +116,7 @@
             this.PositionsGroupBox.Controls.Add(this.QueuedYPositionLabel);
             this.PositionsGroupBox.Controls.Add(this.QueuedXPositionTextBox);
             this.PositionsGroupBox.Controls.Add(this.PositionsListView);
+            this.PositionsGroupBox.Controls.Add(this.TxtEdit);
             this.PositionsGroupBox.Controls.Add(this.QueuedPositionsLabel);
             this.PositionsGroupBox.Location = new System.Drawing.Point(285, 3);
             this.PositionsGroupBox.Name = "PositionsGroupBox";
@@ -197,6 +232,14 @@
             this.PositionsListView.TabIndex = 1;
             this.PositionsListView.UseCompatibleStateImageBehavior = false;
             this.PositionsListView.View = System.Windows.Forms.View.Details;
+            /////////////////////////////////////////
+            this.TxtEdit.Visible = false;
+            this.PositionsListView.MouseUp += new MouseEventHandler(this.PositionsListView_MouseUp);
+            this.PositionsListView.MouseDown += new MouseEventHandler(this.PositionsListView_MouseDown);
+            this.PositionsListView.Scroll += new System.EventHandler(this.PositionsListView_Scroll);
+            this.TxtEdit.Leave += new System.EventHandler(this.TxtEdit_Leave);
+            this.TxtEdit.KeyUp += new KeyEventHandler(this.TxtEdit_KeyUp);
+            /////////////////////////////////////////
             // 
             // XCoordHeader
             // 
@@ -309,11 +352,12 @@
             // 
             this.StartingOptionsGroupBox.Controls.Add(this.StopClickingButton);
             this.StartingOptionsGroupBox.Controls.Add(this.StartClickingButton);
+            this.StartingOptionsGroupBox.Controls.Add(this.CurClickingStatus);
             this.StartingOptionsGroupBox.Controls.Add(this.NumRepeatsTextBox);
             this.StartingOptionsGroupBox.Controls.Add(this.NumRepeatsLabel);
             this.StartingOptionsGroupBox.Location = new System.Drawing.Point(12, 149);
             this.StartingOptionsGroupBox.Name = "StartingOptionsGroupBox";
-            this.StartingOptionsGroupBox.Size = new System.Drawing.Size(267, 133);
+            this.StartingOptionsGroupBox.Size = new System.Drawing.Size(267, 150);
             this.StartingOptionsGroupBox.TabIndex = 2;
             this.StartingOptionsGroupBox.TabStop = false;
             this.StartingOptionsGroupBox.Text = "Starting Options";
@@ -337,6 +381,16 @@
             this.StartClickingButton.Text = "Start Clicking the Sequence (F1)";
             this.StartClickingButton.UseVisualStyleBackColor = true;
             this.StartClickingButton.Click += new System.EventHandler(this.StartClickingButton_Click);
+            // 
+            // CurClickingStatus
+            //
+            this.CurClickingStatus.AutoSize = true;
+            this.CurClickingStatus.Location = new System.Drawing.Point(6, 127);
+            this.CurClickingStatus.Name = "CurClickingStatus";
+            this.CurClickingStatus.Size = new System.Drawing.Size(255, 37);
+            this.CurClickingStatus.TabIndex = 0;
+            this.CurClickingStatus.TabStop = false;
+            this.CurClickingStatus.Text = "Status: Not Clicking";
             // 
             // NumRepeatsTextBox
             // 
@@ -383,7 +437,7 @@
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record-Play Extended v5.8.3.1";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.0.0";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
@@ -411,7 +465,8 @@
         private System.Windows.Forms.Label QueuedXPositionLabel;
         private System.Windows.Forms.Label QueuedYPositionLabel;
         private System.Windows.Forms.TextBox QueuedXPositionTextBox;
-        private System.Windows.Forms.ListView PositionsListView;
+        private TestListView PositionsListView;
+        private System.Windows.Forms.TextBox TxtEdit;
         private System.Windows.Forms.ColumnHeader XCoordHeader;
         private System.Windows.Forms.ColumnHeader YCoordHeader;
         private System.Windows.Forms.ColumnHeader LRHeader;
@@ -426,6 +481,7 @@
         private System.Windows.Forms.GroupBox StartingOptionsGroupBox;
         private System.Windows.Forms.Button StopClickingButton;
         private System.Windows.Forms.Button StartClickingButton;
+        private System.Windows.Forms.Label CurClickingStatus;
         private System.Windows.Forms.TextBox NumRepeatsTextBox;
         private System.Windows.Forms.Label NumRepeatsLabel;
         private System.Windows.Forms.Timer CurrentPositionTimer;

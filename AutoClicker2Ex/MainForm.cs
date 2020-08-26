@@ -140,6 +140,15 @@ namespace Auto_Clicker
         {
             CurrentPosition = Cursor.Position;
             UpdateCurrentPositionTextBoxes();
+
+            if ((this.ClickThread != null)
+                && (this.ClickThread.ThreadState != System.Threading.ThreadState.Stopped)
+                && (this.ClickThread.ThreadState != System.Threading.ThreadState.Aborted)
+                && (this.ClickThread.ThreadState != System.Threading.ThreadState.Unstarted)
+                )
+                this.CurClickingStatus.Text = "Status: Clicking";
+            else
+                this.CurClickingStatus.Text = "Status: Not Clicking";
         }
 
         /// <summary>
@@ -339,7 +348,7 @@ namespace Auto_Clicker
                 {
                     ClickThread.Abort(); //Attempt to stop the thread
                     ClickThread.Join(); //Wait for thread to stop
-                    MessageBox.Show("Clicking successfully stopped", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("Clicking successfully stopped", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception exc)
@@ -354,6 +363,7 @@ namespace Auto_Clicker
         private void RemoveAllMenuItem_Click(object sender, EventArgs e)
         {
             PositionsListView.Items.Clear();
+            HideTextEditor();
         }
 
         /// <summary>
@@ -363,9 +373,96 @@ namespace Auto_Clicker
         {
             foreach (ListViewItem itemSelected in PositionsListView.SelectedItems)
             {
-                PositionsListView.Items.Remove(itemSelected);
+                PositionsListView.Items.Remove(itemSelected);          
             }
+            HideTextEditor();
         }
+
+//////////////////////////////////////
+        ListViewItem.ListViewSubItem SelectedLSI;
+        private void PositionsListView_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button.ToString() != "Left")
+                return;
+
+            ListViewHitTestInfo i = PositionsListView.HitTest(e.X, e.Y);
+            SelectedLSI = i.SubItem;
+            if (SelectedLSI == null)
+                return;
+
+            int border = 0;
+            switch (PositionsListView.BorderStyle)
+            {
+                case BorderStyle.FixedSingle:
+                    border = 1;
+                    break;
+                case BorderStyle.Fixed3D:
+                    border = 2;
+                    break;
+            }
+
+            int CellWidth = SelectedLSI.Bounds.Width;
+            int CellHeight = SelectedLSI.Bounds.Height;
+            int CellLeft = border + PositionsListView.Left + i.SubItem.Bounds.Left;
+            int CellTop = PositionsListView.Top + i.SubItem.Bounds.Top;
+            // First Column
+            if (i.SubItem == i.Item.SubItems[0])
+                CellWidth = PositionsListView.Columns[0].Width;
+
+            TxtEdit.Location = new Point(CellLeft, CellTop);
+            TxtEdit.Size = new Size(CellWidth, CellHeight);
+            TxtEdit.Visible = true;
+            TxtEdit.BringToFront();
+            TxtEdit.Text = i.SubItem.Text;
+            TxtEdit.Select();
+            TxtEdit.SelectAll();
+        }
+        private void PositionsListView_MouseDown(object sender, MouseEventArgs e)
+        {
+            HideTextEditor();
+        }
+        private void PositionsListView_Scroll(object sender, EventArgs e)
+        {
+            HideTextEditor();
+        }
+        private void TxtEdit_Leave(object sender, EventArgs e)
+        {
+            HideTextEditor();
+        }
+        private void TxtEdit_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Return)
+                HideTextEditor();
+        }
+        private void HideTextEditor()
+        {
+            TxtEdit.Visible = false;
+            if (SelectedLSI != null)
+            {
+                if ((SelectedLSI.Text == "L") || (SelectedLSI.Text == "M") || (SelectedLSI.Text == "R"))
+                {
+                    if ((TxtEdit.Text == "L") || (TxtEdit.Text == "M") || (TxtEdit.Text == "R"))
+                    {
+                        SelectedLSI.Text = TxtEdit.Text;
+                    }
+                }
+                else
+                { 
+                    int intNumber = 0;
+
+                    if (int.TryParse(SelectedLSI.Text, out intNumber) && (intNumber >= 0))
+                    {
+                        if (int.TryParse(TxtEdit.Text, out intNumber) && (intNumber >= 0))
+                        {
+                            SelectedLSI.Text = TxtEdit.Text;
+                        }
+                    }
+                }
+            }
+            SelectedLSI = null;
+            TxtEdit.Text = "";
+        }
+//////////////////////////////////////
 
         //#endregion
 

@@ -179,7 +179,7 @@ namespace AutoClicker
         {
             if (clicktimer.Enabled == true)
             {
-                //MessageBox.Show("AutoClicker2 Record-Play is already clicking!", "Already clicking");
+                //MessageBox.Show("AutoClicker2 Record Play The Lists... is already clicking!", "Already clicking");
             }
             else
             {
@@ -261,7 +261,7 @@ namespace AutoClicker
             }
             else
             {
-                //MessageBox.Show("AutoClicker2 Record-Play is not clicking!", "Not clicking");
+                //MessageBox.Show("AutoClicker2 Record Play The Lists... is not clicking!", "Not clicking");
             }
         }
 
@@ -854,12 +854,12 @@ namespace AutoClicker
 
         private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-for-Windows");
+            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks");
         }
 
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-for-Windows");
+            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks");
         }
 
         private void hotkeysToolStripMenuItem_Click(object sender, EventArgs e)
