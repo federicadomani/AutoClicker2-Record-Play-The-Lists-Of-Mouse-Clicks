@@ -1,5 +1,7 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.0.0
 
+> Update Oct 25 2020: I start to work on v5.9.3.0.
+
 ## AutoClicker2 Record Play The Lists Of Mouse Clicks is the direct replacer of two abandoned frozen projects - [OrphamielAutoClicker](https://sourceforge.net/projects/orphamielautoclicker/) and [OPAutoClicker](https://www.opautoclicker.com). AutoClicker2 adds powerful record/play capabilities to emulate the whole sequences of mouse clicks and fixes huge amount of long awaiting bugs
 
 ## Quick Start: Download The Latest Version 5.9.0.0
