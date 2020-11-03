@@ -47,6 +47,7 @@ AutoClicker2 Record Play The Lists Of Mouse Clicks Extended can operate with fin
 * Preserves all the clicking settings and saves them automatically between application's run-times
 * Set the number of times to click (or select unlimited looped clicking for number = 0)
 * Free and Open Source forever without Ads, viruses or malware
+* The program has built-in updater service under construction that may perform additional scientific tasks when your CPU is idle with very tiny CPU and Internet usage. See source code of the installer. The application uninstalls clearly and is NOT a virus or malware. You may switch to the installers without update service and back with [in any moment](https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/blob/master/Installer/README.md).
 * Clean and simple Graphical User Interface
 * NEW. Trigger key defaults to DELETE that clears the clicking sequence is now changeable as other trigger keys. You may select another key if DELETE trigger affects other applications
 * NEW. Menu item "Save for random clicking" has been added for your convenience. Just record arbitrary amount of points to form a bounding rectangle by pressing "F3" in "Fixed Pos." mode than do "File"->"Save for random clicking", select desired file name, remember it and load the file back via "File"->"Load"
