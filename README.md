@@ -1,25 +1,23 @@
-# AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.0.0
+# AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.0
 
-> Update Oct 25 2020: I start to work on v5.9.3.0.
+> Update Nov 03 2020: v5.9.3.0 has been released.
 
 ## AutoClicker2 Record Play The Lists Of Mouse Clicks is the direct replacer of two abandoned frozen projects - [OrphamielAutoClicker](https://sourceforge.net/projects/orphamielautoclicker/) and [OPAutoClicker](https://www.opautoclicker.com). AutoClicker2 adds powerful record/play capabilities to emulate the whole sequences of mouse clicks and fixes huge amount of long awaiting bugs
 
-## Quick Start: Download The Latest Version 5.9.0.0
+## Quick Start: Download The Latest Version 5.9.3.0
 
-* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 1](https://ipfs.io/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
-* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
-* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe, mirror 3](https://ipfs.infura.io/ipfs/Qma2LeiukUpk6sEzyHDjTDGzcZ7PA2oHHonMQTMtatSxoK/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe, mirror 1](https://ipfs.io/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe)
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe, mirror 3](https://ipfs.infura.io/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.0.0.exe)= 7f79c31a2323d85e79fe598a794e95ef821372309fae546c63726c11266a8e4b
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe)= d981f6f365326b85e822d37d9df8757a24ed1c8e38dbc622be64e55bf261a7bd
 
-## New Features In Version 5.9.0.0
+## New Features In Version 5.9.3.0
 
-* Fine tuning for sequences of mouse clicks
-* Tiny fixes more, code style.
-* Long-awaiting fixes in Windows installer.
-* Status Clicking/Not Clicking is shown uniformly in both apps (single and group).
-* BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
+* BRAND NEW. Five mouse buttons to click: Left, Right, Midle, XBUTTON1, XBUTTON2.
 * BRAND NEW. All the clicking parameters in the list of recorded clicks are editable.
+* Fix: show current mouse position in both apps (AutoClicker2.exe, AutoClicker2Ex.exe).
+* Fix: case-sensitive issues in mouse button editing validator of AutoClicker2Ex.exe.
 
 ## Detailed Description
 
@@ -56,6 +54,8 @@ AutoClicker2 Record Play The Lists Of Mouse Clicks Extended can operate with fin
 * BRAND NEW. Add mouse buttons XBUTTON1, XBUTTON2 to click.
 
 ## Screenshots
+
+### For version 5.9.0.0. Version 5.9.3.0 coming soon.
 
 * AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
