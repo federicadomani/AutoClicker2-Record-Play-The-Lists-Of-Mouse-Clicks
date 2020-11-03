@@ -244,22 +244,22 @@ namespace Auto_Clicker
             // XCoordHeader
             // 
             this.XCoordHeader.Text = "X";
-            this.XCoordHeader.Width = 74;
+            this.XCoordHeader.Width = 70*2;
             // 
             // YCoordHeader
             // 
             this.YCoordHeader.Text = "Y";
-            this.YCoordHeader.Width = 75;
+            this.YCoordHeader.Width = 70*2;
             // 
             // LRHeader
             // 
             this.LRHeader.Text = "L/M/R";
-            this.LRHeader.Width = 76;
+            this.LRHeader.Width = 50*2;
             // 
             // SleepTimeHeader
             // 
             this.SleepTimeHeader.Text = "ms";
-            this.SleepTimeHeader.Width = 104;
+            this.SleepTimeHeader.Width = 100*2;
             // 
             // ListViewContextMenu
             // 
@@ -437,7 +437,7 @@ namespace Auto_Clicker
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.0.0";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.3.0";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);

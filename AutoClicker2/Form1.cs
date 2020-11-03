@@ -52,6 +52,7 @@ namespace AutoClicker
         public Form1()
         {
             InitializeComponent();
+            CurrentPositionTimer.Start();
             runtime_Counter = Int32.Parse(Properties.Settings.Default.runtimecounter);
             ++runtime_Counter;
             Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
@@ -468,6 +469,12 @@ namespace AutoClicker
                     stop();
                 }
             }
+        }
+
+        private void CurrentPositionTimer_Tick(object sender, EventArgs e)
+        {
+            Point CurrentPosition = Cursor.Position;
+            this.QueuedXPositionLabel.Text = "Cur. (X, Y) = (" + CurrentPosition.X.ToString() + ", " + CurrentPosition.Y.ToString() + ")";
         }
 
         private void startbutton_Click(object sender, EventArgs e)

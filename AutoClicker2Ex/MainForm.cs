@@ -441,9 +441,12 @@ namespace Auto_Clicker
             {
                 if ((SelectedLSI.Text == "L") || (SelectedLSI.Text == "M") || (SelectedLSI.Text == "R"))
                 {
-                    if ((TxtEdit.Text == "L") || (TxtEdit.Text == "M") || (TxtEdit.Text == "R"))
+                    if (
+                        (TxtEdit.Text == "L") || (TxtEdit.Text == "M") || (TxtEdit.Text == "R")
+                        || (TxtEdit.Text == "l") || (TxtEdit.Text == "m") || (TxtEdit.Text == "r")
+                        )
                     {
-                        SelectedLSI.Text = TxtEdit.Text;
+                        SelectedLSI.Text = TxtEdit.Text.ToUpper();
                     }
                 }
                 else

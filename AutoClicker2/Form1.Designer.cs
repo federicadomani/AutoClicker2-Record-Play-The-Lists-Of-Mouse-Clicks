@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.startbutton = new System.Windows.Forms.Button();
             this.clicktimer = new System.Windows.Forms.Timer(this.components);
+            this.CurrentPositionTimer = new System.Windows.Forms.Timer(this.components);
             this.stopbut = new System.Windows.Forms.Button();
             this.clickintervaltext = new System.Windows.Forms.TextBox();
             this.statuslabel = new System.Windows.Forms.Label();
@@ -56,6 +57,7 @@
             this.fixedrbut = new System.Windows.Forms.RadioButton();
             this.cursorrbut = new System.Windows.Forms.RadioButton();
             this.clickatlabel = new System.Windows.Forms.Label();
+            this.QueuedXPositionLabel = new System.Windows.Forms.Label();
             this.fixedlabel = new System.Windows.Forms.Label();
             this.statusheaderlabel = new System.Windows.Forms.Label();
             this.buttonlabel = new System.Windows.Forms.Label();
@@ -105,7 +107,7 @@
             // 
             this.statuslabel.AutoSize = true;
             this.statuslabel.ForeColor = System.Drawing.Color.Magenta;
-            this.statuslabel.Location = new System.Drawing.Point(125, 258);
+            this.statuslabel.Location = new System.Drawing.Point(125, 258+23);
             this.statuslabel.Name = "statuslabel";
             this.statuslabel.Size = new System.Drawing.Size(64, 13);
             this.statuslabel.TabIndex = 3;
@@ -280,10 +282,24 @@
             this.clickatlabel.TabIndex = 12;
             this.clickatlabel.Text = "Click at:";
             // 
+            // QueuedXPositionLabel
+            // 
+            this.QueuedXPositionLabel.AutoSize = true;
+            this.QueuedXPositionLabel.Location = new System.Drawing.Point(10, 235);
+            this.QueuedXPositionLabel.Name = "QueuedXPositionLabel";
+            this.QueuedXPositionLabel.Size = new System.Drawing.Size(157, 13);
+            this.QueuedXPositionLabel.TabIndex = 0;
+            this.QueuedXPositionLabel.Text = "Cur. (X, Y)";
+            // 
+            // CurrentPositionTimer
+            // 
+            this.CurrentPositionTimer.Interval = 1;
+            this.CurrentPositionTimer.Tick += new System.EventHandler(this.CurrentPositionTimer_Tick);
+            // 
             // fixedlabel
             // 
             this.fixedlabel.AutoSize = true;
-            this.fixedlabel.Location = new System.Drawing.Point(10, 235);
+            this.fixedlabel.Location = new System.Drawing.Point(10, 258);
             this.fixedlabel.Name = "fixedlabel";
             this.fixedlabel.Size = new System.Drawing.Size(157, 13);
             this.fixedlabel.TabIndex = 13;
@@ -293,7 +309,7 @@
             // 
             this.statusheaderlabel.AutoSize = true;
             this.statusheaderlabel.ForeColor = System.Drawing.Color.Magenta;
-            this.statusheaderlabel.Location = new System.Drawing.Point(76, 258);
+            this.statusheaderlabel.Location = new System.Drawing.Point(76, 258+23);
             this.statusheaderlabel.Name = "statusheaderlabel";
             this.statusheaderlabel.Size = new System.Drawing.Size(46, 13);
             this.statusheaderlabel.TabIndex = 14;
@@ -349,14 +365,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 280);
+            this.ClientSize = new System.Drawing.Size(284, 280+23);
             this.Controls.Add(this.typecombo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.clicktcombo);
             this.Controls.Add(this.buttonlabel);
             this.Controls.Add(this.statusheaderlabel);
+            this.Controls.Add(this.QueuedXPositionLabel);
             this.Controls.Add(this.fixedlabel);
             this.Controls.Add(this.clickatlabel);
             this.Controls.Add(this.cursorrbut);
@@ -375,7 +392,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AutoClicker2 Record Play The Lists... v5.8.3.1";
+            this.Text = "AutoClicker2 Record Play... v5.9.3.0";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
@@ -417,6 +434,8 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem websiteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bugReportToolStripMenuItem;
+        private System.Windows.Forms.Label QueuedXPositionLabel;
+        private System.Windows.Forms.Timer CurrentPositionTimer;
     }
 }
 
