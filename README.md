@@ -14,7 +14,7 @@ SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0.exe)= d981f6f365326b85e
 
 ## New Features In Version 5.9.3.0
 
-* BRAND NEW. Five mouse buttons to click: Left, Right, Midle, XBUTTON1, XBUTTON2.
+* BRAND NEW. Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
 * BRAND NEW. All the clicking parameters in the list of recorded clicks are editable.
 * Fix: show current mouse position in both apps (AutoClicker2.exe, AutoClicker2Ex.exe).
 * Fix: case-sensitive issues in mouse button editing validator of AutoClicker2Ex.exe.
