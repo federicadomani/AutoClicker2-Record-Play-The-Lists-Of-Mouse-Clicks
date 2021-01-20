@@ -7,3 +7,5 @@
 Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows" - that names one can see on old screenshots.
 
 #### Happy new year 2021!
+
+Jan 20 2021: Version 5.9.3.1: minor bug fixes - has been released. See official site above to download.
