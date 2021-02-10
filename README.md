@@ -8,4 +8,6 @@ Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professiona
 
 #### Happy new year 2021!
 
-Jan 20 2021: Version 5.9.3.1: minor bug fixes - has been released. See official site above to download.
+Jan 20 2021: Version 5.9.3.1: minor bug fixes - has been released.
+Feb 10 2021: Updated screenshots for Version 5.9.3.1.
+See official site above to download.
