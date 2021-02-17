@@ -1,5 +1,7 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1
 
+## AutoClicker2 Record Play The Lists Of Mouse Clicks is the advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences
+
 > Updated Feb 13 2021
 
 ## Official Site for News and Downloads
