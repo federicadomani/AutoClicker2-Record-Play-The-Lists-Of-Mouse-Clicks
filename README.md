@@ -1,6 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1
 
-## AutoClicker2 Record Play The Lists Of Mouse Clicks is the advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences
+## Advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences
 
 > Updated Feb 13 2021
 
@@ -21,10 +21,10 @@ See official site to download [Windows installer](https://www.open-source.tech/A
 
 ### For version 5.9.3.1
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2_v5.9.3.1.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2_v5.9.3.1.jpg?raw=true)
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.3.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
 
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2Ex_v5.9.3.1.jpg?raw=true)
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.3.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2Ex_v5.9.3.1.jpg?raw=true)
