@@ -1,11 +1,14 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1
 
-## Advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences
+## Advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences with 5 mouse buttons
 
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
 This is the only open source project that has regular commits into source tree in 2021.
 
-> Updated Feb 13 2021
+AutoClicker2 Record Play The Lists Of Mouse Clicks is new open source replacer of frozen proprietary projects such as Orphamiel Auto-Clicker (OP AutoClicker), Auto Clicker Typer, Macro Recorder and many others.
+It supports 5 mouse buttons to click instead of 3 in previous projects and has advanced record, playback, edit and import/export capabilities of manipulating with mouse event sequences that have been once recorded.
+
+> Updated Feb 17 2021
 
 ## Official Site for News and Downloads
 
