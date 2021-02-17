@@ -2,6 +2,9 @@
 
 ## Advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences
 
+Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
+This is the only open source project that has regular commits into source tree in 2021.
+
 > Updated Feb 13 2021
 
 ## Official Site for News and Downloads
