@@ -10,7 +10,7 @@ It supports 5 mouse buttons to click instead of 3 in previous projects and has a
 
 Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows" - that names one can see on old screenshots.
 
-> Updated Feb 23 2021
+> Updated Mar 01 2021
 
 ## Official Site for News and Downloads
 
