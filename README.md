@@ -1,8 +1,8 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1
 
-> Updated Mar 03 2021
+> Updated Mar 11 2021
 
-## Advanced replacer for abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder with powerful support of mouse clicking sequences with 5 mouse buttons
+## Advanced mouse auto-clicker that supports to record, edit, import, export and playback the whole sequences of mouse clicks, an advanced replacer of famous-in-the-past but abandoned Orphamiel AutoClicker, OP AutoClicker and Macro Recorder
 
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
 This is the only open source project that has regular commits into source tree in 2021.
