@@ -16,7 +16,7 @@ Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professiona
 
 ### [www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/)
 
-Quick download the latest Windows installer: [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.1-sc.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.1-sc.exe).
+Quick download the latest Windows installer version 5.9.3.1: [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.1-sc.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.1-sc.exe).
 
 ## Youtube video: how to install and use
 
