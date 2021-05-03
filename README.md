@@ -1,6 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1
 
-> Updated May 01 2021
+> Updated May 02 2021
 
 ## Open source replacer of frozen Orphamiel Auto-Clicker aka OP AutoClicker aka AutoClicker at sourceforge.net. In 2021, it supports 5 mouse buttons, implements deep editing of mouse events in the clicking sequences, fixes a lot of bugs, etc.
 
@@ -9,8 +9,18 @@ AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.1 supports reco
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
 This is the only open source project that has regular commits into source tree in 2021.
 
-AutoClicker2 Record Play The Lists Of Mouse Clicks is new open source replacer of frozen proprietary projects such as Orphamiel Auto-Clicker (OP AutoClicker), Auto Clicker Typer, Macro Recorder and many others.
-It supports 5 mouse buttons to click instead of 3 in previous projects and has advanced record, playback, edit and import/export capabilities of manipulating with mouse event sequences that have been once recorded.
+AutoClicker2 Record Play The Lists Of Mouse Clicks is new open source replacer of frozen proprietary projects such as
+[Orphamiel Auto-Clicker (OP AutoClicker)](https://sourceforge.net/projects/orphamielautoclicker/),
+[Auto Clicker Typer](https://www.asoftwareplus.com/auto-clicker-typer.html),
+[Macro Recorder](https://www.macrorecorder.com),
+[ReMouse](https://www.remouse.com) and many others. Note all of that programs are closed-source, have not been updated for many years and may contain trojan code as well as huge amount of Ads.
+
+Unlike suspicious "free" but proprietary programs mentioned above,
+AutoClicker2 Record Play The Lists Of Mouse Clicks is 100% open source project, supports 5 mouse buttons in respect to professional Minecraft, Cookie and Soda gamers and has advanced record, playback, edit and import/export capabilities of manipulating with mouse event sequences that have been once recorded.
+This fact makes it possible for AutoClicker2 Record Play The Lists Of Mouse Clicks to be used by professional quality assistant specialists.
+
+According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/#top_10_auto_clickers),
+AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2021.
 
 Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows" - that names one can see on old screenshots.
 
