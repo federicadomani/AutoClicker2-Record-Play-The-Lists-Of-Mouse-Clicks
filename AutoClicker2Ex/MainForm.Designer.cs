@@ -437,7 +437,7 @@ namespace Auto_Clicker
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.3.1";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.3.2";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
