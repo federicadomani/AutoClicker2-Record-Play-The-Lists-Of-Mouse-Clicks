@@ -1,6 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2
 
-> Updated Sep 20 2021
+> Updated Oct 05 2021. Screenshot for v5.9.3.2 added.
 
 ## Open source replacer of frozen Orphamiel Auto-Clicker aka OP AutoClicker aka AutoClicker at sourceforge.net. In 2021, it supports 5 mouse buttons, implements deep editing of mouse events in the clicking sequences, fixes a lot of bugs, etc.
 
@@ -55,3 +55,9 @@ https://youtu.be/jscqOm4OeKM
 * AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
 
 ![AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2Ex_v5.9.3.1.jpg?raw=true)
+
+### New
+
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Both apps of the package together in one screen.
+
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Both apps of the package together in one screen.](screenshots_new/v5.9.3.1/AutoClicker2_v5.9.3.2.jpg?raw=true)
