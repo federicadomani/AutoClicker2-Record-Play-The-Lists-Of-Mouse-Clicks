@@ -1,6 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2
 
-> Updated Oct 19 2021. Screenshot for v5.9.3.2 added.
+> Updated Oct 25 2021. Screenshot for v5.9.3.2 added.
 
 ## Open source replacer of frozen Orphamiel Auto-Clicker aka OP AutoClicker aka AutoClicker at sourceforge.net. In 2021, it supports 5 mouse buttons, implements deep editing of mouse events in the clicking sequences, fixes a lot of bugs, etc.
 
@@ -27,9 +27,6 @@ This fact makes it possible for AutoClicker2 Record Play The Lists Of Mouse Clic
 
 The program has built-in updater service under construction that may perform additional scientific tasks when your CPU is idle with very tiny CPU and Internet usage. See source code of the installer. The application uninstalls clearly and is NOT a virus or malware. You may switch to the installers without update service and back with [in any moment](https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/blob/master/Installer/README.md).
 
-According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/#top_10_auto_clickers),
-AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2021.
-
 Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows" - that names one can see on old screenshots.
 
 ## Official Site for News and Downloads
@@ -45,6 +42,12 @@ Quick download the latest Windows installer version 5.9.3.2:
 How to download, install and use AutoClicker2 Record Play The Lists Of Mouse Clicks.
 
 https://youtu.be/jscqOm4OeKM
+
+## More info from community fun site
+
+According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/),
+AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2021. Also they have written
+an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there](https://top-10-mouse-auto-clickers.best/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/).
 
 ## Screenshots
 
