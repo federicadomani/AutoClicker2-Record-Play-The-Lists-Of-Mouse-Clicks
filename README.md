@@ -11,12 +11,17 @@ This is the only open source project that has regular commits into source tree i
 
 Perfectly compatible with Windows 7, Windows 8, Windows 10, [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) and both 32-bit and 64-bit systems.
 
-AutoClicker2 Record Play The Lists Of Mouse Clicks is a new open source replacer of frozen proprietary projects such as
-[Orphamiel Auto-Clicker (OP AutoClicker)](https://sourceforge.net/projects/orphamielautoclicker/),
+AutoClicker2 Record Play The Lists Of Mouse Clicks is a new open source replacer of frozen, buggy, suspicious proprietary projects such as
+[Orphamiel Auto-Clicker](https://sourceforge.net/projects/orphamielautoclicker/),
+[OP AutoClicker](https://www.opautoclicker.com),
+[Chrome Browser AutoClicker](https://chrome.google.com/webstore/detail/autoclicker-free-auto-cli/inledacgphbcoihlbhmnkkbkgmjldbbi?hl=en),
+[AutoClicker.org](https://www.autoclicker.org),
+[GS Auto Clicker](https://gs-auto-clicker.en.softonic.com),
+[AutoClicker.pro](https://autoclicker.pro),
 [Auto Clicker Typer](https://www.asoftwareplus.com/auto-clicker-typer.html),
 [Macro Recorder](https://www.macrorecorder.com),
-[ReMouse](https://www.remouse.com) and many others. Note all of that programs are closed-source, have not been updated for
-many years and may contain trojan code as well as huge amount of Ads.
+[ReMouse](https://www.remouse.com) and many others. Note all of that programs are closed-source clones of each other, have not been updated for
+many years and may contain trojan, malware or virus code as well as huge amount of embedded unwanted Ads and spy agents.
 
 Unlike suspicious "free" but proprietary programs mentioned above,
 AutoClicker2 Record Play The Lists Of Mouse Clicks is 100% open source project, supports 5 mouse buttons in respect to professional
