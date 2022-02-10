@@ -18,7 +18,7 @@ AutoClicker2 Record Play The Lists Of Mouse Clicks is a new open source replacer
 [Orphamiel Auto-Clicker](https://sourceforge.net/projects/orphamielautoclicker/),
 [OP AutoClicker](https://www.opautoclicker.com),
 [AutoClicker.io](https://autoclicker.io),
-[Chrome Browser AutoClicker](https://chrome.google.com/webstore/detail/autoclicker-free-auto-cli/inledacgphbcoihlbhmnkkbkgmjldbbi?hl=en),
+[Chrome Browser AutoClicker plugin](https://chrome.google.com/webstore/detail/auto-clicker/cpedeojecpbkcomgcolphimkjdnikbck?hl=en),
 [AutoClicker.org](https://www.autoclicker.org),
 [GS Auto Clicker](https://gs-auto-clicker.en.softonic.com),
 [AutoClicker.pro](https://autoclicker.pro),
