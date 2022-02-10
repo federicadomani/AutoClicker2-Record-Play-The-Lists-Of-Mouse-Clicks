@@ -41,6 +41,20 @@ Also AutoClicker2 import/export features over mouse clicking sequences discover 
 
 The program has built-in updater service under construction that may perform additional scientific tasks when your CPU is idle with very tiny CPU and Internet usage. See source code of the installer. The application uninstalls clearly and is NOT a virus or malware. You may switch to the installers without update service and back with [in any moment](https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/blob/master/Installer/README.md).
 
+As its predecessors, AutoClicker2 is a full-fledged autoclicker with two modes of autoclicking, at your dynamic cursor location or at a prespecified location. The maximum amounts of clicked can also be set (or left as infinite).
+
+* Hotkeys work in the background for convenience.
+* Your settings are now saved from your last session so you only need to enter them once (includes last fixed location).
+* Added double clicking and triple clicking.
+* Not only Left, Righ, and Middle mouse buttons are supported for clicking, but all FIVE mouse buttons of any professional gaming mouse.
+
+No more performing mouse clicks manually!
+With AutoClicker2 Record Play The Lists Of Mouse Clicks, you can automate the task of clicking repeatedly on a particular point on the PC screen.
+Depending on the target point and clicking speed, number of clicks, mouse button, and other parameters, an action will be performed
+on your PC display on a fixed location, or through a sequence of mouse clicks you previously recorded, edited, and debugged.
+
+You can use this software to continuously automate mouse clicks on any part of PC display and can easily keep the automated tasks running over night or few days.
+
 Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professional Suite for Windows" - that names one can see on old screenshots.
 
 ## Official Site for News and Downloads
