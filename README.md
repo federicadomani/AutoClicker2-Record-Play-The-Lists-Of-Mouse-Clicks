@@ -1,8 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks
 
-## In 2022, AutoClicker2 Record Play The Lists Of Mouse Clicks has advanced capabilities to record/playback the mouse clicks, supports 5 mouse buttons instead of 3, implements detailed editing and debugging the mouse clicking sequences, and fixes all the bugs of its predecessors.
-
-### Open source fork and backward-compatible with currently frozen or proprietary or abused by Ads and viruses [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net/projects/orphamielautoclicker/](https://sourceforge.net/projects/orphamielautoclicker/), [autoclicker.io](https://autoclicker.io), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
+## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
 ### Latest stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
 
