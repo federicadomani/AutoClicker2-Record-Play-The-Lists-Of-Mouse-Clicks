@@ -4,7 +4,7 @@
 
 ### Latest stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
 
-> Updated Mar 29 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. Screenshot for new [v5.9.3.2](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#Screenshots_v5_9_3_2) added too.
+> Updated Apr 27 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. Screenshot for new [v5.9.3.2](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#Screenshots_v5_9_3_2) added too.
 
 AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
