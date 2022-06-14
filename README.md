@@ -2,9 +2,9 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
-### Latest stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
+### Latest stable version 5.9.4.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe))
 
-> Updated Apr 27 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. Screenshot for new [v5.9.3.2](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#Screenshots_v5_9_3_2) added too.
+> Updated Jun 14 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 
 AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
@@ -59,9 +59,9 @@ Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professiona
 
 ### [www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/)
 
-Quick download the latest Windows installer version 5.9.3.2:
+Quick download the latest Windows installer version 5.9.4.0:
 
-[Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe).
+[Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe).
 
 ## Youtube video: how to install and use
 
@@ -87,7 +87,7 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 
 ![AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2Ex_v5.9.3.1.jpg?raw=true)
 
-### Latest stable version 5.9.3.2
+### Previous stable version 5.9.3.2
 
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Both apps of the package together in one screen.
 

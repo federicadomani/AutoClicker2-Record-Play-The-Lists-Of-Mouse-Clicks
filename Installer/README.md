@@ -13,3 +13,7 @@ There are installers without Update Service, for users that prefer to keep autom
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe, mirror 3](https://ipfs.infura.io/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)
 
 SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)= 0e3967f39b9b91cb70dd8ae7983a43542e147c3680b4c15e9ae7bbfd175ddbba
+
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)
+
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)= f99f5fe1d6c68a13252feb8a8d16262f1f13f5ae477f4dfab2745bb8c45f0d6a
