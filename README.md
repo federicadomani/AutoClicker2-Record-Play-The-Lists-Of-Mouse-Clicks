@@ -99,6 +99,6 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 
 ### Latest stable version 5.9.4.0
 
-* {{site.app_name}} version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.
 
-![{{site.app_name}} version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png)
