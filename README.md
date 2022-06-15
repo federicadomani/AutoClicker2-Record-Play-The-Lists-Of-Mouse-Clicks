@@ -79,13 +79,19 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 
 ## Screenshots
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
+### Latest stable version 5.9.4.0
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2_v5.9.3.1.jpg?raw=true)
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.4.0/AutoClicker2_v5.9.4.0.png?raw=true)
 
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.3.1/AutoClicker2Ex_v5.9.3.1.jpg?raw=true)
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
+
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png?raw=true)
+
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 - Sequence of mouse clicks recorded and loaded from a text file.
+
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0_seq.png?raw=true)
 
 ### Previous stable version 5.9.3.2
 
@@ -96,9 +102,3 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.
 
 ![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
-
-### Latest stable version 5.9.4.0
-
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.
-
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png)
