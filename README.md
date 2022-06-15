@@ -4,7 +4,7 @@
 
 ### Latest stable version 5.9.4.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe))
 
-> Updated Jun 14 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+> Updated Jun 15 2022. [Quick Start](https://www.open-source.tech/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 
 AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
@@ -96,3 +96,9 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.
 
 ![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
+
+### Latest stable version 5.9.4.0
+
+* {{site.app_name}} version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.
+
+![{{site.app_name}} version 5.9.4.0 - AutoClicker2Ex (extended app): Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png)
