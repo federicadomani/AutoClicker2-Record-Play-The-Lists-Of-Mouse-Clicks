@@ -70,6 +70,8 @@ namespace Auto_Clicker
             this.AddPositionButtonLeft = new System.Windows.Forms.Button();
             this.AddPositionButtonRight = new System.Windows.Forms.Button();
             this.AddPositionButtonMiddle = new System.Windows.Forms.Button();
+            this.LoadSequenceButton = new System.Windows.Forms.Button();
+            this.SaveSequenceButton = new System.Windows.Forms.Button();
             this.QueuedXPositionLabel = new System.Windows.Forms.Label();
             this.QueuedYPositionLabel = new System.Windows.Forms.Label();
             this.QueuedXPositionTextBox = new System.Windows.Forms.TextBox();
@@ -112,6 +114,8 @@ namespace Auto_Clicker
             this.PositionsGroupBox.Controls.Add(this.AddPositionButtonLeft);
             this.PositionsGroupBox.Controls.Add(this.AddPositionButtonRight);
             this.PositionsGroupBox.Controls.Add(this.AddPositionButtonMiddle);
+            this.PositionsGroupBox.Controls.Add(this.LoadSequenceButton);
+            this.PositionsGroupBox.Controls.Add(this.SaveSequenceButton);
             this.PositionsGroupBox.Controls.Add(this.QueuedXPositionLabel);
             this.PositionsGroupBox.Controls.Add(this.QueuedYPositionLabel);
             this.PositionsGroupBox.Controls.Add(this.QueuedXPositionTextBox);
@@ -190,6 +194,26 @@ namespace Auto_Clicker
             this.AddPositionButtonMiddle.Text = "Add Middle Click (F6)";
             this.AddPositionButtonMiddle.UseVisualStyleBackColor = true;
             this.AddPositionButtonMiddle.Click += new System.EventHandler(this.AddPositionButtonMiddle_Click);
+            // 
+            // LoadSequenceButton
+            // 
+            this.LoadSequenceButton.Location = new System.Drawing.Point(136, 280);
+            this.LoadSequenceButton.Name = "LoadSequenceButton";
+            this.LoadSequenceButton.Size = new System.Drawing.Size(100, 23);
+            this.LoadSequenceButton.TabIndex = 10;
+            this.LoadSequenceButton.Text = "Load Sequence";
+            this.LoadSequenceButton.UseVisualStyleBackColor = true;
+            this.LoadSequenceButton.Click += new System.EventHandler(this.LoadSequenceButton_Click);
+            // 
+            // SaveSequenceButton
+            // 
+            this.SaveSequenceButton.Location = new System.Drawing.Point(240, 280);
+            this.SaveSequenceButton.Name = "SaveSequenceButton";
+            this.SaveSequenceButton.Size = new System.Drawing.Size(100, 23);
+            this.SaveSequenceButton.TabIndex = 11;
+            this.SaveSequenceButton.Text = "Save Sequence";
+            this.SaveSequenceButton.UseVisualStyleBackColor = true;
+            this.SaveSequenceButton.Click += new System.EventHandler(this.SaveSequenceButton_Click);
             // 
             // QueuedXPositionLabel
             // 
@@ -437,7 +461,7 @@ namespace Auto_Clicker
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.3.2";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.4.0";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
@@ -462,6 +486,8 @@ namespace Auto_Clicker
         private System.Windows.Forms.Button AddPositionButtonLeft;
         private System.Windows.Forms.Button AddPositionButtonRight;
         private System.Windows.Forms.Button AddPositionButtonMiddle;
+        private System.Windows.Forms.Button LoadSequenceButton;
+        private System.Windows.Forms.Button SaveSequenceButton;
         private System.Windows.Forms.Label QueuedXPositionLabel;
         private System.Windows.Forms.Label QueuedYPositionLabel;
         private System.Windows.Forms.TextBox QueuedXPositionTextBox;

@@ -392,7 +392,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AutoClicker2 Record Play... v5.9.3.2";
+            this.Text = "AutoClicker2 Record Play... v5.9.4.0";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);

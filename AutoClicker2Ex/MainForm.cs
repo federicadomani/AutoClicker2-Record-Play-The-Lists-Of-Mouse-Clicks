@@ -248,6 +248,132 @@ namespace Auto_Clicker
             }
         }
 
+        private void LoadSequenceButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the open file dialog box.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            openFileDialog1.Filter = "Text Files (.txt)|*.txt|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.CheckFileExists = true;
+            openFileDialog1.CheckPathExists = true;
+            openFileDialog1.Multiselect = false;
+            openFileDialog1.Title = "Select file to load sequence from...";
+
+            // Call the ShowDialog method to show the dialog box.
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (result == DialogResult.OK)
+            {
+                // Open the selected file to read.
+                string userFileName = openFileDialog1.FileName;
+                string userFileBody = System.IO.File.ReadAllText(userFileName);
+                string[] userFileBodyLines = userFileBody.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
+
+                if (userFileBodyLines.Length > 0)
+                {
+                    PositionsListView.Items.Clear();
+
+                    for (int i = 0; i < userFileBodyLines.Length; ++i)
+                    {
+                        string[] values = userFileBodyLines[i].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+
+                        ListViewItem item = new ListViewItem("");
+
+                        bool bErrorInLine = false;
+
+                        if (values.Length != 4)
+                        {
+                            bErrorInLine = true;
+                            MessageBox.Show("Error in text file at line " + (i+1).ToString(), userFileName);
+                        }
+
+                        for (int j = 0; j < values.Length; ++j)
+                        {
+                            if (j != 2)
+                            {
+                                try
+                                {
+                                    Convert.ToInt32(values[j]);
+                                }
+                                catch (System.FormatException)
+                                {
+                                    bErrorInLine = true;
+                                    MessageBox.Show("Error in text file at line " + (i + 1).ToString(), userFileName);
+                                }
+                                catch (System.OverflowException)
+                                {
+                                    bErrorInLine = true;
+                                    MessageBox.Show("Error in text file at line " + (i + 1).ToString(), userFileName);
+                                }
+                            }
+                            else
+                            {
+                                if ((values[j] != "L") && (values[j] != "M") && (values[j] != "R"))
+                                {
+                                    bErrorInLine = true;
+                                    MessageBox.Show("Error in text file at line " + (i + 1).ToString(), userFileName);
+                                }
+                            }
+
+                            if (j == 0)
+                                item.Text = values[j];
+                            else
+                                item.SubItems.Add(values[j]);
+                        }
+
+                        if (!bErrorInLine)
+                            PositionsListView.Items.Add(item);
+                    }
+                }
+            }
+        }
+
+        private void SaveSequenceButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the open file dialog box.
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            openFileDialog1.Filter = "Text Files (.txt)|*.txt|All Files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.CheckFileExists = false;
+            openFileDialog1.CheckPathExists = true;
+            openFileDialog1.Multiselect = false;
+            openFileDialog1.Title = "Select file to save sequence to...";
+
+            // Call the ShowDialog method to show the dialog box.
+            DialogResult result = openFileDialog1.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (result == DialogResult.OK)
+            {
+                // Open the selected file to read.
+                string userFileName = openFileDialog1.FileName;
+                string userFileBody = "";
+
+                foreach (ListViewItem item in PositionsListView.Items)
+                {
+                    //userFileBody += item.Text;
+                    int c = 0;
+                    foreach (ListViewItem.ListViewSubItem subItem in item.SubItems)
+                    {
+                        ++c;
+                        if (c== 1)
+                            userFileBody += (subItem.Text);
+                        else
+                            userFileBody += ("," + subItem.Text);
+                    }
+
+                    userFileBody += "\n";
+                }
+
+                System.IO.File.WriteAllText(userFileName, userFileBody);
+            }
+        }
+
         /// <summary>
         /// Assign all points in the queue to the ClickHelper and start the thread
         /// </summary>
