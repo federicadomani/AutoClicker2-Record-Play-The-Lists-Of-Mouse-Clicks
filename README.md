@@ -4,7 +4,7 @@
 
 ### Latest stable version 5.9.4.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe))
 
-> Updated Jan 28 2023. [Quick Start](https://federicadomani.github.io/AutoClicker2-Record-Play/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+> Updated Feb 11 2023. [Quick Start](https://federicadomani.github.io/AutoClicker2-Record-Play/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 
 #### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
 
@@ -100,3 +100,8 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.
 
 ![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
+
+# Build
+
+Build with MS Visual Studio 2013.
+Programming language: C#.
