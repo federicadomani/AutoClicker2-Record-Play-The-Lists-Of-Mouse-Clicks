@@ -4,7 +4,7 @@
 
 ### Latest stable version 5.9.4.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe))
 
-> Updated Apr 05 2023. [Quick Start](https://federicadomani.github.io/AutoClicker2-Record-Play/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+> Updated Apr 14 2023. [Quick Start](https://federicadomani.github.io/AutoClicker2-Record-Play/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 
 #### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
 
