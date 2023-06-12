@@ -2,9 +2,11 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
-### Latest stable version 5.9.4.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe))
+### Latest stable version 5.9.5.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe))
 
-> Updated May 23 2023. [Quick Start](https://federicadomani.github.io/AutoClicker2-Record-Play/index.html#QuickStart) added to the Official Site. New version [5.9.4.0]((https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0.exe)) has been released. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+> Updated Jun 12 2023. New version [5.9.5.1](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe) has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+
+> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
 
 #### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
 
@@ -77,19 +79,19 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 
 ## Screenshots
 
-### Latest stable version 5.9.4.0
+### Latest stable version 5.9.5.1
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.4.0/AutoClicker2_v5.9.4.0.png?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2_v5.9.5.1.png?raw=true)
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
 
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0.png?raw=true)
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1.png?raw=true)
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 - Sequence of mouse clicks recorded and loaded from a text file.
+* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 - Sequence of mouse clicks recorded and loaded from a text file.
 
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.4.0 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.4.0/AutoClicker2Ex_v5.9.4.0_seq.png?raw=true)
+![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1_seq.png?raw=true)
 
 ### Previous stable version 5.9.3.2
 
