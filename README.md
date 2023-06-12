@@ -83,11 +83,14 @@ https://youtu.be/jscqOm4OeKM
 
 ## More info from community fun site
 
-According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/),
-AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2021.
-They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking, at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite). Hotkeys work in the background for convenience. AutoClicker2 automates your mouse clicks at certain points. It is used for various video games and other applications. It can create, record and playback a macro of any critical combinations you press into your keyboard and mouse. AutoClicker2 is a task automation software that saves you from the trouble of repeatedly clicking on the screen. It is an actively developed open source project with GitHub stars and downloads growing dramatically.
-Also they have written
-an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there](https://top-10-mouse-auto-clickers.best/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/).
+According to [all-mouse-auto-clickers.software](https://all-mouse-auto-clickers.software),
+AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2023.
+They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking,
+at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite).
+Hotkeys work in the background for convenience. AutoClicker2 automates your mouse clicks at certain points.
+It is used for various video games and other applications. It can create, record and playback a macro of any critical combinations
+you press into your keyboard and mouse. AutoClicker2 is a task automation software that saves you from the trouble of repeatedly clicking
+on the screen. It is an actively developed open source project with GitHub stars and downloads growing dramatically.
 
 ## Screenshots
 
