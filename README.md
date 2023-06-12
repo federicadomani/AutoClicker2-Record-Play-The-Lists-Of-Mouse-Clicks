@@ -8,9 +8,6 @@
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
 
-Workaround Windows UAC:
-![Workaround Windows UAC](screenshots_new/v5.9.5.1/AutoClicker_win10uac.png?raw=true)
-
 #### ChangeLog
 
 * BRAND NEW. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
@@ -117,6 +114,10 @@ an extended review on AutoClicker2 Record Play The Lists Of Mouse Clicks [there]
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.
 
 ![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
+
+# Workaround Windows UAC
+
+![Workaround Windows UAC](screenshots_new/v5.9.5.1/AutoClicker_win10uac.png?raw=true)
 
 # Build
 
