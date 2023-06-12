@@ -8,7 +8,19 @@
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
 
-#### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
+#### ChangeLog
+
+* BRAND NEW. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+* BRAND NEW. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+* BRAND NEW. Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
+* BRAND NEW. All the clicking parameters in the list of recorded clicks are editable.
+* Fix: show current mouse position in both apps (AutoClicker2.exe, AutoClicker2Ex.exe).
+* Fix: case-sensitive issues in mouse button editing validator of AutoClicker2Ex.exe.
+* Minor bug fixes.
+
+### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
+
+> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe)= 58e0ee4ebed2d0b8a7187c617f22f589f4db20c9d91369b15ee6e0c9796e5b94
 
 ## Official Site
 
