@@ -17,3 +17,7 @@ SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)= 0e3967f39b9
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)
 
 SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)= f99f5fe1d6c68a13252feb8a8d16262f1f13f5ae477f4dfab2745bb8c45f0d6a
+
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe)
+
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
