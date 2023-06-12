@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Open Source Developer Federica Domani")]
 [assembly: AssemblyProduct("AutoClicker2 Record Play The Lists...")]
-[assembly: AssemblyCopyright("2018-2020 Open Source Developer Federica Domani")]
+[assembly: AssemblyCopyright("2018-2023 Open Source Developer Federica Domani")]
 [assembly: AssemblyTrademark("AutoClicker2 Record Play The Lists...")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.9.4.0")]
-[assembly: AssemblyFileVersion("5.9.4.0")]
+[assembly: AssemblyVersion("5.9.5.1")]
+[assembly: AssemblyFileVersion("5.9.5.1")]
 [assembly: NeutralResourcesLanguageAttribute("en")]

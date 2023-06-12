@@ -290,6 +290,8 @@
             this.QueuedXPositionLabel.Size = new System.Drawing.Size(157, 13);
             this.QueuedXPositionLabel.TabIndex = 0;
             this.QueuedXPositionLabel.Text = "Cur. (X, Y)";
+            this.QueuedXPositionLabel.BackColor = System.Drawing.Color.Gold;
+            this.QueuedXPositionLabel.ForeColor = System.Drawing.Color.Blue;
             // 
             // CurrentPositionTimer
             // 
@@ -392,7 +394,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AutoClicker2 Record Play... v5.9.4.0";
+            this.Text = "AutoClicker2 Record Play... v5.9.5.1";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);

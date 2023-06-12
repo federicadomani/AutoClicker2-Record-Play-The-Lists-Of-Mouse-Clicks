@@ -861,7 +861,7 @@ namespace AutoClicker
 
         private void websiteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/federicadomani/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks");
+            System.Diagnostics.Process.Start("https://federicadomani.github.io/AutoClicker2-Record-Play/");
         }
 
         private void bugReportToolStripMenuItem_Click(object sender, EventArgs e)

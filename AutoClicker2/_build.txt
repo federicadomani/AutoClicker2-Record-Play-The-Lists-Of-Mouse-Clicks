@@ -1,6 +1,3 @@
-Build with MS Visual Studio 2013.
-Programming language: C#.
-
 To build the project, you need Microsoft Visual Studio 2013 or later. Just open solution "AutoClicker.sln".
 
 Also you need ImageMagick 64-bit installation at the path: "C:\Program Files\ImageMagick\magick.exe".

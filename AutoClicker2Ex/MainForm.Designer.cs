@@ -85,7 +85,7 @@ namespace Auto_Clicker
             this.RemoveAllMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.RemoveSelectedMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.QueuedPositionsLabel = new System.Windows.Forms.Label();
-            this.CurrentPosGroupBox = new System.Windows.Forms.GroupBox();
+            //this.CurrentPosGroupBox = new System.Windows.Forms.GroupBox();
             this.CopyToAddButton = new System.Windows.Forms.Button();
             this.CurrentYCoordTextBox = new System.Windows.Forms.TextBox();
             this.XCoordLabel = new System.Windows.Forms.Label();
@@ -101,7 +101,7 @@ namespace Auto_Clicker
             this.AboutLabel = new System.Windows.Forms.Label();
             this.PositionsGroupBox.SuspendLayout();
             this.ListViewContextMenu.SuspendLayout();
-            this.CurrentPosGroupBox.SuspendLayout();
+            //this.CurrentPosGroupBox.SuspendLayout();
             this.StartingOptionsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,6 +143,9 @@ namespace Auto_Clicker
             this.QueuedYPositionTextBox.Name = "QueuedYPositionTextBox";
             this.QueuedYPositionTextBox.Size = new System.Drawing.Size(87, 20);
             this.QueuedYPositionTextBox.TabIndex = 10;
+            this.QueuedYPositionTextBox.ReadOnly = true;
+            this.QueuedYPositionTextBox.BackColor = Color.Gold;
+            this.QueuedYPositionTextBox.ForeColor = Color.Blue;
             // 
             // RightClickCheckBox
             //
@@ -239,6 +242,9 @@ namespace Auto_Clicker
             this.QueuedXPositionTextBox.Name = "QueuedXPositionTextBox";
             this.QueuedXPositionTextBox.Size = new System.Drawing.Size(87, 20);
             this.QueuedXPositionTextBox.TabIndex = 8;
+            this.QueuedXPositionTextBox.ReadOnly = true;
+            this.QueuedXPositionTextBox.BackColor = Color.Gold;
+            this.QueuedXPositionTextBox.ForeColor = Color.Blue;
             // 
             // PositionsListView
             // 
@@ -318,17 +324,17 @@ namespace Auto_Clicker
             // 
             // CurrentPosGroupBox
             // 
-            this.CurrentPosGroupBox.Controls.Add(this.CopyToAddButton);
-            this.CurrentPosGroupBox.Controls.Add(this.CurrentYCoordTextBox);
-            this.CurrentPosGroupBox.Controls.Add(this.XCoordLabel);
-            this.CurrentPosGroupBox.Controls.Add(this.YCoordLabel);
-            this.CurrentPosGroupBox.Controls.Add(this.CurrentXCoordTextBox);
-            this.CurrentPosGroupBox.Location = new System.Drawing.Point(12, 12);
-            this.CurrentPosGroupBox.Name = "CurrentPosGroupBox";
-            this.CurrentPosGroupBox.Size = new System.Drawing.Size(267, 131);
-            this.CurrentPosGroupBox.TabIndex = 2;
-            this.CurrentPosGroupBox.TabStop = false;
-            this.CurrentPosGroupBox.Text = "Current Mouse Cursor Position";
+            //this.CurrentPosGroupBox.Controls.Add(this.CopyToAddButton);
+            //this.CurrentPosGroupBox.Controls.Add(this.CurrentYCoordTextBox);
+            //this.CurrentPosGroupBox.Controls.Add(this.XCoordLabel);
+            //this.CurrentPosGroupBox.Controls.Add(this.YCoordLabel);
+            //this.CurrentPosGroupBox.Controls.Add(this.CurrentXCoordTextBox);
+            //this.CurrentPosGroupBox.Location = new System.Drawing.Point(12, 12);
+            //this.CurrentPosGroupBox.Name = "CurrentPosGroupBox";
+            //this.CurrentPosGroupBox.Size = new System.Drawing.Size(267, 131);
+            //this.CurrentPosGroupBox.TabIndex = 2;
+            //this.CurrentPosGroupBox.TabStop = false;
+            //this.CurrentPosGroupBox.Text = "Current Mouse Cursor Position";
             // 
             // CopyToAddButton
             // 
@@ -379,7 +385,7 @@ namespace Auto_Clicker
             this.StartingOptionsGroupBox.Controls.Add(this.CurClickingStatus);
             this.StartingOptionsGroupBox.Controls.Add(this.NumRepeatsTextBox);
             this.StartingOptionsGroupBox.Controls.Add(this.NumRepeatsLabel);
-            this.StartingOptionsGroupBox.Location = new System.Drawing.Point(12, 149);
+            this.StartingOptionsGroupBox.Location = new System.Drawing.Point(12, 12);
             this.StartingOptionsGroupBox.Name = "StartingOptionsGroupBox";
             this.StartingOptionsGroupBox.Size = new System.Drawing.Size(267, 150);
             this.StartingOptionsGroupBox.TabIndex = 2;
@@ -454,21 +460,21 @@ namespace Auto_Clicker
             this.ClientSize = new System.Drawing.Size(643, 337); // Main Window Size
             this.Controls.Add(this.AboutLabel);
             this.Controls.Add(this.StartingOptionsGroupBox);
-            this.Controls.Add(this.CurrentPosGroupBox);
+            //this.Controls.Add(this.CurrentPosGroupBox);
             this.Controls.Add(this.PositionsGroupBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.4.0";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.5.1";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
             this.PositionsGroupBox.PerformLayout();
             this.ListViewContextMenu.ResumeLayout(false);
-            this.CurrentPosGroupBox.ResumeLayout(false);
-            this.CurrentPosGroupBox.PerformLayout();
+            //this.CurrentPosGroupBox.ResumeLayout(false);
+            //this.CurrentPosGroupBox.PerformLayout();
             this.StartingOptionsGroupBox.ResumeLayout(false);
             this.StartingOptionsGroupBox.PerformLayout();
             this.ResumeLayout(false);
@@ -498,7 +504,7 @@ namespace Auto_Clicker
         private System.Windows.Forms.ColumnHeader LRHeader;
         private System.Windows.Forms.ColumnHeader SleepTimeHeader;
         private System.Windows.Forms.Label QueuedPositionsLabel;
-        private System.Windows.Forms.GroupBox CurrentPosGroupBox;
+        //private System.Windows.Forms.GroupBox CurrentPosGroupBox;
         private System.Windows.Forms.Button CopyToAddButton;
         private System.Windows.Forms.TextBox CurrentYCoordTextBox;
         private System.Windows.Forms.Label XCoordLabel;

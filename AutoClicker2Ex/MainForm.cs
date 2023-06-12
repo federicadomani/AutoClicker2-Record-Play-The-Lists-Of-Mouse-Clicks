@@ -602,8 +602,8 @@ namespace Auto_Clicker
         /// </summary>
         private void UpdateCurrentPositionTextBoxes()
         {
-            CurrentXCoordTextBox.Text = this.CurrentPosition.X.ToString();
-            CurrentYCoordTextBox.Text = this.CurrentPosition.Y.ToString();
+            QueuedXPositionTextBox.Text = this.CurrentPosition.X.ToString();
+            QueuedYPositionTextBox.Text = this.CurrentPosition.Y.ToString();
         }
 
         /// <summary>
