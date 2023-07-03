@@ -105,19 +105,7 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1.png?raw=true)
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 - Sequence of mouse clicks recorded and loaded from a text file.
-
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1_seq.png?raw=true)
-
-### Previous stable version 5.9.3.2
-
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Both apps of the package together in one screen.
-
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Both apps of the package together in one screen.](screenshots_new/v5.9.3.1/AutoClicker2_v5.9.3.2.jpg?raw=true)
-
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.
-
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
+**See much more screenshots at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
 ## Quick user manual in screenshots
 
