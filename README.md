@@ -4,7 +4,8 @@
 
 ### Latest stable version 5.9.5.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe))
 
-> Updated Jun 29 2023. New version 5.9.5.1 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+> Updated Jul 03 2023. New version 5.9.5.1 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
 
@@ -118,11 +119,15 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.3.2 - Sequence of mouse clicks recorded and loaded from a text file.](screenshots_new/v5.9.3.1/AutoClicker2-v5.9.3.2-sequence.jpg?raw=true)
 
-# Workaround Windows UAC
+## Quick user manual in screenshots
+
+Study the manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
+
+## Workaround Windows UAC
 
 ![Workaround Windows UAC](screenshots_new/v5.9.5.1/AutoClicker_win10uac.png?raw=true)
 
-# Build
+## Build
 
 Build with MS Visual Studio 2013.
 Programming language: C#.
