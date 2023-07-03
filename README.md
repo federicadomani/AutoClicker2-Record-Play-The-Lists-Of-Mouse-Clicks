@@ -109,7 +109,7 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ## Quick user manual in screenshots
 
-Study the manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
+**Study the manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
 ## Workaround Windows UAC
 
