@@ -27,6 +27,8 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 
 ### [federicadomani.github.io/AutoClicker2-Record-Play/](https://federicadomani.github.io/AutoClicker2-Record-Play/)
 
+**See much more screenshots and study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
+
 AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
@@ -109,7 +111,7 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ## Quick user manual in screenshots
 
-**Study the manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
+**Study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
 ## Workaround Windows UAC
 
