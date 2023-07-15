@@ -4,7 +4,7 @@
 
 ### Latest stable version 5.9.5.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe))
 
-> Updated Jul 03 2023. New version 5.9.5.1 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+> Updated Jul 15 2023. New version 5.9.5.1 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
 Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
