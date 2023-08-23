@@ -2,26 +2,23 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
-### Latest stable version 5.9.5.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe))
+### Latest stable version 5.9.6.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe))
 
-> Updated Jul 22 2023. New version 5.9.5.1 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+> Updated Aug 23 2023. New version 5.9.6.0 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
 Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
 
-> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
+> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe)= 2c28f9dfe58a0cc72d76974220ede5b8686f97bfd8a699edc57748fc9459c20b
 
 #### ChangeLog
 
-* BRAND NEW. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
-* BRAND NEW. AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
-* BRAND NEW. Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
-* BRAND NEW. All the clicking parameters in the list of recorded clicks are editable.
-* Fix: show current mouse position in both apps (AutoClicker2.exe, AutoClicker2Ex.exe).
-* Fix: case-sensitive issues in mouse button editing validator of AutoClicker2Ex.exe.
+* AutoClicker2 has got colored the mouse clicking status.
+* AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
+* Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
 * Minor bug fixes.
 
-### Previous stable version 5.9.3.2 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe))
+### Previous stable version 5.9.5.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe))
 
-> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.2.exe)= 58e0ee4ebed2d0b8a7187c617f22f589f4db20c9d91369b15ee6e0c9796e5b94
+> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1.exe)= d2a2970d202df7695fa7fb03fb904f99f2a3fe29cc95e37d11fcdd6d9893feb0
 
 ## Official Site
 
