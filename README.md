@@ -94,7 +94,7 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ## Screenshots
 
-### Latest stable version 5.9.5.1
+### Previous stable version 5.9.5.1
 
 * AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
