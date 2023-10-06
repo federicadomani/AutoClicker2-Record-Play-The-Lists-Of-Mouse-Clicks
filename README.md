@@ -2,15 +2,18 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
+> Updated Oct 06 2023. New version 5.9.6.0 works on Windows 11. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
+
 ### Latest stable version 5.9.6.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe))
 
-> Updated Aug 23 2023. New version 5.9.6.0 has been released. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
-Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
+!["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe)= 2c28f9dfe58a0cc72d76974220ede5b8686f97bfd8a699edc57748fc9459c20b
 
 #### ChangeLog
 
+* New version 5.9.6.0 works on Windows 11!
 * AutoClicker2 has got colored the mouse clicking status.
 * AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 * Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
@@ -93,6 +96,16 @@ you press into your keyboard and mouse. AutoClicker2 is a task automation softwa
 on the screen. It is an actively developed open source project with GitHub stars and downloads growing dramatically.
 
 ## Screenshots
+
+### Screenshots for the latest version 5.9.6.0 on Windows 11
+
+* {{page.app_name}} version 5.9.6.0 on Windows 11 (standard app).
+
+![{{page.app_name}} version 5.9.6.0 on Windows 11 (standard app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true)
+
+* {{page.app_name_ex}} version 5.9.6.0 on Windows 11 (standard app).
+
+![{{page.app_name_ex}} version 5.9.6.0 on Windows 11 (extended app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 ### Previous stable version 5.9.5.1
 
