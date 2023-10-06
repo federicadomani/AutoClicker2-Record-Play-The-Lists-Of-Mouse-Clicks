@@ -7,6 +7,8 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 
 ### Latest stable version 5.9.6.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe))
 
+"AutoClicker2" application | "AutoClicker2Ex" application
+----- | -----
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0.exe)= 2c28f9dfe58a0cc72d76974220ede5b8686f97bfd8a699edc57748fc9459c20b
@@ -99,13 +101,13 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ### Screenshots for the latest version 5.9.6.0 on Windows 11
 
-* {{page.app_name}} version 5.9.6.0 on Windows 11 (standard app).
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (standard app).
 
-![{{page.app_name}} version 5.9.6.0 on Windows 11 (standard app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (standard app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true)
 
-* {{page.app_name_ex}} version 5.9.6.0 on Windows 11 (standard app).
+* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (extended app).
 
-![{{page.app_name_ex}} version 5.9.6.0 on Windows 11 (extended app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
+![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (extended app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 ### Previous stable version 5.9.5.1
 
