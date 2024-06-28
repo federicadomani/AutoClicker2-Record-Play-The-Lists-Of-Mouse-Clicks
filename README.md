@@ -1,6 +1,6 @@
 # AutoClicker2 Record Play The Lists Of Mouse Clicks
 
-## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2022 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
+## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2024 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
 > Updated Jun 28 2024. New version 5.9.6.0-fixed3 works on Windows 11. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
 Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
@@ -30,7 +30,7 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
-This is the only open source project that has regular commits into source tree in 2022.
+This is the only open source project that has regular commits into source tree in 2024.
 Perfectly compatible with Windows 7, Windows 8, Windows 10, [Windows 11](https://www.microsoft.com/en-us/software-download/windows11), both 32-bit and 64-bit systems.
 
 AutoClicker2 Record Play The Lists Of Mouse Clicks is a new open source replacer of frozen, buggy, suspicious proprietary projects such as
