@@ -2,7 +2,7 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2024 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
-> Updated Jun 28 2024. New version 5.9.6.0-fixed3 works on Windows 11. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
+> Updated Jul 10 2024. New version 5.9.6.0-fixed3 works on Windows 11. AutoClicker2 has got colored GUI; AutoClicker2Ex has got colored and simplified GUI.
 Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
 
 ### Latest stable version 5.9.6.0-fixed3 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe))
@@ -82,10 +82,10 @@ How to download, install and use AutoClicker2 Record Play The Lists Of Mouse Cli
 
 https://youtu.be/jscqOm4OeKM
 
-## More info from community fun site
+## More info from the community fun site
 
-According to [all-mouse-auto-clickers.software](https://all-mouse-auto-clickers.software),
-AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2023.
+According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/),
+AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2024.
 They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking,
 at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite).
 Hotkeys work in the background for convenience. AutoClicker2 automates your mouse clicks at certain points.
