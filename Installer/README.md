@@ -26,6 +26,10 @@ in this case, thus, make a backup copy before.
 
 ### The installers without update service
 
+* [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)
+
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)= ee534da1c145d9e52df3d8186b19492c05fde86a1b04484859dafdfa8e08e004
+
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe)
 
 SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe)= f562917b49cee2c9389b8894f12befb7d59e5bba26f8b1be155ee9f438aea582
