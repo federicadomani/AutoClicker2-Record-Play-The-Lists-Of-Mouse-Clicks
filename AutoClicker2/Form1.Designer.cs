@@ -106,7 +106,8 @@
             // statuslabel
             // 
             this.statuslabel.AutoSize = true;
-            this.statuslabel.ForeColor = System.Drawing.Color.Magenta;
+            this.statuslabel.BackColor = System.Drawing.Color.Gold;
+            this.statuslabel.ForeColor = System.Drawing.Color.Blue;
             this.statuslabel.Location = new System.Drawing.Point(125, 258+23);
             this.statuslabel.Name = "statuslabel";
             this.statuslabel.Size = new System.Drawing.Size(64, 13);
@@ -116,7 +117,7 @@
             // coordlabel
             // 
             this.coordlabel.AutoSize = true;
-            this.coordlabel.Location = new System.Drawing.Point(186, 235);
+            this.coordlabel.Location = new System.Drawing.Point(202, 235);
             this.coordlabel.Name = "coordlabel";
             this.coordlabel.Size = new System.Drawing.Size(48, 13);
             this.coordlabel.TabIndex = 4;
@@ -301,17 +302,18 @@
             // fixedlabel
             // 
             this.fixedlabel.AutoSize = true;
-            this.fixedlabel.Location = new System.Drawing.Point(10, 258);
+            this.fixedlabel.Location = new System.Drawing.Point(130, 250);
             this.fixedlabel.Name = "fixedlabel";
             this.fixedlabel.Size = new System.Drawing.Size(157, 13);
             this.fixedlabel.TabIndex = 13;
-            this.fixedlabel.Text = "Fixed Pos. (?/Delete to Add/Clear):";
+            this.fixedlabel.Text = "Fixed Pos. (?/Delete to Add/Clear)^^^";
             // 
             // statusheaderlabel
             // 
             this.statusheaderlabel.AutoSize = true;
-            this.statusheaderlabel.ForeColor = System.Drawing.Color.Magenta;
-            this.statusheaderlabel.Location = new System.Drawing.Point(76, 258+23);
+            this.statusheaderlabel.BackColor = System.Drawing.Color.Gold;
+            this.statusheaderlabel.ForeColor = System.Drawing.Color.Blue;
+            this.statusheaderlabel.Location = new System.Drawing.Point(91, 258+23);
             this.statusheaderlabel.Name = "statusheaderlabel";
             this.statusheaderlabel.Size = new System.Drawing.Size(46, 13);
             this.statusheaderlabel.TabIndex = 14;
@@ -394,7 +396,7 @@
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AutoClicker2 Record Play... v5.9.5.1";
+            this.Text = "AutoClicker2 Record Play... v5.9.7.1";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);

@@ -106,7 +106,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Magenta;
+            this.label3.BackColor = System.Drawing.Color.Gold;
+            this.label3.ForeColor = System.Drawing.Color.Blue;
             this.label3.Location = new System.Drawing.Point(21, 99+(66-49));
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 13);

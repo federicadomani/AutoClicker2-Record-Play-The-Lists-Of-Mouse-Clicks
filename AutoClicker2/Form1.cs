@@ -122,14 +122,18 @@ namespace AutoClicker
             //change hotkey apperance on buttons
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear)^^^";
+            fixedlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
+            coordlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
         }
 
         public void updateapperance()
         {
             startbutton.Text = "Start (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.startkey.ToString())).ToString() + ")";
             stopbut.Text = "Stop (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.stopkey.ToString())).ToString() + ")";
-            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear):";
+            fixedlabel.Text = "Fixed Pos. (" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.selectkey.ToString())).ToString() + "/" + ((Keys)Enum.Parse(typeof(Keys), Properties.Settings.Default.clearkey.ToString())).ToString() + " to Add/Clear)^^^";
+            fixedlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
+            coordlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
         }
 
         protected override void WndProc(ref Message m)
@@ -851,6 +855,8 @@ namespace AutoClicker
         {
             Properties.Settings.Default.curfixedsave = true;
             Properties.Settings.Default.Save();
+            fixedlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
+            coordlabel.ForeColor = fixedrbut.Checked ? System.Drawing.Color.Black : System.Drawing.Color.DimGray;
         }
 
         private void typecombo_SelectedIndexChanged(object sender, EventArgs e)

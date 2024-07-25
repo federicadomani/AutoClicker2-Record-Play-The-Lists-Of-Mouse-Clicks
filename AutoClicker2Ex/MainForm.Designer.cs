@@ -421,6 +421,8 @@ namespace Auto_Clicker
             this.CurClickingStatus.TabIndex = 0;
             this.CurClickingStatus.TabStop = false;
             this.CurClickingStatus.Text = "Status: Not Clicking";
+            this.CurClickingStatus.BackColor = System.Drawing.Color.Gold;
+            this.CurClickingStatus.ForeColor = System.Drawing.Color.Blue;
             // 
             // NumRepeatsTextBox
             // 
@@ -467,7 +469,7 @@ namespace Auto_Clicker
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.5.1";
+            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.7.1";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
