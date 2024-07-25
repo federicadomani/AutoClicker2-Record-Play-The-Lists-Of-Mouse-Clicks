@@ -9,14 +9,14 @@ There are installers without Updater Service, for users that prefer to keep auto
 To accurately remove the Updater Service, you must completely UNINSTALL the application, then INSTALL the installer without Updater Service, listed below.
 
 For example, if you have previously installed
-[Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe),
+Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe,
 go to "Control Panel" -> "Programs" -> "Uninstall a program",
 select "AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0" and click "Uninstall" in the menu above. Then download and install
-[Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe).
+Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe.
 
 Note, all your program settings will be lost. If you need them, make a backup copy before.
 
-If you want to return to the version with Updater Service, just download and install it, for example: [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe).
+If you want to return to the version with Updater Service, just download and install it, for example: Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3.exe.
 
 Note, starting from version 5.9.6.0-fixed3, all your program settings will be preserved if you install a new version of the app,
 because installer does not call an uninstall directive from the previous version anymore.
