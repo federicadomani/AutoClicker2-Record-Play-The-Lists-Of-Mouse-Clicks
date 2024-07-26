@@ -11,7 +11,7 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 ----- | -----
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
-> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe)= 1bd639e724c3de7d98267e17c351680db9eb000f1e5418444f337a49c1aa605b
+> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe)= 8aafde9ae9a3514e504c2d271cb455a79813d98792f807b066bc45e1808c9727
 
 #### ChangeLog
 
