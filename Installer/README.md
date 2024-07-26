@@ -28,7 +28,7 @@ in this case, thus, make a backup copy before.
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)= ee534da1c145d9e52df3d8186b19492c05fde86a1b04484859dafdfa8e08e004
+SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)= 6a99b64365290efea006013aba15a5475dce3d8b249a7e638f2ec99a828a033a
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe)
 
