@@ -7,7 +7,7 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 
 ### Latest stable version 5.9.7.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe))
 
-"AutoClicker2" application | "AutoClicker2Ex" application
+"AutoClicker2" vs. OP Auto Clicker | "AutoClicker2Ex" vs. OP Auto Clicker
 ----- | -----
 ![AutoClicker2 version 5.9.7.1: "AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | ![AutoClicker2 version 5.9.7.1: "AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
