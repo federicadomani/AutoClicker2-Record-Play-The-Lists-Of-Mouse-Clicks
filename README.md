@@ -2,13 +2,14 @@
 
 ## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2024 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
 
-> Updated Jul 25 2024. Better GUI emphasizing for Mouse Cur./Fixed Pos. clicking. New version 5.9.7.1 works on Windows 11.
+> Updated Jul 30 2024. Better GUI emphasizing for Mouse Cur./Fixed Pos. clicking. New version 5.9.7.1 works on Windows 11.
 Quick user manual in screenshots has been added to the [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).
 
 ### Latest stable version 5.9.7.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe))
 
 "AutoClicker2" application | "AutoClicker2Ex" application
 ----- | -----
+![AutoClicker2 version 5.9.7.1: "AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | ![AutoClicker2 version 5.9.7.1: "AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 > SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe)= 8aafde9ae9a3514e504c2d271cb455a79813d98792f807b066bc45e1808c9727
