@@ -134,4 +134,4 @@ Programming language: C#.
 
 ## Me, Seeking a Job
 
-[indeed.com](https://profile.indeed.com/p/federicad-l6l6w6d){:target="_blank"}
+[indeed.com](https://profile.indeed.com/p/federicad-l6l6w6d)
