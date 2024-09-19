@@ -12,8 +12,6 @@ Quick user manual in screenshots has been added to the [Official Site](https://f
 ![AutoClicker2 version 5.9.7.1: "AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | ![AutoClicker2 version 5.9.7.1: "AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
-> SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe)= 8aafde9ae9a3514e504c2d271cb455a79813d98792f807b066bc45e1808c9727
-
 #### ChangeLog
 
 * Better GUI emphasizing for Mouse Cur./Fixed Pos. clicking.
