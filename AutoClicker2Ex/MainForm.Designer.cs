@@ -99,6 +99,7 @@ namespace Auto_Clicker
             this.NumRepeatsLabel = new System.Windows.Forms.Label();
             this.CurrentPositionTimer = new System.Windows.Forms.Timer(this.components);
             this.AboutLabel = new System.Windows.Forms.Label();
+            this.UseWindowMessageCheckBox = new System.Windows.Forms.CheckBox();
             this.PositionsGroupBox.SuspendLayout();
             this.ListViewContextMenu.SuspendLayout();
             //this.CurrentPosGroupBox.SuspendLayout();
@@ -380,6 +381,7 @@ namespace Auto_Clicker
             // 
             // StartingOptionsGroupBox
             // 
+            this.StartingOptionsGroupBox.Controls.Add(this.UseWindowMessageCheckBox);
             this.StartingOptionsGroupBox.Controls.Add(this.StopClickingButton);
             this.StartingOptionsGroupBox.Controls.Add(this.StartClickingButton);
             this.StartingOptionsGroupBox.Controls.Add(this.CurClickingStatus);
@@ -428,7 +430,7 @@ namespace Auto_Clicker
             // 
             this.NumRepeatsTextBox.Location = new System.Drawing.Point(120, 16);
             this.NumRepeatsTextBox.Name = "NumRepeatsTextBox";
-            this.NumRepeatsTextBox.Size = new System.Drawing.Size(141, 20);
+            this.NumRepeatsTextBox.Size = new System.Drawing.Size(86, 20);
             this.NumRepeatsTextBox.TabIndex = 1;
             this.NumRepeatsTextBox.Text = "1";
             // 
@@ -455,6 +457,15 @@ namespace Auto_Clicker
             this.AboutLabel.TabIndex = 3;
             this.AboutLabel.Text = "Open Source Developer Federica Domani (federicadomani@mailfence.com)";
             // 
+            // UseWindowMessageCheckBox
+            // 
+            this.UseWindowMessageCheckBox.AutoSize = true;
+            this.UseWindowMessageCheckBox.Location = new System.Drawing.Point(215, 19);
+            this.UseWindowMessageCheckBox.Name = "UseWindowMessageCheckBox";
+            this.UseWindowMessageCheckBox.Size = new System.Drawing.Size(46, 17);
+            this.UseWindowMessageCheckBox.TabIndex = 4;
+            this.UseWindowMessageCheckBox.Text = "WM";
+            this.UseWindowMessageCheckBox.UseVisualStyleBackColor = true;
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -523,6 +534,7 @@ namespace Auto_Clicker
         private System.Windows.Forms.ToolStripMenuItem RemoveAllMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RemoveSelectedMenuItem;
         private System.Windows.Forms.Label AboutLabel;
+        private CheckBox UseWindowMessageCheckBox;
     }
 }
 
