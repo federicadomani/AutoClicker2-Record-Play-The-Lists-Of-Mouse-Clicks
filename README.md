@@ -24,7 +24,9 @@ Updated Dec 26 2024. Added Spanish translations.
 
 ## Official Site
 
-### [federicadomani.github.io/AutoClicker2-Record-Play/](https://federicadomani.github.io/AutoClicker2-Record-Play/)
+### ![Windows](./windows.svg) AutoClicker2 Record Play (The Lists Of Mouse Clicks)
+
+[English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/)
 
 **See much more screenshots and study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
@@ -85,7 +87,7 @@ https://youtu.be/jscqOm4OeKM
 
 ## More info from the community fun site
 
-According to [top-10-mouse-auto-clickers.best](https://top-10-mouse-auto-clickers.best/),
+According to [mouse-auto-clickers.online](https://mouse-auto-clickers.online/),
 AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2024.
 They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking,
 at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite).
