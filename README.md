@@ -2,21 +2,22 @@
 
 **[YouTube](https://youtu.be/G_6V7-We-kw)**
 
-## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2024 fork of frozen or proprietary [www.opautoclicker.com](https://www.opautoclicker.com), [sourceforge.net](https://sourceforge.net/projects/orphamielautoclicker/), [www.autoclicker.io](https://www.autoclicker.io), [www.autoclicker.org](https://www.autoclicker.org), [www.macrorecorder.com](https://www.macrorecorder.com), [www.remouse.com](https://www.remouse.com), etc.
+## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2025 replacer of frozen or proprietary OP, GS, GT AutoClicker, autoclicker.*, macrorecorder, remouse, tinytask, orphamielautoclicker, murgaa, etc.
 
-Updated Dec 26 2024. Added Spanish translations.
+Updated Jan 22 2025. Added Spanish translations. New version 5.9.8.0 has been released.
 
-### Latest stable version 5.9.7.1 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1.exe))
+### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Install_AutoClicker2RecordPlay_sfx.exe))
 
 "AutoClicker2" vs. OP Auto Clicker | "AutoClicker2Ex" vs. OP Auto Clicker
 ----- | -----
-![AutoClicker2 version 5.9.7.1: "AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | ![AutoClicker2 version 5.9.7.1: "AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
+!["AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | !["AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 #### ChangeLog
 
+* Infinite clicking if number of repeats equals to 0.
 * Better GUI emphasizing for Mouse Cur./Fixed Pos. clicking.
-* New version 5.9.7.1 works on Windows 11!
+* Works on Windows 11!
 * AutoClicker2 has got colored the mouse clicking status.
 * AutoClicker2Ex has got "Load Sequence" and "Save Sequence" buttons.
 * Five mouse buttons to click: Left, Right, Middle, XBUTTON1, XBUTTON2.
