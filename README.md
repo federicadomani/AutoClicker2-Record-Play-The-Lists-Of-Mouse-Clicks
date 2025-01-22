@@ -1,4 +1,4 @@
-# AutoClicker2 Record Play The Lists Of Mouse Clicks
+# AutoClicker2 Record Play
 
 **[YouTube](https://youtu.be/G_6V7-We-kw)**
 
@@ -25,19 +25,19 @@ Updated Jan 22 2025. Added Spanish translations. New version 5.9.8.0 has been re
 
 ## Official Site
 
-### ![Windows](./windows.svg) AutoClicker2 Record Play (The Lists Of Mouse Clicks)
+### ![Windows](./windows.svg) AutoClicker2 Record Play
 
 [English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/)
 
 **See much more screenshots and study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
-AutoClicker2 Record Play The Lists Of Mouse Clicks supports record, edit, import, export, and playback the whole sequences of mouse clicks.
+AutoClicker2 Record Play supports record, edit, import, export, and playback the whole sequences of mouse clicks.
 
 Yes, this is the only mouse auto clicker with strong record/edit/play capabilities for professional work with sequences of mouse clicks.
 This is the only open source project that has regular commits into source tree in 2024.
 Perfectly compatible with Windows 7, Windows 8, Windows 10, [Windows 11](https://www.microsoft.com/en-us/software-download/windows11), both 32-bit and 64-bit systems.
 
-AutoClicker2 Record Play The Lists Of Mouse Clicks is a new open source replacer of frozen, buggy, suspicious proprietary projects such as
+AutoClicker2 Record Play is a new open source replacer of frozen, buggy, suspicious proprietary projects such as
 [Orphamiel Auto-Clicker](https://sourceforge.net/projects/orphamielautoclicker/),
 [OP AutoClicker](https://www.opautoclicker.com),
 [AutoClicker.io](https://autoclicker.io),
@@ -53,7 +53,7 @@ Note all of that programs are closed-source clones of each other, have not been 
 many years and may contain trojan, malware or virus code as well as huge amount of embedded unwanted Ads and spy agents.
 
 Unlike suspicious "free" but proprietary or abandoned programs mentioned above,
-AutoClicker2 Record Play The Lists Of Mouse Clicks is 100% open source project, and supports professional gaming in
+AutoClicker2 Record Play is 100% open source project, and supports professional gaming in
 [Roblox](https://www.roblox.com),
 [Minecraft](https://en.wikipedia.org/wiki/Minecraft),
 [Cookie Clicker](https://en.wikipedia.org/wiki/Cookie_Clicker),
@@ -72,7 +72,7 @@ As its predecessors, AutoClicker2 is a full-fledged autoclicker with two modes o
 * Not only Left, Righ, and Middle mouse buttons are supported for clicking, but all FIVE mouse buttons of any professional gaming mouse.
 
 No more performing mouse clicks manually!
-With AutoClicker2 Record Play The Lists Of Mouse Clicks, you can automate the task of clicking repeatedly on a particular point on the PC screen.
+With AutoClicker2 Record Play, you can automate the task of clicking repeatedly on a particular point on the PC screen.
 Depending on the target point and clicking speed, number of clicks, mouse button, and other parameters, an action will be performed
 on your PC display on a fixed location, or through a sequence of mouse clicks you previously recorded, edited, and debugged.
 
@@ -82,14 +82,14 @@ Formerly "AutoClicker2 Record-Play for Windows" and "RPG AutoClicker Professiona
 
 ## Youtube video: how to install and use
 
-How to download, install and use AutoClicker2 Record Play The Lists Of Mouse Clicks.
+How to download, install and use AutoClicker2 Record Play.
 
 https://youtu.be/jscqOm4OeKM
 
 ## More info from the community fun site
 
 According to [mouse-auto-clickers.online](https://mouse-auto-clickers.online/),
-AutoClicker2 Record Play The Lists Of Mouse Clicks is the world's top 2 mouse auto clicker application in 2024.
+AutoClicker2 Record Play is the world's top 2 mouse auto clicker application in 2024.
 They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking,
 at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite).
 Hotkeys work in the background for convenience. AutoClicker2 automates your mouse clicks at certain points.
@@ -101,23 +101,23 @@ on the screen. It is an actively developed open source project with GitHub stars
 
 ### Screenshots for the version 5.9.6.0 on Windows 11
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (standard app).
+* AutoClicker2 Record Play version 5.9.6.0 on Windows 11 (standard app).
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (standard app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true)
+![AutoClicker2 Record Play version 5.9.6.0 on Windows 11 (standard app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true)
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (extended app).
+* AutoClicker2 Record Play version 5.9.6.0 on Windows 11 (extended app).
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.6.0 on Windows 11 (extended app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
+![AutoClicker2 Record Play version 5.9.6.0 on Windows 11 (extended app).](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 ### Previous stable version 5.9.5.1
 
-* AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
+* AutoClicker2 Record Play version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.
 
-![AutoClicker2 Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2_v5.9.5.1.png?raw=true)
+![AutoClicker2 Record Play version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Single Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2_v5.9.5.1.png?raw=true)
 
-* AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
+* AutoClicker2Ex Record Play version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.
 
-![AutoClicker2Ex Record Play The Lists Of Mouse Clicks version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1.png?raw=true)
+![AutoClicker2Ex Record Play version 5.9.5.1 vs. Op AutoClicker (aka OrphamielAutoClicker) - Group Clicking Mode.](screenshots_new/v5.9.5.1/AutoClicker2Ex_v5.9.5.1.png?raw=true)
 
 **See much more screenshots at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
