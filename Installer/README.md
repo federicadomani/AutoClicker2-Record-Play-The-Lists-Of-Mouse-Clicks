@@ -26,6 +26,10 @@ in this case, thus, make a backup copy before.
 
 ### The installers without update service
 
+* [Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe)
+
+SHA256(Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe)= 668c9b842bfc68234056bcab3d8fa724d08deb04ed95c5cbf0fedae255fd71db
+
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)
 
 SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)= 6a99b64365290efea006013aba15a5475dce3d8b249a7e638f2ec99a828a033a
