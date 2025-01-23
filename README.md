@@ -6,7 +6,7 @@
 
 Updated Jan 22 2025. Added Spanish translations. New version 5.9.8.0 has been released.
 
-### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Install_AutoClicker2RecordPlay_sfx.exe))
+### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Install_AutoClicker2RecordPlay_sfx_v5.9.8.0.exe))
 
 "AutoClicker2" vs. OP Auto Clicker | "AutoClicker2Ex" vs. OP Auto Clicker
 ----- | -----
