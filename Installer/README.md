@@ -26,32 +26,26 @@ in this case, thus, make a backup copy before.
 
 ### The installers without update service
 
-* [Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe)
+* [Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0_noupdsrv.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/1/Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0_noupdsrv.exe)
 
-SHA256(Install_AutoClicker2RecordPlay_sfx_v5.9.8.0_noupdsrv.exe)= 668c9b842bfc68234056bcab3d8fa724d08deb04ed95c5cbf0fedae255fd71db
+
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-Of-Mouse-Clicks/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.7.1-noupd.exe)= 6a99b64365290efea006013aba15a5475dce3d8b249a7e638f2ec99a828a033a
+
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play-The-Lists-v5.9.6.0/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-fixed3noupd.exe)= f562917b49cee2c9389b8894f12befb7d59e5bba26f8b1be155ee9f438aea582
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe, mirror 1](https://ipfs.io/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe, mirror 2](https://cloudflare-ipfs.com/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe, mirror 3](https://ipfs.infura.io/ipfs/QmbK6xzaGBEpGybaYnzp9eY2Mn6MdKDjGTFharjj4oAAxQ/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.3.0-noupd.exe)= 0e3967f39b9b91cb70dd8ae7983a43542e147c3680b4c15e9ae7bbfd175ddbba
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.4.0-noupd.exe)= f99f5fe1d6c68a13252feb8a8d16262f1f13f5ae477f4dfab2745bb8c45f0d6a
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe)
 
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.5.1-noupd.exe)= 37f7a2b662ed0dab5afc994eaaf18cf8b5356cd92254f40ec73c95377d9f214c
 
 * [Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-noupd.exe](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2/Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-noupd.exe)
-
-SHA256(Setup-AutoClicker2-Record-Play-The-Lists-v5.9.6.0-noupd.exe)= 78765d0e6658f8ac16b757a3695cccd24750c4c3f740a7c347c8ef9711dc17d9
