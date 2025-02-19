@@ -8,7 +8,7 @@ Updated Feb 19 2025. Added Spanish translations. New version 5.9.8.0 has been re
 
 ### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/2/Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0.exe))
 
-<div style="float: right; width: 40%; font-size: 1.8vmin; margin-top: 1.8vmin; color: #df6;">Mark this app as <b style="color: #fff;">CLEAN</b> in your antivirus software.</div>
+Mark this app as **CLEAN** in your antivirus software.
 
 "AutoClicker2" vs. OP Auto Clicker | "AutoClicker2Ex" vs. OP Auto Clicker
 ----- | -----
