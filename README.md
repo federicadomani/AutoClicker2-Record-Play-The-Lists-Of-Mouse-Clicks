@@ -1,10 +1,10 @@
-# AutoClicker2 Record Play
+# AutoClicker2 Record Play | Modern OP Auto Clicker fork
 
 **[YouTube](https://youtu.be/G_6V7-We-kw)**
 
-## Open source mouse auto-clicker to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Advanced 2025 replacer of frozen or proprietary OP, GS, GT AutoClicker, autoclicker.*, macrorecorder, remouse, tinytask, orphamielautoclicker, murgaa, etc.
+## Modern 2025 OP Auto Clicker fork to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Replacer for macrorecorder, remouse, tinytask, murgaa, etc.
 
-Updated Feb 26 2025. Added Spanish translations. New version 5.9.8.0 has been released.
+Updated Apr 05 2025. Added a brand new how-to short video.
 
 ### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/2/Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0.exe))
 
