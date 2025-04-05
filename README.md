@@ -1,10 +1,9 @@
 # AutoClicker2 Record Play | Modern OP Auto Clicker fork
 
------ | -----
+## Modern 2025 OP Auto Clicker fork to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Replacer for macrorecorder, remouse, tinytask, murgaa, etc.
+
 **[YouTube English](https://youtu.be/MtrP3doKQtU)** | **[YouTube Español](https://youtu.be/38gmQLTpMYU)**
 ----- | -----
-
-## Modern 2025 OP Auto Clicker fork to record, edit, import, debug, and playback the whole sequences of mouse clicks with 5 mouse buttons. Replacer for macrorecorder, remouse, tinytask, murgaa, etc.
 
 Updated Apr 05 2025. Added a brand new how-to short video.
 
