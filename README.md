@@ -5,7 +5,7 @@
 **[YouTube English](https://youtu.be/MtrP3doKQtU)** | **[YouTube Español](https://youtu.be/38gmQLTpMYU)**
 ----- | -----
 
-Updated Jun 03 2025. Added a brand new how-to short video.
+Updated Sep 05 2025. Added Youtube channel, fixed sitemap.xml, updated GitHub stars.
 
 ### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/2/Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0.exe))
 
