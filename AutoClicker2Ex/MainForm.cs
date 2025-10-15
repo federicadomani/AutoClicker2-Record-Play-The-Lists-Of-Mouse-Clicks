@@ -401,7 +401,14 @@ namespace Auto_Clicker
                 try
                 {
                     //Create a ClickHelper passing Lists of click information
-                    ClickThreadHelper helper = new ClickThreadHelper() { Points = points, ClickType = clickType, Iterations = iterations, Times = times };
+                    ClickThreadHelper helper = new ClickThreadHelper()
+                    {
+                        Points = points,
+                        ClickType = clickType,
+                        Iterations = iterations,
+                        Times = times,
+                        UseWindowMessage = UseWindowMessageCheckBox.Checked
+                    };
                     //Create the thread passing the Run method
                     ClickThread = new Thread(new ThreadStart(helper.Run));
                     //Start the thread, thus starting the clicks
@@ -656,6 +663,7 @@ namespace Auto_Clicker
         {
             #region Fields, DLL Imports and Constants
 
+            public bool UseWindowMessage { get; set; }
             public List<Point> Points { get; set; } //Hold the list of points in the queue
             public int Iterations { get; set; } //Hold the number of iterations/repeats
             public List<string> ClickType { get; set; } //Is each point right click or left click
@@ -668,6 +676,21 @@ namespace Auto_Clicker
             [DllImport("user32.dll", SetLastError = true)]
             public static extern int SendInput(int nInputs, ref INPUT pInputs, int cbSize);
 
+            [DllImport("user32.dll")]
+            public static extern IntPtr WindowFromPoint(Point p);
+
+            [DllImport("user32.dll")]
+            public static extern IntPtr ChildWindowFromPointEx(IntPtr hWndParent, Point pt, uint uFlags);
+
+            [DllImport("user32.dll")]
+            static extern bool ScreenToClient(IntPtr hWnd, ref Point lpPoint);
+
+            [DllImport("user32.dll")]
+            static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+
+            [return: MarshalAs(UnmanagedType.Bool)]
+            [DllImport("user32.dll")]
+            static extern bool PostMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
             /// <summary>
             /// Structure for SendInput function holding relevant mouse coordinates and information
             /// </summary>
@@ -832,19 +855,69 @@ namespace Auto_Clicker
                         //Iterate through all queued clicks
                         for (int j = 0; j <= Points.Count - 1; j++)
                         {
-                            SetCursorPosition(Points[j]); //Set cursor position before clicking
-                            if (ClickType[j].Equals("R"))
+                            if (UseWindowMessage)
                             {
-                                ClickRightMouseButtonSendInput();
+                                // The point of using a window message is that it also works on an inactive desktop.
+                                // The drawback of using a window message is that it sometimes does not work at all.
+                                // Some border case handling below exists to mitigate this drawback.
+                                IntPtr hwndHit = WindowFromPoint(Points[j]);
+                                if (hwndHit != IntPtr.Zero)
+                                {
+                                    Point pointHit = Points[j];
+                                    IntPtr wParam = SendMessage(hwndHit, 0x0084, IntPtr.Zero, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                    uint uMsgFamily = 0x00A0; // WM_NC[LMR]BUTTON(?:DOWN|UP)
+                                    if (wParam == (IntPtr)1) // HTCLIENT
+                                    {
+                                        ScreenToClient(hwndHit, ref pointHit);
+                                        uMsgFamily = 0x0200; // WM_[LMR]BUTTON(?:DOWN|UP)
+                                    }
+                                    if (ClickType[j].Equals("R"))
+                                    {
+                                        PostMessage(hwndHit, uMsgFamily | 0x4, wParam != (IntPtr)1 ? wParam : (IntPtr)0x02, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                        PostMessage(hwndHit, uMsgFamily | 0x5, wParam != (IntPtr)1 ? wParam : (IntPtr)0x00, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                    }
+                                    else if (ClickType[j].Equals("M"))
+                                    {
+                                        PostMessage(hwndHit, uMsgFamily | 0x7, wParam != (IntPtr)1 ? wParam : (IntPtr)0x10, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                        PostMessage(hwndHit, uMsgFamily | 0x8, wParam != (IntPtr)1 ? wParam : (IntPtr)0x00, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                    }
+                                    else if (wParam == (IntPtr)8) // HTMINBUTTON
+                                    {
+                                        // Mouse message has no effect, hence translate to WM_SYSCOMMAND
+                                        PostMessage(hwndHit, 0x0112, (IntPtr)0xF020, IntPtr.Zero); // SC_MINIMIZE
+                                    }
+                                    else if (wParam == (IntPtr)9) // HTMAXBUTTON
+                                    {
+                                        // Mouse message has no effect, hence translate to WM_SYSCOMMAND
+                                        PostMessage(hwndHit, 0x0112, (IntPtr)0xF030, IntPtr.Zero); // SC_MAXIMIZE
+                                    }
+                                    else if (wParam == (IntPtr)20) // HTCLOSE
+                                    {
+                                        // Mouse message has no effect, hence translate to WM_SYSCOMMAND
+                                        PostMessage(hwndHit, 0x0112, (IntPtr)0xF060, IntPtr.Zero); // SC_CLOSE
+                                    }
+                                    else
+                                    {
+                                        PostMessage(hwndHit, uMsgFamily | 0x1, wParam != (IntPtr)1 ? wParam : (IntPtr)0x01, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                        PostMessage(hwndHit, uMsgFamily | 0x2, wParam != (IntPtr)1 ? wParam : (IntPtr)0x00, (IntPtr)(pointHit.Y << 16 | pointHit.X));
+                                    }
+                                }
                             }
                             else
-                            if (ClickType[j].Equals("M"))
                             {
-                                ClickMiddleMouseButtonSendInput();
-                            }
-                            else
-                            {
-                                ClickLeftMouseButtonSendInput();
+                                SetCursorPosition(Points[j]); //Set cursor position before clicking
+                                if (ClickType[j].Equals("R"))
+                                {
+                                    ClickRightMouseButtonSendInput();
+                                }
+                                else if (ClickType[j].Equals("M"))
+                                {
+                                    ClickMiddleMouseButtonSendInput();
+                                }
+                                else
+                                {
+                                    ClickLeftMouseButtonSendInput();
+                                }
                             }
                             Thread.Sleep(Times[j]);
                         }
