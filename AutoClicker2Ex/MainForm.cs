@@ -47,10 +47,10 @@ namespace Auto_Clicker
         public MainForm()
         {
             InitializeComponent();
-            runtime_Counter = Int32.Parse(RPGAutoClickerEx.Properties.Settings.Default.runtimecounter);
+            runtime_Counter = Int32.Parse(AutoClickerEx.Properties.Settings.Default.runtimecounter);
             ++runtime_Counter;
-            RPGAutoClickerEx.Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
-            RPGAutoClickerEx.Properties.Settings.Default.Save();
+            AutoClickerEx.Properties.Settings.Default.runtimecounter = runtime_Counter.ToString();
+            AutoClickerEx.Properties.Settings.Default.Save();
             if (runtime_Counter == 2)
             {
                 LaunchUpdater();
@@ -106,6 +106,32 @@ namespace Auto_Clicker
         {
             CurrentPositionTimer.Start();
             PositionsListView.Items.Clear();
+        }
+
+        private void btnRunExecutable_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string executableName = "AutoClicker2.exe"; // Change this to your executable name
+                string executablePath = Path.Combine(Application.StartupPath, executableName);
+
+                if (File.Exists(executablePath))
+                {
+                    Process.Start(executablePath);
+                    // Gracefully exit the application
+                    Application.Exit();
+                }
+                else
+                {
+                    MessageBox.Show("AutoClicker2.exe",
+                        "File Not Found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Exception",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         /// <summary>
@@ -827,7 +853,7 @@ namespace Auto_Clicker
                 {
                     int i = 1;
 
-                    while (i <= Iterations)
+                    while ((i <= Iterations) || (Iterations == 0))
                     {
                         //Iterate through all queued clicks
                         for (int j = 0; j <= Points.Count - 1; j++)

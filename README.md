@@ -5,9 +5,9 @@
 **[YouTube English](https://youtu.be/MtrP3doKQtU)** | **[YouTube Español](https://youtu.be/38gmQLTpMYU)**
 ----- | -----
 
-Updated Oct 03 2025. Added Hindi language to Official Site.
+Updated Oct 21 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
 
-### Latest stable version 5.9.8.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/2/Install_AutoClicker2RecordPlay_rar_sfx_v5.9.8.0.exe))
+### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Installer_AC2RecordPlay_v5.9.9.0.msi))
 
 Mark this app as **CLEAN** in your antivirus software.
 

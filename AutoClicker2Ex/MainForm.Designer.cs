@@ -99,6 +99,7 @@ namespace Auto_Clicker
             this.NumRepeatsLabel = new System.Windows.Forms.Label();
             this.CurrentPositionTimer = new System.Windows.Forms.Timer(this.components);
             this.AboutLabel = new System.Windows.Forms.Label();
+            this.btnRunExecutable = new System.Windows.Forms.Button();
             this.PositionsGroupBox.SuspendLayout();
             this.ListViewContextMenu.SuspendLayout();
             //this.CurrentPosGroupBox.SuspendLayout();
@@ -426,9 +427,9 @@ namespace Auto_Clicker
             // 
             // NumRepeatsTextBox
             // 
-            this.NumRepeatsTextBox.Location = new System.Drawing.Point(120, 16);
+            this.NumRepeatsTextBox.Location = new System.Drawing.Point(159, 16);
             this.NumRepeatsTextBox.Name = "NumRepeatsTextBox";
-            this.NumRepeatsTextBox.Size = new System.Drawing.Size(141, 20);
+            this.NumRepeatsTextBox.Size = new System.Drawing.Size(101, 20);
             this.NumRepeatsTextBox.TabIndex = 1;
             this.NumRepeatsTextBox.Text = "1";
             // 
@@ -437,9 +438,9 @@ namespace Auto_Clicker
             this.NumRepeatsLabel.AutoSize = true;
             this.NumRepeatsLabel.Location = new System.Drawing.Point(6, 19);
             this.NumRepeatsLabel.Name = "NumRepeatsLabel";
-            this.NumRepeatsLabel.Size = new System.Drawing.Size(108, 13);
+            this.NumRepeatsLabel.Size = new System.Drawing.Size(121, 13);
             this.NumRepeatsLabel.TabIndex = 0;
-            this.NumRepeatsLabel.Text = "Number of Cycles - ";
+            this.NumRepeatsLabel.Text = "Number of Cycles (0 = Infinite):";
             // 
             // CurrentPositionTimer
             // 
@@ -454,6 +455,16 @@ namespace Auto_Clicker
             this.AboutLabel.Size = new System.Drawing.Size(186, 13);
             this.AboutLabel.TabIndex = 3;
             this.AboutLabel.Text = "Open Source Developer Federica Domani (federicadomani@mailfence.com)";
+
+            // btnRunExecutable
+            this.btnRunExecutable.Location = new System.Drawing.Point(4, 254);
+            this.btnRunExecutable.Name = "btnRunExecutable";
+            this.btnRunExecutable.Size = new System.Drawing.Size(124, 23);
+            this.btnRunExecutable.TabIndex = 19;
+            this.btnRunExecutable.Text = "Run AutoClicker2";
+            this.btnRunExecutable.UseVisualStyleBackColor = true;
+            this.btnRunExecutable.Click += new System.EventHandler(this.btnRunExecutable_Click);
+
             // 
             // MainForm
             // 
@@ -461,6 +472,7 @@ namespace Auto_Clicker
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(643, 337); // Main Window Size
             this.Controls.Add(this.AboutLabel);
+            this.Controls.Add(this.btnRunExecutable);
             this.Controls.Add(this.StartingOptionsGroupBox);
             //this.Controls.Add(this.CurrentPosGroupBox);
             this.Controls.Add(this.PositionsGroupBox);
@@ -469,7 +481,7 @@ namespace Auto_Clicker
             this.KeyPreview = true;
             this.MinimizeBox = true;
             this.Name = "MainForm";
-            this.Text = "AutoClicker2 Record Play The Lists... Extended v5.9.7.1";
+            this.Text = "AutoClicker2Ex Record Play v5.9.9.0";
             this.Load += new System.EventHandler(this.MainForm_Load);
             //this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.PositionsGroupBox.ResumeLayout(false);
@@ -523,6 +535,7 @@ namespace Auto_Clicker
         private System.Windows.Forms.ToolStripMenuItem RemoveAllMenuItem;
         private System.Windows.Forms.ToolStripMenuItem RemoveSelectedMenuItem;
         private System.Windows.Forms.Label AboutLabel;
+        private System.Windows.Forms.Button btnRunExecutable;
     }
 }
 

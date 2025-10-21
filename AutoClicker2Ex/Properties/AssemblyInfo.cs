@@ -6,13 +6,13 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AutoClicker2 Record Play The Lists... Extended")]
-[assembly: AssemblyDescription("AutoClicker2 Record Play The Lists... Extended")]
+[assembly: AssemblyTitle("AutoClicker2Ex Record Play")]
+[assembly: AssemblyDescription("AutoClicker2Ex Record Play")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Open Source Developer Federica Domani")]
-[assembly: AssemblyProduct("AutoClicker2 Record Play The Lists... Extended")]
-[assembly: AssemblyCopyright("2018-2023 Open Source Developer Federica Domani")]
-[assembly: AssemblyTrademark("AutoClicker2 Record Play The Lists...")]
+[assembly: AssemblyCompany("AutoClicker2 Record Play")]
+[assembly: AssemblyProduct("AutoClicker2Ex Record Play")]
+[assembly: AssemblyCopyright("2018-2025 AutoClicker2 Record Play")]
+[assembly: AssemblyTrademark("AutoClicker2 Record Play")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("5.9.5.1")]
-[assembly: AssemblyFileVersion("5.9.5.1")]
+[assembly: AssemblyVersion("5.9.9.0")]
+[assembly: AssemblyFileVersion("5.9.9.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]

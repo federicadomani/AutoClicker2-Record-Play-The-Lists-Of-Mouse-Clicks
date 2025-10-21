@@ -6,16 +6,18 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Resources;
 
+using RGiesecke.DllExport;
+using System.Runtime.InteropServices;
 
 namespace Auto_Clicker
 {
-    static class Program
+    public static class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
-        static void Main()
+        [STAThread] // Required for Windows Forms applications
+        public static void Main()
         {
             /*
             Icon ico = Icon.ExtractAssociatedIcon("favicon2.ico");
