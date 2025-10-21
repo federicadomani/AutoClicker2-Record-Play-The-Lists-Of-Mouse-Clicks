@@ -30,7 +30,7 @@ Mark this app as **CLEAN** in your antivirus software.
 
 ### ![Windows](./windows.svg) AutoClicker2 Record Play
 
-[English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/)
+[English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/) | [हिंदी](https://federicadomani.github.io/AutoClicker2-Record-Play/hi/){:target="_blank"}
 
 **See much more screenshots and study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
