@@ -7,7 +7,7 @@
 
 Updated Oct 22 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
 
-### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Installer_AC2RecordPlay_v5.9.9.0.msi))
+### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/SOFTUPD/Installer_AC2RecordPlay_v5.9.9.0.msi))
 
 Mark this app as **CLEAN** in your antivirus software.
 
