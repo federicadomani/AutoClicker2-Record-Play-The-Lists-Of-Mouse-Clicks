@@ -5,7 +5,7 @@
 **[YouTube English](https://youtu.be/MtrP3doKQtU)** | **[YouTube Español](https://youtu.be/38gmQLTpMYU)**
 ----- | -----
 
-Updated Oct 21 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
+Updated Oct 22 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
 
 ### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/Installer_AC2RecordPlay_v5.9.9.0.msi))
 
