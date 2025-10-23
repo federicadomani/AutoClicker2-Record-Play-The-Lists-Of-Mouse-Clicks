@@ -5,15 +5,15 @@
 **[YouTube English](https://youtu.be/MtrP3doKQtU)** | **[YouTube Español](https://youtu.be/38gmQLTpMYU)**
 ----- | -----
 
-Updated Oct 22 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
+Updated Oct 23 2025. New version 5.9.9.0: fixed issue #18; brand new MSI Windows installer.
 
-### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/SOFTUPD/Installer_AC2RecordPlay_v5.9.9.0.msi))
+### Latest stable version 5.9.9.0 ([download](https://filedn.com/llBp1EbMQML0Hdv9A9SVo6b/AutoClicker2-Record-Play/SOFTUPD2T/Installer_AC2RecordPlay_v5.9.9.0.msi))
 
 Mark this app as **CLEAN** in your antivirus software.
 
 "AutoClicker2" vs. OP Auto Clicker | "AutoClicker2Ex" vs. OP Auto Clicker
 ----- | -----
-!["AutoClicker2" application](screenshots_new/v5.9.7.1/AutoClicker2_v5.9.7.1-idx64.png?raw=true) | !["AutoClicker2Ex" application](screenshots_new/v5.9.7.1/AutoClicker2Ex_v5.9.7.1-idx64.png?raw=true)
+!["AutoClicker2" application](screenshots_new/v5.9.9.0/AutoClicker2.png?raw=true) | !["AutoClicker2Ex" application](screenshots_new/v5.9.9.0/AutoClicker2Ex.png?raw=true)
 !["AutoClicker2" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2.jpg?raw=true) | !["AutoClicker2Ex" application on Windows 11](screenshots_new/v5.9.6.0/Win11-AutoClicker2Ex.jpg?raw=true)
 
 #### ChangeLog
