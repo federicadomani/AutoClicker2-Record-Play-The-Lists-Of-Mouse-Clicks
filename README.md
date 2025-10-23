@@ -30,7 +30,7 @@ Mark this app as **CLEAN** in your antivirus software.
 
 ### ![Windows](./windows.svg) AutoClicker2 Record Play
 
-[English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/) | [हिंदी](https://federicadomani.github.io/AutoClicker2-Record-Play/hi/){:target="_blank"}
+[English](https://federicadomani.github.io/AutoClicker2-Record-Play/) | [Español](https://federicadomani.github.io/AutoClicker2-Record-Play/es/) | [हिंदी](https://federicadomani.github.io/AutoClicker2-Record-Play/hi/)
 
 **See much more screenshots and study the quick user manual at [Official Site](https://federicadomani.github.io/AutoClicker2-Record-Play/).**
 
@@ -91,8 +91,7 @@ https://youtu.be/jscqOm4OeKM
 
 ## More info from the community fun site
 
-According to [mouse-auto-clickers.online](https://mouse-auto-clickers.online/),
-AutoClicker2 Record Play is the world's top 2 mouse auto clicker application in 2024.
+AutoClicker2 Record Play is the world's top 2 mouse auto clicker application in 2025.
 They recognize AutoClicker2 Record Play as a full-fledged autoclicker with two modes of auto-clicking,
 at your dynamic cursor location or at a prespecified location. The maximum amounts of clicks can also be set (or left infinite).
 Hotkeys work in the background for convenience. AutoClicker2 automates your mouse clicks at certain points.
