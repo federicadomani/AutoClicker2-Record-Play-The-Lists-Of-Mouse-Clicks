@@ -1,5 +1,0 @@
-Build with MS Visual Studio 2013.
-Programming language: C#.
-Project includes Inno Setup 5.x *.iss file.
-Download: http://www.jrsoftware.org/isdlold.php#5
-id5mzbtJSDPfosdTsAgcPrrzu2oEhvVgdFSCCgjJmyN7Qy8ujCyCPyZTgxaP6
